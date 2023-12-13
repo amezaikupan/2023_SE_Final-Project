@@ -1,0 +1,1229 @@
+[
+  {
+    "Title":"iJS Conference on December 11-14, 2023 in Singapore, Singapore",
+    "Short Name":null,
+    "Category":"software-engineering",
+    "Location":"Singapore, Singapore",
+    "Website URL":"https:\/\/javascript-conference.com\/singapore\/",
+    "Timeline":{
+
+    },
+    "Speakers":null,
+    "Accepted papers":[
+
+    ]
+  },
+  {
+    "Title":"International Conference on Human-Centered Software Engineering and Systems ICHCSES on December 13-14, 2023 in Cairo, Egypt",
+    "Short Name":"ICHCSES",
+    "Category":"software-engineering",
+    "Location":"Cairo, Egypt",
+    "Website URL":"https:\/\/waset.org\/human-centered-software-engineering-and-systems-conference-in-december-2023-in-cairo",
+    "Timeline":{
+      "Abstracts\/Full-Text Paper Submission Deadline":"November 30, 2023",
+      "Notification of Acceptance\/Rejection":"December 20, 2023",
+      "Final Paper (Camera Ready) Submission & Early Bird Registration Deadline":"November 15, 2023",
+      "Conference Dates":"December 18-19, 2023"
+    },
+    "Speakers":null,
+    "Accepted papers":[
+      {
+        "Title":"Analyzing the Relationship between the Systems Decisions Process and Artificial Intelligence: A Machine Vision Case Study",
+        "Description":"Mitchell J. McHugh, John J. Case"
+      },
+      {
+        "Title":"Empirical Study from Final Exams of Computer Science Courses Demystifying the Notion of 'an Average Software Engineer'",
+        "Description":"Alex Elentukh"
+      },
+      {
+        "Title":"Methodology for Quantifying the Meaning of Information in Biological Systems",
+        "Description":"Richard L. Summers"
+      },
+      {
+        "Title":"Khilafat from Khilafat-e-Rashida: The Only Form of Governance to Unite Muslim Countries",
+        "Description":"Zoaib Mirza"
+      },
+      {
+        "Title":"Real-time Network Anomaly Detection Systems Based on Machine-Learning Algorithms",
+        "Description":"Zahra Ramezanpanah, Joachim Carvallo, Aurelien Rodriguez"
+      },
+      {
+        "Title":"An Ontology for Smart Learning Environments in Music Education",
+        "Description":"Konstantinos Sofianos, Michail Stefanidakis"
+      },
+      {
+        "Title":"Effects of Boundary Conditions on the Dynamic Values of Solid Structures",
+        "Description":"F. Kadioglu, M. Z. Polat, A. R. Gunay"
+      },
+      {
+        "Title":"Maximizing the Efficiency of Knowledge Management Systems",
+        "Description":"Tori R. Dodla, Laura A. Jones"
+      },
+      {
+        "Title":"Performance Evaluation of Conventional and Wiper Carbide Tools When Turning 6060 Aluminium Alloy: Analysis of Surface Roughness",
+        "Description":"Salah Gariani, Taher Dao, Khaled Jegandi"
+      },
+      {
+        "Title":"Design and Implementation of a Software Platform Based on Artificial Intelligence for Product Recommendation",
+        "Description":"G. Settanni, A. Panarese, R. Vaira, A. Galiano"
+      },
+      {
+        "Title":"Reliable Damping Measurements of Solid Beams with Special Focus on the Boundary Conditions and Non-Contact Test Set-Ups",
+        "Description":"Ferhat Kadioglu, Ahmet Reha Gunay"
+      },
+      {
+        "Title":"Sustainability Assessment of Agriculture and Biodiversity Issues through an Innovative Knowledge Mediation System Using Deliberation Support Tools and INTEGRAAL Method Based on Stakeholder Involvement",
+        "Description":"Ashiquer Rahman"
+      },
+      {
+        "Title":"Fear-Of-Failure and Women Entrepreneurship: Comparative Analysis Austria versus USA",
+        "Description":"Magdalena Meusburger, Caroline Maria Hofer"
+      },
+      {
+        "Title":"The Impact of Seasonality on Rainfall Patterns: A Case Study",
+        "Description":"Priti Kaushik, Randhir Singh Baghel, Somil Khandelwal"
+      },
+      {
+        "Title":"A Design of Elliptic Curve Cryptography Processor Based on SM2 over GF(p)",
+        "Description":"Shiji Hu, Lei Li, Wanting Zhou, Daohong Yang"
+      }
+    ]
+  },
+  {
+    "Title":"Workshop for Young Scientists in Computer Science & Software Engineering CS&SE@SW on December 15, 2023 in Kryvyi Rih, Ukraine",
+    "Short Name":"CS&SE@SW",
+    "Category":"software-engineering",
+    "Location":"Kryvyi Rih, Ukraine",
+    "Website URL":"https:\/\/cssesw.ccjournals.eu\/cssesw2023\/",
+    "Timeline":{
+
+    },
+    "Speakers":null,
+    "Accepted papers":[
+
+    ]
+  },
+  {
+    "Title":"International Conference on Bioinformatics, Computational Biology and Biomedical Engineering ICBCBBE on December 13-14, 2023 in Cairo, Egypt",
+    "Short Name":"ICBCBBE",
+    "Category":"computer-science",
+    "Location":"Cairo, Egypt",
+    "Website URL":"https:\/\/waset.org\/bioinformatics-computational-biology-and-biomedical-engineering-conference-in-december-2023-in-cairo",
+    "Timeline":{
+      "Abstracts\/Full-Text Paper Submission Deadline":"November 30, 2023",
+      "Notification of Acceptance\/Rejection":"December 20, 2023",
+      "Final Paper (Camera Ready) Submission & Early Bird Registration Deadline":"November 15, 2023",
+      "Conference Dates":"December 18-19, 2023"
+    },
+    "Speakers":null,
+    "Accepted papers":[
+      {
+        "Title":"Efficient Pre-Processing of Single-Cell Assay for Transposase Accessible Chromatin with High-Throughput Sequencing Data",
+        "Description":"Fan Gao, Lior Pachter"
+      },
+      {
+        "Title":"Modified Genome-Scale Metabolic Model of Escherichia coli by Adding Hyaluronic Acid Biosynthesis-Related Enzymes (GLMU2 and HYAD) from Pasteurella multocida",
+        "Description":"P. Pasomboon, P. Chumnanpuen, T. E-kobon"
+      },
+      {
+        "Title":"Transcriptomics Analysis on Comparing Non-Small Cell Lung Cancer versus Normal Lung, and Early Stage Compared versus Late-Stages of Non-Small Cell Lung Cancer",
+        "Description":"Achitphol Chookaew, Paramee Thongsukhsai, Patamarerk Engsontia, Narongwit Nakwan, Pritsana Raugrut"
+      },
+      {
+        "Title":"Identification of Disease Causing DNA Motifs in Human DNA Using Clustering Approach",
+        "Description":"G. Tamilpavai, C. Vishnuppriya"
+      },
+      {
+        "Title":"Meta-Learning for Hierarchical Classification and Applications in Bioinformatics",
+        "Description":"Fabio Fabris, Alex A. Freitas"
+      },
+      {
+        "Title":"ELISA Based hTSH Assessment Using Two Sensitive and Specific Anti-hTSH Polyclonal Antibodies",
+        "Description":"Maysam Mard-Soltani, Mohamad Javad Rasaee, Saeed Khalili, Abdol Karim Sheikhi, Mehdi Hedayati"
+      },
+      {
+        "Title":"Experimental Study on Strength and Durability Properties of Bio-Self-Cured Fly Ash Based Concrete under Aggressive Environments",
+        "Description":"R. Malathy"
+      },
+      {
+        "Title":"Intellectual Property Protection of CRISPR Related Technologies",
+        "Description":"Zheng Miao, Dennis Fernandez"
+      },
+      {
+        "Title":"Comparative Analysis between Corn and Ramon (Brosimum alicastrum) Starches to Be Used as Sustainable Bio-Based Plastics",
+        "Description":"C. R. R\u00edos-Soberanis, V. M. Moo-Huchin, R. J. Estrada-Leon, E. Perez-Pacheco"
+      },
+      {
+        "Title":"Cold Spray Deposition of SS316L Powders on Al5052 Substrates and Their Potential Using for Biomedical Applications",
+        "Description":"B. Dikici, I. Ozdemir, M. Topuz"
+      },
+      {
+        "Title":"Imputation Technique for Feature Selection in Microarray Data Set",
+        "Description":"Younies Mahmoud, Mai Mabrouk, Elsayed Sallam"
+      },
+      {
+        "Title":"Effects of Thread Dimensions of Functionally Graded Dental Implants on Stress Distribution",
+        "Description":"Kaman M. O., Celik N."
+      },
+      {
+        "Title":"Tele-Diagnosis System for Rural Thailand",
+        "Description":"C. Snae Namahoot, M. Brueckner"
+      },
+      {
+        "Title":"Polymorphic Marker Designed from Bioinformatics Sequences Related to Cell Wall Strength for Discrimination of Mangosteen (Garcinia mangostana L.) Clones Resistant to Gamboge Disorder",
+        "Description":"E. Mansyah, Sobir, E. Santosa, A. Sisharmini, Sulassih"
+      },
+      {
+        "Title":"Inverse Sets-based Recognition of Video Clips",
+        "Description":"Alexei M. Mikhailov"
+      }
+    ]
+  },
+  {
+    "Title":"International Conference on Computer Science, Engineering and Applications ICCSEA on December 13-14, 2023 in Rome, Italy",
+    "Short Name":"ICCSEA",
+    "Category":"computer-science",
+    "Location":"Rome, Italy",
+    "Website URL":"https:\/\/waset.org\/computer-science-engineering-and-applications-conference-in-december-2023-in-rome",
+    "Timeline":{
+      "Abstracts\/Full-Text Paper Submission Deadline":"November 30, 2023",
+      "Notification of Acceptance\/Rejection":"December 20, 2023",
+      "Final Paper (Camera Ready) Submission & Early Bird Registration Deadline":"November 12, 2023",
+      "Conference Dates":"December 11-12, 2023"
+    },
+    "Speakers":null,
+    "Accepted papers":[
+      {
+        "Title":"Analyzing the Relationship between the Systems Decisions Process and Artificial Intelligence: A Machine Vision Case Study",
+        "Description":"Mitchell J. McHugh, John J. Case"
+      },
+      {
+        "Title":"A Survey in Techniques for Imbalanced Intrusion Detection System Datasets",
+        "Description":"Najmeh Abedzadeh, Matthew Jacobs"
+      },
+      {
+        "Title":"Augmenting People's Creative Idea Generation Using an Artificial Intelligent Sketching Collaborator",
+        "Description":"Joseph Maloba Makokha"
+      },
+      {
+        "Title":"JaCoText: A Pretrained Model for Java Code-Text Generation",
+        "Description":"Jessica L\u00f2pez Espejel, Mahaman Sanoussi Yahaya Alassan, Walid Dahhane, El Hassane Ettifouri"
+      },
+      {
+        "Title":"Ensemble Approach for Predicting Student's Academic Performance",
+        "Description":"L. A. Muhammad, M. S. Argungu"
+      },
+      {
+        "Title":"Deep-Learning Based Approach to Facial Emotion Recognition Through Convolutional Neural Network",
+        "Description":"Nouha Khediri, Mohammed Ben Ammar, Monji Kherallah"
+      },
+      {
+        "Title":"Personalized Email Marketing Strategy: A Reinforcement Learning Approach",
+        "Description":"Lei Zhang, Tingting Xu, Jun He, Zhenyu Yan, Roger Brooks"
+      },
+      {
+        "Title":"Using Machine Learning Techniques for Autism Spectrum Disorder Analysis and Detection in Children",
+        "Description":"Norah Alshahrani, Abdulaziz Almaleh"
+      },
+      {
+        "Title":"An Empirical Investigation of Big Data Analytics: The Financial Performance of Users versus Vendors",
+        "Description":"Evisa Mitrou, Nicholas Tsitsianis, Supriya Shinde"
+      },
+      {
+        "Title":"Empirical Study from Final Exams of Computer Science Courses Demystifying the Notion of 'an Average Software Engineer'",
+        "Description":"Alex Elentukh"
+      },
+      {
+        "Title":"Resilient Machine Learning in the Nuclear Industry: Crack Detection as a Case Study",
+        "Description":"Anita Khadka, Gregory Epiphaniou, Carsten Maple"
+      },
+      {
+        "Title":"Master in Maritime Logistics: An Industry-Driven Design",
+        "Description":"Marco Sernaglia, Augusto M. P. Carreira, Helena M. L. Carvalho, Pedro B. \u00c1gua, Armindo Frias, Manuel Carrasqueira"
+      },
+      {
+        "Title":"Artificial Intelligence: A Comprehensive and Systematic Literature Review of Applications and Comparative Technologies",
+        "Description":"Z. M. Najmi"
+      },
+      {
+        "Title":"A Case Study in Using the Can-Sized Satellite Platforms for Interdisciplinary Problem-Based Learning in Aeronautical and Electronic Engineering",
+        "Description":"Michael Johnson, Vincenzo Oliveri"
+      },
+      {
+        "Title":"Trajectory Tracking of a 2-Link Mobile Manipulator Using Sliding Mode Control Method",
+        "Description":"Abolfazl Mohammadijoo"
+      }
+    ]
+  },
+  {
+    "Title":"International Conference on Computer and Information Sciences ICCIS on December 13-14, 2023 in Rome, Italy",
+    "Short Name":"ICCIS",
+    "Category":"computer-science",
+    "Location":"Rome, Italy",
+    "Website URL":"https:\/\/waset.org\/computer-and-information-sciences-conference-in-december-2023-in-rome",
+    "Timeline":{
+      "Abstracts\/Full-Text Paper Submission Deadline":"November 30, 2023",
+      "Notification of Acceptance\/Rejection":"December 20, 2023",
+      "Final Paper (Camera Ready) Submission & Early Bird Registration Deadline":"November 12, 2023",
+      "Conference Dates":"December 11-12, 2023"
+    },
+    "Speakers":null,
+    "Accepted papers":[
+      {
+        "Title":"Analyzing the Relationship between the Systems Decisions Process and Artificial Intelligence: A Machine Vision Case Study",
+        "Description":"Mitchell J. McHugh, John J. Case"
+      },
+      {
+        "Title":"A Survey in Techniques for Imbalanced Intrusion Detection System Datasets",
+        "Description":"Najmeh Abedzadeh, Matthew Jacobs"
+      },
+      {
+        "Title":"Fitness Action Recognition Based on MediaPipe",
+        "Description":"Zixuan Xu, Yichun Lou, Yang Song, Zihuai Lin"
+      },
+      {
+        "Title":"Toward Understanding and Testing Deep Learning Information Flow in Deep Learning-Based Android Apps",
+        "Description":"Jie Zhang, Qianyu Guo, Tieyi Zhang, Zhiyong Feng, Xiaohong Li"
+      },
+      {
+        "Title":"Dynamic Fast Tracing and Smoothing Technique for Geiger-Muller Dosimeter",
+        "Description":"M. Ebrahimi Shohani, S. M. Taheri, S. M. Golgoun"
+      },
+      {
+        "Title":"Organizational Data Security in Perspective of Ownership of Mobile Devices Used by Employees for Works",
+        "Description":"B. Ferdousi, J. Bari"
+      },
+      {
+        "Title":"Analysis of Histogram Asymmetry for Waste Recognition",
+        "Description":"Janusz Bobulski, Kamila Pasternak"
+      },
+      {
+        "Title":"Development of Software Complex for Digitalization of Enterprise Activities",
+        "Description":"G. T. Balakayeva, K. K. Nurlybayeva, M. B. Zhanuzakov"
+      },
+      {
+        "Title":"Time Series Forecasting Using Various Deep Learning Models",
+        "Description":"Jimeng Shi, Mahek Jain, Giri Narasimhan"
+      },
+      {
+        "Title":"NDENet: End-to-End Nighttime Dehazing and Enhancement",
+        "Description":"H. Baskar, A. S. Chakravarthy, P. Garg, D. Goel, A. S. Raj, K. Kumar, Lakshya, R. Parvatham, V. Sushant, B. Kumar Rout"
+      },
+      {
+        "Title":"Comparative Analysis of Machine Learning Tools: A Review",
+        "Description":"S. Sarumathi, M. Vaishnavi, S. Geetha, P. Ranjetha"
+      },
+      {
+        "Title":"Deep Learning Based 6D Pose Estimation for Bin-Picking Using 3D Point Clouds",
+        "Description":"Hesheng Wang, Haoyu Wang, Chungang Zhuang"
+      },
+      {
+        "Title":"Thresholding Approach for Automatic Detection of Pseudomonas aeruginosa Biofilms from Fluorescence in situ Hybridization Images",
+        "Description":"Zonglin Yang, Tatsuya Akiyama, Kerry S. Williamson, Michael J. Franklin, Thiruvarangan Ramaraj"
+      },
+      {
+        "Title":"Robot Operating System-Based SLAM for a Gazebo-Simulated Turtlebot2 in 2d Indoor Environment with Cartographer Algorithm",
+        "Description":"Wilayat Ali, Li Sheng, Waleed Ahmed"
+      },
+      {
+        "Title":"The Role of Synthetic Data in Aerial Object Detection",
+        "Description":"Ava Dodd, Jonathan Adams"
+      }
+    ]
+  },
+  {
+    "Title":"International Conference on Control, Automation, Robotics and Computer Vision ICCARCV on December 13-14, 2023 in Rome, Italy",
+    "Short Name":"ICCARCV",
+    "Category":"computer-vision",
+    "Location":"Rome, Italy",
+    "Website URL":"https:\/\/waset.org\/control-automation-robotics-and-computer-vision-conference-in-december-2023-in-rome",
+    "Timeline":{
+      "Abstracts\/Full-Text Paper Submission Deadline":"November 30, 2023",
+      "Notification of Acceptance\/Rejection":"December 20, 2023",
+      "Final Paper (Camera Ready) Submission & Early Bird Registration Deadline":"November 12, 2023",
+      "Conference Dates":"December 11-12, 2023"
+    },
+    "Speakers":null,
+    "Accepted papers":[
+      {
+        "Title":"The Theory and Practice of the State Model of Corporate Governance",
+        "Description":"Asaiel Alohaly"
+      },
+      {
+        "Title":"An Induction Motor Drive System with Intelligent Supervisory Control for Water Networks Including Storage Tank",
+        "Description":"O. S. Ebrahim, K. O. Shawky, M. A. Badr, P. K. Jain"
+      },
+      {
+        "Title":"Image-Based UAV Vertical Distance and Velocity Estimation Algorithm during the Vertical Landing Phase Using Low-Resolution Images",
+        "Description":"Seyed-Yaser Nabavi-Chashmi, Davood Asadi, Karim Ahmadi, Eren Demir"
+      },
+      {
+        "Title":"Diversity for Safety and Security of Autonomous Vehicles against Accidental and Deliberate Faults",
+        "Description":"Anil Ranjitbhai Patel, Clement John Shaji, Peter Liggesmeyer"
+      },
+      {
+        "Title":"Trajectory Tracking of a 2-Link Mobile Manipulator Using Sliding Mode Control Method",
+        "Description":"Abolfazl Mohammadijoo"
+      },
+      {
+        "Title":"The Computational Psycholinguistic Situational-Fuzzy Self-Controlled Brain and Mind System under Uncertainty",
+        "Description":"Ben Khayut, Lina Fabri, Maya Avikhana"
+      },
+      {
+        "Title":"Mechanical Properties of D2 Tool Steel Cryogenically Treated Using Controllable Cooling",
+        "Description":"A. Rabin, G. Mazor, I. Ladizhenski, R. Z. Shneck"
+      },
+      {
+        "Title":"Dam Operation Management Criteria during Floods: Case Study of Dez Dam in Southwest Iran",
+        "Description":"Ali Heidari"
+      },
+      {
+        "Title":"Supervisory Controller with Three-State Energy Saving Mode for Induction Motor in Fluid Transportation",
+        "Description":"O. S. Ebrahim, K. O. Shawky, M. O. Ebrahim, P. K. Jain"
+      },
+      {
+        "Title":"Offset Dependent Uniform Delay Mathematical Optimization Model for Signalized Traffic Network Using Differential Evolution Algorithm",
+        "Description":"Tahseen Al-Shaikhli, Halim Ceylan, Jonathan Weaver, Osman Nuri \u00c7elik, Onur Gungor Sahin"
+      },
+      {
+        "Title":"Testing of Electronic Control Unit Communication Interface",
+        "Description":"Petr \u0160imek, Kamil Kostruk"
+      },
+      {
+        "Title":"PID Control Design Based on Genetic Algorithm  with Integrator Anti-Windup for Automatic Voltage Regulator and Speed Governor of Brushless Synchronous Generator",
+        "Description":"O. S. Ebrahim, M. A. Badr, Kh. H. Gharib, H. K. Temraz"
+      },
+      {
+        "Title":"Design and Development of Graphene Oxide Modified by Chitosan Nanosheets Showing pH-Sensitive Surface as a Smart Drug Delivery System for Controlled Release of Doxorubicin",
+        "Description":"Parisa Shirzadeh"
+      },
+      {
+        "Title":"Development of a Miniature and Low-Cost IoT-Based Remote Health Monitoring Device",
+        "Description":"Sreejith Jayachandran, Mojtaba Ghodsi, Morteza Mohammadzaheri"
+      },
+      {
+        "Title":"Information Technology Governance Implementation and Its Determinants in the Egyptian Market",
+        "Description":"Nariman O. Kandil, Ehab K. Abou-Elkheir, Amr M. Kotb"
+      }
+    ]
+  },
+  {
+    "Title":"International Conference on Computer Vision, Imaging and Computer Graphics ICCVICG on December 13-14, 2023 in Cairo, Egypt",
+    "Short Name":"ICCVICG",
+    "Category":"computer-vision",
+    "Location":"Cairo, Egypt",
+    "Website URL":"https:\/\/waset.org\/computer-vision-imaging-and-computer-graphics-conference-in-december-2023-in-cairo",
+    "Timeline":{
+      "Abstracts\/Full-Text Paper Submission Deadline":"November 30, 2023",
+      "Notification of Acceptance\/Rejection":"December 20, 2023",
+      "Final Paper (Camera Ready) Submission & Early Bird Registration Deadline":"November 15, 2023",
+      "Conference Dates":"December 18-19, 2023"
+    },
+    "Speakers":null,
+    "Accepted papers":[
+      {
+        "Title":"Analyzing the Relationship between the Systems Decisions Process and Artificial Intelligence: A Machine Vision Case Study",
+        "Description":"Mitchell J. McHugh, John J. Case"
+      },
+      {
+        "Title":"Fitness Action Recognition Based on MediaPipe",
+        "Description":"Zixuan Xu, Yichun Lou, Yang Song, Zihuai Lin"
+      },
+      {
+        "Title":"Automatic Classification of Lung Diseases from CT Images",
+        "Description":"Abobaker Mohammed Qasem Farhan, Shangming Yang, Mohammed Al-Nehari"
+      },
+      {
+        "Title":"Three-Dimensional Positioning Method of Indoor Personnel Based on Millimeter Wave Radar Sensor",
+        "Description":"Chao Wang, Zuxue Xia, Wenhai Xia, Rui Wang, Jiayuan Hu, Rui Cheng"
+      },
+      {
+        "Title":"Analysis of Histogram Asymmetry for Waste Recognition",
+        "Description":"Janusz Bobulski, Kamila Pasternak"
+      },
+      {
+        "Title":"Continual Learning Using Data Generation for Hyperspectral Remote Sensing Scene Classification",
+        "Description":"Samiah Alammari, Nassim Ammour"
+      },
+      {
+        "Title":"Wildfires Assessed by Remote Sense Images and Burned Land Monitoring",
+        "Description":"M. C. Proen\u00e7a"
+      },
+      {
+        "Title":"Development of Nondestructive Imaging Analysis Method Using Muonic X-Ray with a Double-Sided Silicon Strip Detector",
+        "Description":"I-Huan Chiu, Kazuhiko Ninomiya, Shin\u2019ichiro Takeda, Meito Kajino, Miho Katsuragawa, Shunsaku Nagasawa, Atsushi Shinohara, Tadayuki Takahashi, Ryota Tomaru, Shin Watanabe, Goro Yabu"
+      },
+      {
+        "Title":"Using Satellite Images Datasets for Road Intersection Detection in Route Planning",
+        "Description":"Fatma El-zahraa El-taher, Ayman Taha, Jane Courtney, Susan Mckeever"
+      },
+      {
+        "Title":"NDENet: End-to-End Nighttime Dehazing and Enhancement",
+        "Description":"H. Baskar, A. S. Chakravarthy, P. Garg, D. Goel, A. S. Raj, K. Kumar, Lakshya, R. Parvatham, V. Sushant, B. Kumar Rout"
+      },
+      {
+        "Title":"Accurate Positioning Method of Indoor Plastering Robot Based on Line Laser",
+        "Description":"Guanqiao Wang, Hongyang Yu"
+      },
+      {
+        "Title":"Preserved Relative Differences between Regions of Different Thermal Scans",
+        "Description":"Tahir Majeed, Michael Handschuh, Ren\u00e9 Meier"
+      },
+      {
+        "Title":"Statistical Relation between Vegetation Cover and Land Surface Temperature in Phnom Penh City",
+        "Description":"Gulam Mohiuddin, Jan-Peter Mund"
+      },
+      {
+        "Title":"Design of a Strain Sensor Based on Cascaded Fiber Bragg Grating for Remote Sensing Monitoring",
+        "Description":"Arafat A. A. Shabaneh"
+      },
+      {
+        "Title":"On Musical Information Geometry with Applications to Sonified Image Analysis",
+        "Description":"Shannon Steinmetz, Ellen Gethner"
+      }
+    ]
+  },
+  {
+    "Title":"International Conference on Computer Vision and Image Processing ICCVIP on December 13-14, 2023 in Cairo, Egypt",
+    "Short Name":"ICCVIP",
+    "Category":"computer-vision",
+    "Location":"Cairo, Egypt",
+    "Website URL":"https:\/\/waset.org\/computer-vision-and-image-processing-conference-in-december-2023-in-cairo",
+    "Timeline":{
+      "Abstracts\/Full-Text Paper Submission Deadline":"November 30, 2023",
+      "Notification of Acceptance\/Rejection":"December 20, 2023",
+      "Final Paper (Camera Ready) Submission & Early Bird Registration Deadline":"November 15, 2023",
+      "Conference Dates":"December 18-19, 2023"
+    },
+    "Speakers":null,
+    "Accepted papers":[
+      {
+        "Title":"Analyzing the Relationship between the Systems Decisions Process and Artificial Intelligence: A Machine Vision Case Study",
+        "Description":"Mitchell J. McHugh, John J. Case"
+      },
+      {
+        "Title":"Fitness Action Recognition Based on MediaPipe",
+        "Description":"Zixuan Xu, Yichun Lou, Yang Song, Zihuai Lin"
+      },
+      {
+        "Title":"Automatic Classification of Lung Diseases from CT Images",
+        "Description":"Abobaker Mohammed Qasem Farhan, Shangming Yang, Mohammed Al-Nehari"
+      },
+      {
+        "Title":"Optimal Design of Motorcycle Crash Bar Using CAD and Finite Element Analysis",
+        "Description":"Sharon S. Wu, Yong S. Park"
+      },
+      {
+        "Title":"Research on a Forest Fire Spread Simulation Driven by the Wind Field in Complex Terrain",
+        "Description":"Ying Shang, Chencheng Wang"
+      },
+      {
+        "Title":"Coding Structures for Seated Row Simulation of an Active Controlled Vibration Isolation and Stabilization System for Astronaut\u2019s Exercise Platform",
+        "Description":"Ziraguen O. Williams, Shield B. Lin, Fouad N. Matari, Leslie J. Quiocho"
+      },
+      {
+        "Title":"The Use of Fractional Brownian Motion in the Generation of Bed Topography for Bodies of Water Coupled with the Lattice Boltzmann Method",
+        "Description":"Elysia Barker, Jian Guo Zhou, Ling Qian, Steve Decent"
+      },
+      {
+        "Title":"Numerical Simulations of Frost Heave Using COMSOL Multiphysics Software in Unsaturated Freezing Soils",
+        "Description":"Sara Soltanpour, Adolfo Foriero"
+      },
+      {
+        "Title":"Decision Support System for Hospital Selection in Emergency Medical Services: A Discrete Event Simulation Approach",
+        "Description":"D. Tedesco, G. Feletti, P. Trucco"
+      },
+      {
+        "Title":"An Ecological Model for Three Species with Crowley\u2013Martin Functional Response",
+        "Description":"Randhir Singh Baghel, Govind Shay Sharma"
+      },
+      {
+        "Title":"Analysis of Histogram Asymmetry for Waste Recognition",
+        "Description":"Janusz Bobulski, Kamila Pasternak"
+      },
+      {
+        "Title":"Thermal Analysis of a Transport Refrigeration Power Pack Unit Using a Coupled 1D\/3D Simulation Approach",
+        "Description":"A. Kospach, A. Mladek, M. Waltenberger, F. Schilling"
+      },
+      {
+        "Title":"Wildfires Assessed by Remote Sense Images and Burned Land Monitoring",
+        "Description":"M. C. Proen\u00e7a"
+      },
+      {
+        "Title":"NDENet: End-to-End Nighttime Dehazing and Enhancement",
+        "Description":"H. Baskar, A. S. Chakravarthy, P. Garg, D. Goel, A. S. Raj, K. Kumar, Lakshya, R. Parvatham, V. Sushant, B. Kumar Rout"
+      },
+      {
+        "Title":"Predictions of Dynamic Behaviors for Gas Foil Bearings Operating at Steady-State Based on Multi-Physics Coupling Computer Aided Engineering Simulations",
+        "Description":"Tai Yuan Yu, Pei-Jen Wang"
+      }
+    ]
+  },
+  {
+    "Title":"International Conference on Materials Data Sciences and Informatics ICMDSI on December 11-12, 2023 in New York, United States",
+    "Short Name":"ICMDSI",
+    "Category":"data-science",
+    "Location":"New York, United States",
+    "Website URL":"https:\/\/waset.org\/materials-data-sciences-and-informatics-conference-in-december-2023-in-new-york",
+    "Timeline":{
+      "Abstracts\/Full-Text Paper Submission Deadline":"November 30, 2023",
+      "Notification of Acceptance\/Rejection":"December 20, 2023",
+      "Final Paper (Camera Ready) Submission & Early Bird Registration Deadline":"November 11, 2023",
+      "Conference Dates":"December 11-12, 2023"
+    },
+    "Speakers":null,
+    "Accepted papers":[
+      {
+        "Title":"Ensemble Approach for Predicting Student's Academic Performance",
+        "Description":"L. A. Muhammad, M. S. Argungu"
+      },
+      {
+        "Title":"An Empirical Investigation of Big Data Analytics: The Financial Performance of Users versus Vendors",
+        "Description":"Evisa Mitrou, Nicholas Tsitsianis, Supriya Shinde"
+      },
+      {
+        "Title":"Analyzing Factors Impacting COVID-19 Vaccination Rates",
+        "Description":"Dongseok Cho, Mitchell Driedger, Sera Han, Noman Khan, Mohammed Elmorsy, Mohamad El-Hajj"
+      },
+      {
+        "Title":"Building an Integrated Relational Database from Swiss Nutrition National Survey and Swiss Health Datasets for Data Mining Purposes",
+        "Description":"Ilona Mewes, Helena Jenzer, Farshideh Einsele"
+      },
+      {
+        "Title":"Machine Learning Facing Behavioral Noise Problem in an Imbalanced Data Using One Side Behavioral Noise Reduction: Application to a Fraud Detection",
+        "Description":"Salma El Hajjami, Jamal Malki, Alain Bouju, Mohammed Berrada"
+      },
+      {
+        "Title":"Integration of Educational Data Mining Models to a Web-Based Support System for Predicting High School Student Performance",
+        "Description":"Sokkhey Phauk, Takeo Okazaki"
+      },
+      {
+        "Title":"A Review and Comparative Analysis on Cluster Ensemble Methods",
+        "Description":"S. Sarumathi, P. Ranjetha, C. Saraswathy, M. Vaishnavi, S. Geetha"
+      },
+      {
+        "Title":"Destination Port Detection for Vessels: An Analytic Tool for Optimizing Port Authorities Resources",
+        "Description":"Lubna Eljabu, Mohammad Etemad, Stan Matwin"
+      },
+      {
+        "Title":"Author Profiling: Prediction of Learners\u2019 Gender on a MOOC Platform Based on Learners\u2019 Comments",
+        "Description":"Tahani Aljohani, Jialin Yu, Alexandra. I. Cristea"
+      },
+      {
+        "Title":"AniMoveMineR: Animal Behavior Exploratory Analysis Using Association Rules Mining",
+        "Description":"Suelane Garcia Fontes, Silvio Luiz Stanzani, Pedro L. Pizzigatti Corr\u0142a Ronaldo G. Morato"
+      },
+      {
+        "Title":"Association Rules Mining and NOSQL Oriented Document in Big Data",
+        "Description":"Sarra Senhadji, Imene Benzeguimi, Zohra Yagoub"
+      },
+      {
+        "Title":"From Electroencephalogram to Epileptic Seizures Detection by Using Artificial Neural Networks",
+        "Description":"Gaetano Zazzaro, Angelo Martone, Roberto V. Montaquila, Luigi Pavone"
+      },
+      {
+        "Title":"Identifying Critical Success Factors for Data Quality Management through a Delphi Study",
+        "Description":"Maria Paula Santos, Ana Lucas"
+      },
+      {
+        "Title":"Using Textual Pre-Processing and Text Mining to Create Semantic Links",
+        "Description":"Ricardo Avila, Gabriel Lopes, Vania Vidal, Jose Macedo"
+      },
+      {
+        "Title":"Developing Structured Sizing Systems for Manufacturing Ready-Made Garments of Indian Females Using Decision Tree-Based Data Mining",
+        "Description":"Hina Kausher, Sangita Srivastava"
+      }
+    ]
+  },
+  {
+    "Title":"International Conference on Biomedical Statistics and Data Science ICBSDS on December 13-14, 2023 in Cairo, Egypt",
+    "Short Name":"ICBSDS",
+    "Category":"data-science",
+    "Location":"Cairo, Egypt",
+    "Website URL":"https:\/\/waset.org\/biomedical-statistics-and-data-science-conference-in-december-2023-in-cairo",
+    "Timeline":{
+      "Abstracts\/Full-Text Paper Submission Deadline":"November 30, 2023",
+      "Notification of Acceptance\/Rejection":"December 20, 2023",
+      "Final Paper (Camera Ready) Submission & Early Bird Registration Deadline":"November 15, 2023",
+      "Conference Dates":"December 18-19, 2023"
+    },
+    "Speakers":null,
+    "Accepted papers":[
+
+    ]
+  },
+  {
+    "Title":"International Conference on Big Data Analytics and Data Science ICBDADS on December 13-14, 2023 in Rome, Italy",
+    "Short Name":"ICBDADS",
+    "Category":"data-science",
+    "Location":"Rome, Italy",
+    "Website URL":"https:\/\/waset.org\/big-data-analytics-and-data-science-conference-in-december-2023-in-rome",
+    "Timeline":{
+      "Abstracts\/Full-Text Paper Submission Deadline":"November 30, 2023",
+      "Notification of Acceptance\/Rejection":"December 20, 2023",
+      "Final Paper (Camera Ready) Submission & Early Bird Registration Deadline":"November 12, 2023",
+      "Conference Dates":"December 11-12, 2023"
+    },
+    "Speakers":null,
+    "Accepted papers":[
+      {
+        "Title":"A Survey in Techniques for Imbalanced Intrusion Detection System Datasets",
+        "Description":"Najmeh Abedzadeh, Matthew Jacobs"
+      },
+      {
+        "Title":"An Empirical Investigation of Big Data Analytics: The Financial Performance of Users versus Vendors",
+        "Description":"Evisa Mitrou, Nicholas Tsitsianis, Supriya Shinde"
+      },
+      {
+        "Title":"Injury Prediction for Soccer Players Using Machine Learning",
+        "Description":"Amiel Satvedi, Richard Pyne"
+      },
+      {
+        "Title":"The Use of Artificial Intelligence in Digital Forensics and Incident Response in a Constrained Environment",
+        "Description":"Dipo Dunsin, Mohamed C. Ghanem, Karim Ouazzane"
+      },
+      {
+        "Title":"Optimizing Data Evaluation Metrics for Fraud Detection Using Machine Learning",
+        "Description":"Jennifer Leach, Umashanger Thayasivam"
+      },
+      {
+        "Title":"Topic Modeling Using Latent Dirichlet Allocation and Latent Semantic Indexing on South African   Telco Twitter Data",
+        "Description":"Phumelele P. Kubheka, Pius A. Owolawi, Gbolahan Aiyetoro"
+      },
+      {
+        "Title":"Thresholding Approach for Automatic Detection of Pseudomonas aeruginosa Biofilms from Fluorescence in situ Hybridization Images",
+        "Description":"Zonglin Yang, Tatsuya Akiyama, Kerry S. Williamson, Michael J. Franklin, Thiruvarangan Ramaraj"
+      },
+      {
+        "Title":"Machine Learning Facing Behavioral Noise Problem in an Imbalanced Data Using One Side Behavioral Noise Reduction: Application to a Fraud Detection",
+        "Description":"Salma El Hajjami, Jamal Malki, Alain Bouju, Mohammed Berrada"
+      },
+      {
+        "Title":"Decision-Making Strategies on Smart Dairy Farms: A Review",
+        "Description":"L. Krpalkova, N. O' Mahony, A. Carvalho, S. Campbell, G. Corkery, E. Broderick, J. Walsh"
+      },
+      {
+        "Title":"Index t-SNE: Tracking Dynamics of High-Dimensional Datasets with Coherent Embeddings",
+        "Description":"G. Candel, D. Naccache"
+      },
+      {
+        "Title":"Dissecting Big Trajectory Data to Analyse Road Network Travel Efficiency",
+        "Description":"Rania Alshikhe, Vinita Jindal"
+      },
+      {
+        "Title":"Attribute Analysis of Quick Response Code Payment Users Using Discriminant Non-negative Matrix Factorization",
+        "Description":"Hironori Karachi, Haruka Yamashita"
+      },
+      {
+        "Title":"Government (Big) Data Ecosystem: Definition, Classification of Actors, and Their Roles",
+        "Description":"Syed Iftikhar Hussain Shah, Vasilis Peristeras, Ioannis Magnisalis"
+      },
+      {
+        "Title":"AniMoveMineR: Animal Behavior Exploratory Analysis Using Association Rules Mining",
+        "Description":"Suelane Garcia Fontes, Silvio Luiz Stanzani, Pedro L. Pizzigatti Corr\u0142a Ronaldo G. Morato"
+      },
+      {
+        "Title":"Spatial Data Science for Data Driven Urban Planning: The Youth Economic Discomfort Index for Rome",
+        "Description":"Iacopo Testi, Diego Pajarito, Nicoletta Roberto, Carmen Greco"
+      }
+    ]
+  },
+  {
+    "Title":"International Conference on Quantum Information Science, Engineering and Technology ICQISET on December 11-12, 2023 in New York, United States",
+    "Short Name":"ICQISET",
+    "Category":"information-technology",
+    "Location":"New York, United States",
+    "Website URL":"https:\/\/waset.org\/quantum-information-science-engineering-and-technology-conference-in-december-2023-in-new-york",
+    "Timeline":{
+      "Abstracts\/Full-Text Paper Submission Deadline":"November 30, 2023",
+      "Notification of Acceptance\/Rejection":"December 20, 2023",
+      "Final Paper (Camera Ready) Submission & Early Bird Registration Deadline":"November 11, 2023",
+      "Conference Dates":"December 11-12, 2023"
+    },
+    "Speakers":null,
+    "Accepted papers":[
+      {
+        "Title":"Boosting Method for Automated Feature Space Discovery in Supervised Quantum Machine Learning Models",
+        "Description":"Vladimir Rastunkov, Jae-Eun Park, Abhijit Mitra, Brian Quanz, Steve Wood, Christopher Codella, Heather Higgins, Joseph Broz"
+      },
+      {
+        "Title":"De Broglie Wavelength Defined by the Rest Energy E0 and Its Velocity",
+        "Description":"K. Orozovi\u0107, B. Balon"
+      },
+      {
+        "Title":"Engineering Photodynamic with Radioactive Therapeutic Systems for Sustainable Molecular Polarity: Autopoiesis Systems",
+        "Description":"Moustafa Osman Mohammed"
+      },
+      {
+        "Title":"Prediction of Binding Free Energies for Dyes Removal Using Computational Chemistry",
+        "Description":"R. Chanajaree, D. Luanwiset, K. Pongpratea"
+      },
+      {
+        "Title":"Eight-State BB84: A C# Simulation",
+        "Description":"Liliana Zisu"
+      },
+      {
+        "Title":"A Unification and Relativistic Correction for Boltzmann\u2019s Law",
+        "Description":"Lloyd G. Allred"
+      },
+      {
+        "Title":"Proposal of Optimality Evaluation for Quantum Secure Communication Protocols by Taking the Average of the Main Protocol Parameters: Efficiency, Security and Practicality",
+        "Description":"Georgi Bebrov, Rozalina Dimova"
+      },
+      {
+        "Title":"Analysis of Network Performance Using Aspect of Quantum Cryptography",
+        "Description":"Nisarg A. Patel, Hiren B. Patel"
+      },
+      {
+        "Title":"Proton Radius Calculation for Muonic Hydrogen 2S-2P Transition Experiment",
+        "Description":"Jing-Gang Xie"
+      },
+      {
+        "Title":"Reversible Binary Arithmetic for Integrated Circuit Design",
+        "Description":"D. Krishnaveni, M. Geetha Priya"
+      },
+      {
+        "Title":"An Authentication Protocol for Quantum Enabled Mobile Devices",
+        "Description":"Natarajan Venkatachalam, Subrahmanya V. R. K. Rao, Vijay Karthikeyan Dhandapani, Swaminathan Saravanavel"
+      },
+      {
+        "Title":"Implementation of Quantum Rotation Gates Using Controlled Non-Adiabatic Evolutions",
+        "Description":"Abdelrahman A. H. Abdelrahim, Gharib Subhi Mahmoud, Sherzod Turaev, Azeddine Messikh"
+      },
+      {
+        "Title":"Quantum Modelling of AgHMoO4, CsHMoO4 and AgCsMoO4 Chemistry in the Field of Nuclear Power Plant Safety",
+        "Description":"Mohamad Saab, Sidi Souvi"
+      },
+      {
+        "Title":"Stability of Stochastic Model Predictive Control for Schr\u00f6dinger Equation with Finite Approximation",
+        "Description":"Tomoaki Hashimoto"
+      },
+      {
+        "Title":"Gravitational Frequency Shifts for Photons and Particles",
+        "Description":"Jing-Gang Xie"
+      }
+    ]
+  },
+  {
+    "Title":"DATE AI Show on December 11-12, 2023 in Riyadh, Saudi Arabia",
+    "Short Name":null,
+    "Category":"information-technology",
+    "Location":"Riyadh, Saudi Arabia",
+    "Website URL":"https:\/\/datewithtech.com\/ksa\/ai\/",
+    "Timeline":{
+
+    },
+    "Speakers":null,
+    "Accepted papers":[
+
+    ]
+  },
+  {
+    "Title":"Webinar - Cloud Cost Management: Strategies for Success on December 12, 2023 in New York, United States",
+    "Short Name":null,
+    "Category":"information-technology",
+    "Location":"New York, United States",
+    "Website URL":"http:\/\/go.evvnt.com\/2071421-0?pid=10008",
+    "Timeline":{
+
+    },
+    "Speakers":null,
+    "Accepted papers":[
+
+    ]
+  },
+  {
+    "Title":"DATE AI Show on December 11-12, 2023 in Riyadh, Saudi Arabia",
+    "Short Name":null,
+    "Category":"artificial-intelligence",
+    "Location":"Riyadh, Saudi Arabia",
+    "Website URL":"https:\/\/datewithtech.com\/ksa\/ai\/",
+    "Timeline":{
+
+    },
+    "Speakers":null,
+    "Accepted papers":[
+
+    ]
+  },
+  {
+    "Title":"International Conference on Artificial Intelligence and Technology ICAIT on December 13-14, 2023 in Cairo, Egypt",
+    "Short Name":"ICAIT",
+    "Category":"artificial-intelligence",
+    "Location":"Cairo, Egypt",
+    "Website URL":"https:\/\/waset.org\/artificial-intelligence-and-technology-conference-in-december-2023-in-cairo",
+    "Timeline":{
+      "Abstracts\/Full-Text Paper Submission Deadline":"November 30, 2023",
+      "Notification of Acceptance\/Rejection":"December 20, 2023",
+      "Final Paper (Camera Ready) Submission & Early Bird Registration Deadline":"November 15, 2023",
+      "Conference Dates":"December 18-19, 2023"
+    },
+    "Speakers":null,
+    "Accepted papers":[
+      {
+        "Title":"Analyzing the Relationship between the Systems Decisions Process and Artificial Intelligence: A Machine Vision Case Study",
+        "Description":"Mitchell J. McHugh, John J. Case"
+      },
+      {
+        "Title":"Artificial Neural Networks Technique for Seismic Hazard Prediction Using Seismic Bumps",
+        "Description":"Belkacem Selma, Boumediene Selma, Samira Chouraqui, Hanifi Missoum, Tourkia Guerzou"
+      },
+      {
+        "Title":"Augmenting People's Creative Idea Generation Using an Artificial Intelligent Sketching Collaborator",
+        "Description":"Joseph Maloba Makokha"
+      },
+      {
+        "Title":"Combining the Deep Neural Network with the K-Means for Traffic Accident Prediction",
+        "Description":"Celso L. Fernando, Toshio Yoshii, Takahiro Tsubota"
+      },
+      {
+        "Title":"JaCoText: A Pretrained Model for Java Code-Text Generation",
+        "Description":"Jessica L\u00f2pez Espejel, Mahaman Sanoussi Yahaya Alassan, Walid Dahhane, El Hassane Ettifouri"
+      },
+      {
+        "Title":"Fitness Action Recognition Based on MediaPipe",
+        "Description":"Zixuan Xu, Yichun Lou, Yang Song, Zihuai Lin"
+      },
+      {
+        "Title":"An Induction Motor Drive System with Intelligent Supervisory Control for Water Networks Including Storage Tank",
+        "Description":"O. S. Ebrahim, K. O. Shawky, M. A. Badr, P. K. Jain"
+      },
+      {
+        "Title":"Distributed Multi-Agent Based Approach on an Intelligent Transportation Network",
+        "Description":"Xiao Yihong, Yu Kexin, Burra Venkata Durga Kumar"
+      },
+      {
+        "Title":"AI-Based Approaches for Task Offloading, \u200eResource \u200eAllocation and Service Placement of \u200eIoT Applications: State of the Art",
+        "Description":"Fatima Z. Cherhabil, Mammar Sedrati, Sonia-Sabrina Bendib\u200e"
+      },
+      {
+        "Title":"Distributed System Computing Resource Scheduling Algorithm Based on Deep Reinforcement Learning",
+        "Description":"Yitao Lei, Xingxiang Zhai, Burra Venkata Durga Kumar"
+      },
+      {
+        "Title":"Artificial Intelligence: A Comprehensive and Systematic Literature Review of Applications and Comparative Technologies",
+        "Description":"Z. M. Najmi"
+      },
+      {
+        "Title":"Maximizing the Efficiency of Knowledge Management Systems",
+        "Description":"Tori R. Dodla, Laura A. Jones"
+      },
+      {
+        "Title":"A Convolutional Neural Network-Based Vehicle Theft Detection, Location, and Reporting System",
+        "Description":"Michael Moeti, Khuliso Sigama, Thapelo Samuel Matlala"
+      },
+      {
+        "Title":"Optimal Efficiency Control of Pulse Width Modulation - Inverter Fed Motor Pump Drive Using Neural Network",
+        "Description":"O. S. Ebrahim, M. A. Badr, A. S. Elgendy, K. O. Shawky, P. K. Jain"
+      },
+      {
+        "Title":"Supervisory Controller with Three-State Energy Saving Mode for Induction Motor in Fluid Transportation",
+        "Description":"O. S. Ebrahim, K. O. Shawky, M. O. Ebrahim, P. K. Jain"
+      }
+    ]
+  },
+  {
+    "Title":"International Conference on Artificial Intelligence for Law ICAIL on December 13-14, 2023 in Cairo, Egypt",
+    "Short Name":"ICAIL",
+    "Category":"artificial-intelligence",
+    "Location":"Cairo, Egypt",
+    "Website URL":"https:\/\/waset.org\/artificial-intelligence-for-law-conference-in-december-2023-in-cairo",
+    "Timeline":{
+      "Abstracts\/Full-Text Paper Submission Deadline":"November 30, 2023",
+      "Notification of Acceptance\/Rejection":"December 20, 2023",
+      "Final Paper (Camera Ready) Submission & Early Bird Registration Deadline":"November 15, 2023",
+      "Conference Dates":"December 18-19, 2023"
+    },
+    "Speakers":null,
+    "Accepted papers":[
+      {
+        "Title":"Artificial Neural Networks Technique for Seismic Hazard Prediction Using Seismic Bumps",
+        "Description":"Belkacem Selma, Boumediene Selma, Samira Chouraqui, Hanifi Missoum, Tourkia Guerzou"
+      },
+      {
+        "Title":"Augmenting People's Creative Idea Generation Using an Artificial Intelligent Sketching Collaborator",
+        "Description":"Joseph Maloba Makokha"
+      },
+      {
+        "Title":"Distributed Multi-Agent Based Approach on an Intelligent Transportation Network",
+        "Description":"Xiao Yihong, Yu Kexin, Burra Venkata Durga Kumar"
+      },
+      {
+        "Title":"AI-Based Approaches for Task Offloading, \u200eResource \u200eAllocation and Service Placement of \u200eIoT Applications: State of the Art",
+        "Description":"Fatima Z. Cherhabil, Mammar Sedrati, Sonia-Sabrina Bendib\u200e"
+      },
+      {
+        "Title":"Distributed System Computing Resource Scheduling Algorithm Based on Deep Reinforcement Learning",
+        "Description":"Yitao Lei, Xingxiang Zhai, Burra Venkata Durga Kumar"
+      },
+      {
+        "Title":"Artificial Intelligence: A Comprehensive and Systematic Literature Review of Applications and Comparative Technologies",
+        "Description":"Z. M. Najmi"
+      },
+      {
+        "Title":"Maximizing the Efficiency of Knowledge Management Systems",
+        "Description":"Tori R. Dodla, Laura A. Jones"
+      },
+      {
+        "Title":"Oil Exploitation, Environmental Injustice and Decolonial Nonrecognition: Exploring the Historical Accounts of Host Communities in South-Eastern Nigeria",
+        "Description":"Ejikeme Kanu"
+      },
+      {
+        "Title":"Localising Gauss's Law and the Electric Charge Induction on a Conducting Sphere",
+        "Description":"Sirapat Lookrak, Anol Paisal"
+      },
+      {
+        "Title":"Overview of Multi-Chip Alternatives for 2.5D and 3D Integrated Circuit Packagings",
+        "Description":"Ching-Feng Chen, Ching-Chih Tsai"
+      },
+      {
+        "Title":"Japanese Language Learning Strategies Based on Gender by Japanese Learners in North Sulawesi Indonesia",
+        "Description":"Sherly Ferro Lensun"
+      },
+      {
+        "Title":"Appraisal of Methods for Identifying, Mapping, and Modelling of Fluvial Erosion in a Mining Environment",
+        "Description":"F. F. Howard, I. Yakubu, C. B. Boye, J. S. Y. Kuma"
+      },
+      {
+        "Title":"Identification of Vessel Class with LSTM using Kinematic Features in Maritime Traffic Control",
+        "Description":"Davide Fusc\u00e0, Kanan Rahimli, Roberto Leuzzi"
+      },
+      {
+        "Title":"Factors Affecting Employee Decision Making in an AI Environment",
+        "Description":"Yogesh C. Sharma, A. Seetharaman"
+      },
+      {
+        "Title":"Military Use of Artificial Intelligence under International Humanitarian Law: Insights from Canada",
+        "Description":"Mahshid Talebian Kiakalayeh"
+      }
+    ]
+  },
+  {
+    "Title":"International Conference on Sustainable Information Systems and Technologies ICSIST on December 13-14, 2023 in Rome, Italy",
+    "Short Name":"ICSIST",
+    "Category":"information-systems",
+    "Location":"Rome, Italy",
+    "Website URL":"https:\/\/waset.org\/sustainable-information-systems-and-technologies-conference-in-december-2023-in-rome",
+    "Timeline":{
+      "Abstracts\/Full-Text Paper Submission Deadline":"November 30, 2023",
+      "Notification of Acceptance\/Rejection":"December 20, 2023",
+      "Final Paper (Camera Ready) Submission & Early Bird Registration Deadline":"November 12, 2023",
+      "Conference Dates":"December 11-12, 2023"
+    },
+    "Speakers":null,
+    "Accepted papers":[
+      {
+        "Title":"Building Information Modeling-Based Approach for Automatic Quantity Take-off and Cost Estimation",
+        "Description":"Lo Kar Yin, Law Ka Mei"
+      },
+      {
+        "Title":"Using Wiki for Enhancing the Knowledge Transfer to Newcomers: An Experience Report",
+        "Description":"H. O. Barbosa, A. C. R. da Silva, C. M. de Almeida, E. M. dos Santos, F. O. de Sousa, F. B. da S. Souza, F. B. da S. Souza, F. de O. Lima, L. H. Albuquerque, R. F. do Valle Cunha"
+      },
+      {
+        "Title":"Empirical Study from Final Exams of Computer Science Courses Demystifying the Notion of 'an Average Software Engineer'",
+        "Description":"Alex Elentukh"
+      },
+      {
+        "Title":"Methodology for Quantifying the Meaning of Information in Biological Systems",
+        "Description":"Richard L. Summers"
+      },
+      {
+        "Title":"Toward Understanding and Testing Deep Learning Information Flow in Deep Learning-Based Android Apps",
+        "Description":"Jie Zhang, Qianyu Guo, Tieyi Zhang, Zhiyong Feng, Xiaohong Li"
+      },
+      {
+        "Title":"Maximizing the Efficiency of Knowledge Management Systems",
+        "Description":"Tori R. Dodla, Laura A. Jones"
+      },
+      {
+        "Title":"Drivers of Land Degradation in Trays Ecosystem as Modulated under a Changing Climate: Case Study of C\u00f4te d'Ivoire",
+        "Description":"Kadio Valere R. Angaman, Birahim Bouna Niang"
+      },
+      {
+        "Title":"Change Point Analysis in Average Ozone Layer Temperature Using Exponential Lomax Distribution",
+        "Description":"Amjad Abdullah, Amjad Yahya, Bushra Aljohani, Amani S. Alghamdi"
+      },
+      {
+        "Title":"Methodology for Bioenergy Potential and Assessment for Energy Deployment in Rural Vhembe District Areas",
+        "Description":"Clement M. Matasane, Mohamed T. Kahn"
+      },
+      {
+        "Title":"Heading for Modern Construction Management: Recommendation for Employers",
+        "Description":"Robin Becker, Maike Eilers, Nane Roetmann, Manfred Helmus"
+      },
+      {
+        "Title":"Triangle Issues of Sustainability at the University Level within a Vision of Knowledge Economy and Society",
+        "Description":"Ashiquer Rahman"
+      },
+      {
+        "Title":"Land Suitability Prediction Modelling for Agricultural Crops Using Machine Learning Approach: A Case Study of Khuzestan Province, Iran",
+        "Description":"Saba Gachpaz, Hamid Reza Heidari"
+      },
+      {
+        "Title":"An Integrated Framework for Engaging Stakeholders in the Circular Economy Processes Using Building Information Modeling and Virtual Reality",
+        "Description":"Erisasadat Sahebzamani, N\u00faria Forcada, Francisco Lendinez"
+      },
+      {
+        "Title":"Sustainable Solutions for Enhancing Efficiency, Safety, and Quality of Construction Value Chain Services Integration",
+        "Description":"Lo Kar Yin"
+      },
+      {
+        "Title":"Information Technology Governance Implementation and Its Determinants in the Egyptian Market",
+        "Description":"Nariman O. Kandil, Ehab K. Abou-Elkheir, Amr M. Kotb"
+      }
+    ]
+  },
+  {
+    "Title":"International Conference on Information Systems Security ICISS on December 13-14, 2023 in Rome, Italy",
+    "Short Name":"ICISS",
+    "Category":"information-systems",
+    "Location":"Rome, Italy",
+    "Website URL":"https:\/\/waset.org\/information-systems-security-conference-in-december-2023-in-rome",
+    "Timeline":{
+      "Abstracts\/Full-Text Paper Submission Deadline":"November 30, 2023",
+      "Notification of Acceptance\/Rejection":"December 20, 2023",
+      "Final Paper (Camera Ready) Submission & Early Bird Registration Deadline":"November 12, 2023",
+      "Conference Dates":"December 11-12, 2023"
+    },
+    "Speakers":null,
+    "Accepted papers":[
+      {
+        "Title":"A Practice of Zero Trust Architecture in Financial Transactions",
+        "Description":"L. Wang, Y. Chen, T. Wu, S. Hu"
+      },
+      {
+        "Title":"Cyber Security Enhancement via Software-Defined Pseudo-Random Private IP Address Hopping",
+        "Description":"Andre Slonopas, Warren Thompson, Zona Kostic"
+      },
+      {
+        "Title":"A Review in Recent Development of Network Threats and Security Measures",
+        "Description":"Roza Dastres, Mohsen Soori"
+      },
+      {
+        "Title":"Alternative Key Exchange Algorithm Based on Elliptic Curve Digital Signature Algorithm Certificate and Usage in Applications",
+        "Description":"A. Andreasyan, C. Connors"
+      },
+      {
+        "Title":"Data Integrity: Challenges in Health Information Systems in South Africa",
+        "Description":"T. Thulare, M. Herselman, A. Botha"
+      },
+      {
+        "Title":"Context Aware Anomaly Behavior Analysis for Smart Home Systems",
+        "Description":"Zhiwen Pan, Jesus Pacheco, Salim Hariri, Yiqiang Chen, Bozhi Liu"
+      },
+      {
+        "Title":"Off-Policy Q-learning Technique for Intrusion Response in Network Security",
+        "Description":"Zheni S. Stefanova, Kandethody M. Ramachandran"
+      },
+      {
+        "Title":"Evaluating Factors Influencing Information Quality in Large Firms",
+        "Description":"B. E. Narkhede, S. K. Mahajan, B. T. Patil, R. D. Raut"
+      },
+      {
+        "Title":"Malware Beaconing Detection by Mining Large-scale DNS Logs for Targeted Attack Identification",
+        "Description":"Andrii Shalaginov, Katrin Franke, Xiongwei Huang"
+      },
+      {
+        "Title":"The Most Secure Smartphone Operating System: A Survey",
+        "Description":"Sundus Ayyaz, Saad Rehman"
+      },
+      {
+        "Title":"Enhancing the Network Security with Gray Code",
+        "Description":"Thomas Adi Purnomo Sidhi"
+      },
+      {
+        "Title":"Solution of Logistics Center Selection Problem Using the Axiomatic Design Method",
+        "Description":"Fulya Zaral\u0131, Harun Resit Yazgan"
+      },
+      {
+        "Title":"Security Threats on Wireless Sensor Network Protocols",
+        "Description":"H. Gorine, M. Ramadan Elmezughi"
+      },
+      {
+        "Title":"Accounting Information Systems of Kuwaiti Companies: Obstacles and Barriers",
+        "Description":"Haya Y Alobaid"
+      },
+      {
+        "Title":"Developing Rice Disease Analysis System on Mobile via iOS Operating System",
+        "Description":"Rujijan Vichivanives, Kittiya Poonsilp, Canasanan Wanavijit"
+      }
+    ]
+  },
+  {
+    "Title":"International Conference on Enterprise Information Systems and Engineering ICEISE on December 13-14, 2023 in Rome, Italy",
+    "Short Name":"ICEISE",
+    "Category":"information-systems",
+    "Location":"Rome, Italy",
+    "Website URL":"https:\/\/waset.org\/enterprise-information-systems-and-engineering-conference-in-december-2023-in-rome",
+    "Timeline":{
+      "Abstracts\/Full-Text Paper Submission Deadline":"November 30, 2023",
+      "Notification of Acceptance\/Rejection":"December 20, 2023",
+      "Final Paper (Camera Ready) Submission & Early Bird Registration Deadline":"November 12, 2023",
+      "Conference Dates":"December 11-12, 2023"
+    },
+    "Speakers":null,
+    "Accepted papers":[
+      {
+        "Title":"Artificial Neural Networks Technique for Seismic Hazard Prediction Using Seismic Bumps",
+        "Description":"Belkacem Selma, Boumediene Selma, Samira Chouraqui, Hanifi Missoum, Tourkia Guerzou"
+      },
+      {
+        "Title":"Augmenting People's Creative Idea Generation Using an Artificial Intelligent Sketching Collaborator",
+        "Description":"Joseph Maloba Makokha"
+      },
+      {
+        "Title":"Distributed Multi-Agent Based Approach on an Intelligent Transportation Network",
+        "Description":"Xiao Yihong, Yu Kexin, Burra Venkata Durga Kumar"
+      },
+      {
+        "Title":"AI-Based Approaches for Task Offloading, \u200eResource \u200eAllocation and Service Placement of \u200eIoT Applications: State of the Art",
+        "Description":"Fatima Z. Cherhabil, Mammar Sedrati, Sonia-Sabrina Bendib\u200e"
+      },
+      {
+        "Title":"Toward Understanding and Testing Deep Learning Information Flow in Deep Learning-Based Android Apps",
+        "Description":"Jie Zhang, Qianyu Guo, Tieyi Zhang, Zhiyong Feng, Xiaohong Li"
+      },
+      {
+        "Title":"Distributed System Computing Resource Scheduling Algorithm Based on Deep Reinforcement Learning",
+        "Description":"Yitao Lei, Xingxiang Zhai, Burra Venkata Durga Kumar"
+      },
+      {
+        "Title":"Artificial Intelligence: A Comprehensive and Systematic Literature Review of Applications and Comparative Technologies",
+        "Description":"Z. M. Najmi"
+      },
+      {
+        "Title":"Maximizing the Efficiency of Knowledge Management Systems",
+        "Description":"Tori R. Dodla, Laura A. Jones"
+      },
+      {
+        "Title":"Organizational Data Security in Perspective of Ownership of Mobile Devices Used by Employees for Works",
+        "Description":"B. Ferdousi, J. Bari"
+      },
+      {
+        "Title":"Appraisal of Methods for Identifying, Mapping, and Modelling of Fluvial Erosion in a Mining Environment",
+        "Description":"F. F. Howard, I. Yakubu, C. B. Boye, J. S. Y. Kuma"
+      },
+      {
+        "Title":"Identification of Vessel Class with LSTM using Kinematic Features in Maritime Traffic Control",
+        "Description":"Davide Fusc\u00e0, Kanan Rahimli, Roberto Leuzzi"
+      },
+      {
+        "Title":"Factors Affecting Employee Decision Making in an AI Environment",
+        "Description":"Yogesh C. Sharma, A. Seetharaman"
+      },
+      {
+        "Title":"Military Use of Artificial Intelligence under International Humanitarian Law: Insights from Canada",
+        "Description":"Mahshid Talebian Kiakalayeh"
+      },
+      {
+        "Title":"The Use of Artificial Intelligence in Digital Forensics and Incident Response in a Constrained Environment",
+        "Description":"Dipo Dunsin, Mohamed C. Ghanem, Karim Ouazzane"
+      },
+      {
+        "Title":"The Impact of 21st Century Technology in Higher Education: The Role of Artificial Intelligence",
+        "Description":"Josefina Bengoechea, Alex Bell"
+      }
+    ]
+  }
+]
