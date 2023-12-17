@@ -1,67 +1,25 @@
 import React, { useState } from 'react';
+import { useParams } from 'react-router-dom';
 import '../css/ConferenceInfo.scss';
 
-const ConferenceInfo = () => {
+const ConferenceInfo = ({ conferenceDetailList }) => {
+  const { conferenceId } = useParams();
+  const [activeTab, setActiveTab] = useState('description'); // Gọi useState ở đây
 
-  const [activeTab, setActiveTab] = useState('description');
+  // Tìm conferenceDetails dựa trên conferenceId
+  const conferenceDetails = conferenceDetailList.find(
+    detail => detail.id === conferenceId
+  );
 
-  const conferenceDetails = {
-    shortName: 'ICHCSSES',
-    name: 'International Conference on Human-Centered Software Engineering and Systems',
-    url: 'http://iccda.org/', // Thay thế với URL thực tế
-    location: 'Cairo, Egypt',
-    topic: 'software-engineering',
-    dates: '2024-10-25 to 2024-10-27',
-    timezone: 'GMT +3',
-    registrationDeadline: null,
-    submissionDeadline: '30 December 2023',
+  // Kiểm tra sau khi đã gọi useState
+  if (!conferenceDetails) {
+    return <div>Loading...</div>;
+  }
 
-    description: `Computer Systems Engineering and Technology
-    Computer Science, Electrical and Electronics Engineering
-    Computer Science and Systems Technology
-    Computer Science and Electronics Engineering
-    Computer Networks and Communications Engineering
-    Adaptive and Non-Adaptive Filtering and Implementations
-    Applications
-    Biomedical Signal and Image Processing
-    Cognitive, Cellular, and Heterogeneous Wireless Networks
-    Communications Receivers
-    Computer Networks and Security
-    Control Applications
-    Control design methods
-    Control System Modeling and Identification
-    Digital Communications
-    Discrete and Hybrid systems
-    DSP For Communications
-    Electrical Machines and Drives
-    Grid and Cloud Computing
-    Image Processing
-    Mobile and Wireless Communications
-    Mobile Computing and Communication Networks
-    Multimedia, Real-Time Networking, and Network Modeling
-    Network Algorithms and Performance Evaluation
-    Network Architectures and Clean-Slate Designs
-    Networks and QOS
-    Nonlinear Control and Applications
-    OFDM and CDMA
-    Power Systems
-    Scalable, Reliable, and Energy-Efficient Networks
-    Security, Privacy, and Trust
-    Sensor Networks, Embedded Systems, and Pervasive Computing
-    Signal Processing and Applications
-    Space-Time Coding
-    Speech and Audio Processing
-    Streaming and Content Distribution Networking
-    Video and Multimedia Signal Processing
-    Wireless LAN, Ad Hoc, and Mesh Networks`,
-
-    speakers: 'Speakers content goes here...',
-    papers: 'Papers content goes here...',
-
-
-  };
+  console.log(conferenceDetails);
 
   return (
+    
     <div className="conference-container">
       <div className="conference-info">
         <div className="conference-header">
@@ -78,7 +36,7 @@ const ConferenceInfo = () => {
           <div className="conference-timeline">
             <h2>Conference Timeline</h2>
             <div><strong>When:</strong> 
-                {conferenceDetails.dates}
+                {conferenceDetails.startDate} ~ {conferenceDetails.endDate}
             </div>
             <div><strong>Timezone:</strong> {conferenceDetails.timezone}</div>
             <div><strong>Registration Deadline:</strong> {conferenceDetails.registrationDeadline || 'N/A'}</div>

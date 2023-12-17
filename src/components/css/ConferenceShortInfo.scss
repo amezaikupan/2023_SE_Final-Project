@@ -1,0 +1,43 @@
+@import 'myCustom.scss';
+
+.conference-short-container {
+    background-color: #e9f4f9; // Một màu nền nhẹ
+    border: 1px solid #d1e3e8; // Một viền phù hợp
+    border-radius: 8px; // Góc bo tròn
+    padding: 16px; // Padding xung quanh
+    text-align: left; // Căn chỉnh văn bản sang trái
+  
+    h2 {
+      color: #0056b3; // Màu cho shortName
+      font-size: 20px; // Kích thước chữ
+      margin-bottom: 4px;
+    }
+  
+    h3 {
+      color: #004080; // Màu cho tên hội nghị
+      font-size: 18px; // Kích thước chữ nhỏ hơn
+      margin-bottom: 8px;
+    }
+  
+    p {
+      color: #003366; // Màu cho thông tin khác
+      font-size: 16px; // Kích thước chữ
+      margin-bottom: 8px;
+    }
+  
+    button {
+      background-color: #007bff; // Màu nền cho nút
+      color: white; // Màu chữ
+      border: none;
+      padding: 10px 20px; // Padding cho nút
+      border-radius: 4px; // Góc bo tròn cho nút
+      cursor: pointer;
+      font-size: 16px; // Kích thước chữ
+      transition: background-color 0.3s; // Hiệu ứng chuyển đổi màu sắc
+  
+      &:hover {
+        background-color: #0056b3; // Màu khi hover
+      }
+    }
+  }
+  
