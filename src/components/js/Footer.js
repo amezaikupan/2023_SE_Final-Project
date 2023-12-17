@@ -1,8 +1,8 @@
 import React from 'react';
-import fbicon from './images/fbicon.png';
-import igicon from './images/igicon.png';
-import yticon from './images/yticon.png';
-import './Footer.css'; // Đảm bảo bạn đã tạo một file CSS với tên này
+import fbicon from '../images/fbicon.png';
+import igicon from '../images/igicon.png';
+import yticon from '../images/yticon.png';
+import '../css/Footer.scss'; // Đảm bảo bạn đã tạo một file CSS với tên này
 
 function Footer() {
   return (

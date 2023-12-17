@@ -1,0 +1,120 @@
+@import 'myCustom.scss';
+
+$tab-background: $mySteal;
+$tab-hover-background: #007575;
+$tab-active-background: $myDarkSteal;
+
+$border-color: white;
+$content-padding: 20px;
+$note-background: #f5f5f5;
+$text-color: #333;
+$max-content-height: 500px;
+
+$button-width: 200px; // Chiều rộng cố định cho các nút
+$button-height: 40px; // Chiều cao cố định cho các nút
+.conference-container{
+    .conference-info{
+        display: flex;  
+        flex-direction: column;
+
+        .conference-header{
+            display: flex;
+            padding: 20px;
+            background-color: $note-background;
+            border-radius: 5px;
+            margin-right: 20px;
+            .conference-short-name{
+                font-size: 40px;
+                font-weight: bold;
+                font-family: $myFont;
+                color: $myLightBlue;
+            }
+            .conference-name{
+                font-size: 25px;
+                font-weight: bold;
+                font-family: $myFont;
+                color: $myDarkSteal;
+                margin: auto auto auto $myAlign;
+            }
+        }
+        .conference-body{
+            display: flex;
+            justify-content: space-around;
+            .confrence-details{
+
+                padding: 20px;
+                margin-top: 20px;
+                background-color: #f5f5f5;
+                border-radius: 5px;
+                margin-right: 20px;
+
+            }
+            .conference-timeline{
+                background-color: $myLightBackground;
+                padding: 20px;
+                margin-top: 20px;
+                h2{
+                    font-size: 30px;
+                    font-family: $myFont;
+                    color: #333;}
+                div{
+                    font-size: 20px;
+                    font-family: $myFont;
+                    margin: 5px 0;
+                }
+            }
+        }
+    }
+
+    .conference-description {
+        // border: 1px solid #ccc;
+        border-radius: 5px;
+        margin: $myAlign;
+        height : 600px;
+
+        .tab-buttons {
+          overflow: hidden;
+            
+          button {
+            float: left; // Nếu muốn các nút nằm cạnh nhau
+            background: $tab-background;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: auto auto auto auto;
+            transition: 0.3s;
+            // kích thước nút
+            width: $button-width;
+            height: $button-height;
+            // hiển thị chữ
+            font-family: $myFont;
+            font-size: 20px;
+            color: white;
+
+            border-right: 1px solid $border-color; // Đường phân cách giữa các nút
+      
+            &:hover {
+              background-color: $tab-hover-background;
+            }
+      
+            &.active {
+              background-color: $tab-active-background;
+            }
+            
+            &:last-child {
+              border-right: none;
+            }
+          }
+        }
+
+        .tab-content {
+          margin: 10px 10px 10px 10px ;
+          padding: $content-padding;
+          color: $text-color;
+          background: $note-background;
+          border-radius: 5px;
+          height: $max-content-height; // Sử dụng biến cho chiều cao tối đa
+          overflow: auto; // Cho phép hiển thị thanh cuộn nếu cần
+        }
+    } 
+}

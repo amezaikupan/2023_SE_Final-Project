@@ -1,7 +1,7 @@
 import React from 'react';
-import './Header.css'; 
-import CSTrackerlogo from './images/CSTrackerlogo.png'; 
-import CSTrackerdotcom from './images/CSTrackerdotcom.png';
+import '../css/Header.scss'; // Đảm bảo bạn đã tạo một file SCSS với tên này
+import CSTrackerlogo from '../images/CSTrackerlogo.png'; 
+import CSTrackerdotcom from '../images/CSTrackerdotcom.png';
 
 
 function Header() {
