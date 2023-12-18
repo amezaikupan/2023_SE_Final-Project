@@ -11,14 +11,19 @@ const ConferenceShortInfo = ({ conferenceDetails }) => {
 
   return (
     <div className="conference-short-container">
-      <h2>{conferenceDetails.shortName}</h2>
-      <h3>{conferenceDetails.name}</h3>
-      <p>{conferenceDetails.dates} - {conferenceDetails.location}</p>
-      <p>{conferenceDetails.topic}</p>
+      <div className='shortName'>{conferenceDetails.shortName}</div>
 
+      
+      <div className='info'> 
+        <a className = 'name' href={conferenceDetails.url} target="_blank" rel="noopener noreferrer"> {conferenceDetails.name} </a>
+        <p className='timeLocation'>{conferenceDetails.dates} - {conferenceDetails.location}</p>
+        <p className='deadline'><strong>Submission Deadline:</strong>  {conferenceDetails.submissionDeadline}</p>
+        <div className='topic'>{conferenceDetails.topic}</div>
 
-
+      </div>
+      
       <button onClick={handleViewDetailsClick}>View details</button>
+
     </div>
   );
 };

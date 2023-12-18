@@ -12,44 +12,82 @@
             padding: 20px;
             background-color: $note-background;
             border-radius: 5px;
-            margin-right: 20px;
+            margin-right: $myAlign;
+            font-family: $myFont;
+            font-weight: bold;
+
             .conference-short-name{
                 font-size: 40px;
-                font-weight: bold;
-                font-family: $myFont;
                 color: $myLightBlue;
             }
             .conference-name{
                 font-size: 25px;
-                font-weight: bold;
-                font-family: $myFont;
                 color: $myDarkSteal;
                 margin: auto auto auto $myAlign;
             }
         }
         .conference-body{
             display: flex;
-            justify-content: space-around;
-            .confrence-details{
+            // justify-items: center;
+            align-items: center;
+            justify-content: space-between;
 
-                padding: 20px;
-                margin-top: 20px;
-                background-color: #f5f5f5;
-                border-radius: 5px;
-                margin-right: 20px;
+            .attribute-names{
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+
+              strong{
+                font-size: 25px;
+                font-family: $myFont;
+                color: $myDarkSteal;
+                margin-right: 10px;
+              }
+              
+            }
+
+            .conference-details{
+              display: flex;
+              flex-direction: column;
+              justify-content: space-around;
+              justify-items: center;
+              margin-left: $myAlign;
+
+              font-family: $myFont;
+              font-size: 25px;
+              .website-url{
+                color: $myLightBlue; /* Màu của liên kết */
+                text-decoration: none; /* Bỏ gạch chân */
+                font-weight: bold; /* Đậm chữ */
+                font-style: italic; /* In nghiêng */
+                
+                &:hover {
+                  text-decoration: underline; /* Gạch chân khi hover */
+                }
+              }
+              .location{
+                color : $text-color;
+                
+              }
+              .topic{
+                color : $mySteal;
+              }
+ 
 
             }
             .conference-timeline{
                 background-color: $myLightBackground;
                 padding: 20px;
+                margin-right: 50px;
                 margin-top: 20px;
+                font-family: $myFont;
+
                 h2{
                     font-size: 30px;
-                    font-family: $myFont;
                     color: #333;}
-                div{
+                p{
                     font-size: 20px;
-                    font-family: $myFont;
+                    
                     margin: 5px 0;
                 }
             }
@@ -57,7 +95,7 @@
     }
 
     .conference-description {
-        // border: 1px solid #ccc;
+        border: 1px solid #ccc;
         border-radius: 5px;
         margin: $myAlign;
         height : 600px;

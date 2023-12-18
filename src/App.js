@@ -17,8 +17,7 @@ const conferenceDetails1 = {
   url: 'http://iccda.org/', // Thay thế với URL thực tế
   location: 'Cairo, Egypt',
   topic: 'software-engineering',
-  startDate: '2024-10-25',
-  endDate: '2024-10-27',
+  dates : 'December 18-19, 2023',
   timezone: 'GMT +3',
   registrationDeadline: null,
   submissionDeadline: '30 December 2023',
@@ -74,8 +73,7 @@ const conferenceDetails2 = {
   url: 'https://waset.org/artificial-intelligence-for-control-systems-engineering-conference-in-december-2023-in-istanbul', // Thay thế với URL thực tế
   location: 'Istanbul, Turkey',
   topic: 'artificial intelligence',
-  startDate: 'December 18-19, 2023',
-  endDate: 'December 18-19, 2023',
+  dates : 'December 18-19, 2023',
   timezone: 'GMT +3',
   registrationDeadline: null,
   submissionDeadline: '30 December 2023',
@@ -136,8 +134,7 @@ const conferenceDetails3 = {
   url: 'https://waset.org/artificial-intelligence-for-control-systems-engineering-conference-in-december-2023-in-istanbul', // Thay thế với URL thực tế
   location: 'Ho Chi Minh city, Vietnam',
   topic: 'artificial intelligence',
-  startDate: 'December 18-19, 2023',
-  endDate: 'December 18-19, 2023',
+  dates : 'December 18-19, 2023',
   timezone: 'GMT +3',
   registrationDeadline: null,
   submissionDeadline: '30 December 2023',

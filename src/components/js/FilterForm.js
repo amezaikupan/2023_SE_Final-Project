@@ -2,9 +2,14 @@ import React, { useState } from 'react';
 import '../css/FilterForm.scss';
 
 const FilterForm = ({ onFiltersChange }) => {
+  const topics = ['software-engineering', 'computer-science', 'computer-vision', 'data-science', 'information-technology', 'artificial-intelligence', 'information-systems']
+  const sorts = ['date', 'alphabetical', 'relevance'];
+  const times = ['Next 1 week', 'Next 1 month', 'Next 1 year'];
+
+
   const [filters, setFilters] = useState({
     topic: '',
-    location: '', // Thêm trường lọc location
+    location: '', 
     time: '',
     sortBy: '',
     paperSubmissionOpen: false
@@ -29,9 +34,9 @@ const FilterForm = ({ onFiltersChange }) => {
         <label htmlFor="topic">Topic Selected</label>
         <select id="topic" name="topic" onChange={handleInputChange}>
           <option value="">All Topic</option>
-          <option value="Computer Science">Computer Science</option>
-          <option value="Computer Networking">Computer Networking</option>
-          {/* other topics */}
+          {topics.map((topic, index) => (
+            <option key={index} value={topic}>{topic.replace(/-/g, ' ')}</option>
+          ))}
         </select>
       </div>
       
@@ -42,7 +47,6 @@ const FilterForm = ({ onFiltersChange }) => {
           <option value="Cairo, Egypt">Cairo, Egypt</option>
           <option value="Istanbul, Turkey">Istanbul, Turkey</option>
           <option value="Ho Chi Minh city, Vietnam">Ho Chi Minh city, Vietnam</option>
-          {/* Bổ sung thêm các location nếu cần */}
         </select>
       </div>
       
@@ -53,7 +57,7 @@ const FilterForm = ({ onFiltersChange }) => {
           <option value="Next 1 week">Next 1 week</option>
           <option value="Next 1 month">Next 1 month</option>
           <option value="Next 1 year">Next 1 year</option>
-          {/* other time options */}
+
         </select>
       </div>
 
@@ -62,19 +66,19 @@ const FilterForm = ({ onFiltersChange }) => {
         <select id="sortBy" name="sortBy" onChange={handleInputChange}>
           <option value="date">Sort by date</option>
           <option value="relevance">Sort by relevance</option>
-          {/* other sort options */}
         </select>
       </div>
 
 
       <div className="checkbox">
-        <label>
+        <label className ="custom-checkbox">
           <input 
             type="checkbox" 
             name="paperSubmissionOpen" 
             checked={filters.paperSubmissionOpen} 
             onChange={handleInputChange} 
           />
+          <span class="checkmark"></span>
           Paper submission open
         </label>
       </div>

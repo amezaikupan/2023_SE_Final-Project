@@ -28,19 +28,40 @@ const ConferenceInfo = ({ conferenceDetailList }) => {
         </div>
         <div className="conference-body">
           <div className="conference-details">
-            <a href={conferenceDetails.url} target="_blank" rel="noopener noreferrer">Website URL</a>
-            <p><strong>Location:</strong> {conferenceDetails.location}</p>
-            <p><strong>Topic:</strong> {conferenceDetails.topic}</p>
+
+            <div className='attribute-names'> <strong>Website URL: </strong>
+              <a href={conferenceDetails.url} target="_blank" rel="noopener noreferrer" className="website-url">{conferenceDetails.url}</a>
+            </div>
+
+            <div className='attribute-names'> <strong>Location: </strong>
+              <p className='location'> {conferenceDetails.location}</p>
+            </div>
+              
+            <div className='attribute-names'> <strong>Topic:  </strong>
+              <p className='topic'> {conferenceDetails.topic}</p>
+            </div>
+            
           </div>
 
           <div className="conference-timeline">
             <h2>Conference Timeline</h2>
-            <div><strong>When:</strong> 
-                {conferenceDetails.startDate} ~ {conferenceDetails.endDate}
+
+            <div className='attribute-names'> <strong>When:  </strong>
+              <p className='timeline'> {conferenceDetails.dates || 'N/A'} </p>
             </div>
-            <div><strong>Timezone:</strong> {conferenceDetails.timezone}</div>
-            <div><strong>Registration Deadline:</strong> {conferenceDetails.registrationDeadline || 'N/A'}</div>
-            <div><strong>Submission Deadline:</strong> {conferenceDetails.submissionDeadline}</div>
+
+            <div className='attribute-names'> <strong>Timezone:  </strong>
+              <p className='timeline'> {conferenceDetails.timezone|| 'N/A'}</p>
+            </div>
+
+            <div className='attribute-names'> <strong>Registration Deadline:  </strong>
+              <p className='timeline'>{conferenceDetails.registrationDeadline || 'N/A'}</p>
+            </div>
+
+            <div className='attribute-names'> <strong>Submission Deadline:  </strong>
+              <p className='timeline'> {conferenceDetails.submissionDeadline || 'N/A'} </p>
+            </div>
+
           </div>
         </div>
       </div>
