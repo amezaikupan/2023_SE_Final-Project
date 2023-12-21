@@ -38,9 +38,6 @@ def Get_timezone(location, api_key):
     except Exception as e:
         print(f"Error: {e}")
         return None
-
-
-
     
 def Convert_to_datetime(date):
     date_format = "%B %d, %Y"
@@ -220,49 +217,49 @@ api = 'f6b48c721d4c46abbe6f5c0620e1eba2'
 def main():
     base_url = 'https://conferenceindex.org/conferences/'
     
-    # Collect links to the conferences
-    for topic in list(topics_dict.keys()):
-        url = base_url + topic
-        file_name = 'Conference_links/' + topic + '.txt'
-        Collect_links(url, file_name)
+    # # Collect links to the conferences
+    # for topic in list(topics_dict.keys()):
+    #     url = base_url + topic
+    #     file_name = 'Conference_links/' + topic + '.txt'
+    #     Collect_links(url, file_name)
 
     
-    # df = pd.DataFrame(columns = fields)
+    df = pd.DataFrame(columns = fields)
 
-    # for topic in list(topics_dict.keys())[0:1]:
-    #     urls = []
+    for topic in list(topics_dict.keys())[0:1]:
+        urls = []
 
-    #     with open('Conference_links/' + topic + '.txt', 'r') as file:
+        with open('Conference_links/' + topic + '.txt', 'r') as file:
     
-    #         for line in file.readlines():
-    #                 urls.append(line)
+            for line in file.readlines():
+                    urls.append(line)
         
-    #     for i, url in enumerate(urls[0:10]):
-    #         if url[-1] == '\n':
-    #             url = url[:-1]
-    #         print(i, url)
+        for i, url in enumerate(urls[0:100]):
+            if url[-1] == '\n':
+                url = url[:-1]
+            print(i, url)
             
-    #         features = Extract_data(url)
+            features = Extract_data(url)
 
-    #         if features and  features['description'] != "None":
-    #             new_row = pd.Series(features, index = fields)
-    #             new_row_df = pd.DataFrame([new_row])
-    #             new_row_df['topic'] = topics_dict[topic]
+            if features and  features['description'] != "None":
+                new_row = pd.Series(features, index = fields)
+                new_row_df = pd.DataFrame([new_row])
+                new_row_df['topic'] = topics_dict[topic]
 
-    #             df = pd.concat([df, new_row_df], ignore_index = True)
-    #             try:
-    #                 with open('Conferences.json', 'r') as file:
-    #                     existing_data = json.load(file)
-    #             except (FileNotFoundError, json.decoder.JSONDecodeError):
-    #                 existing_data = []
+                df = pd.concat([df, new_row_df], ignore_index = True)
+                try:
+                    with open('Conferences.json', 'r') as file:
+                        existing_data = json.load(file)
+                except (FileNotFoundError, json.decoder.JSONDecodeError):
+                    existing_data = []
 
-    #             existing_data_list = existing_data if isinstance(existing_data, list) else []
-    #             new_data_list = new_row_df.to_dict(orient='records')
+                existing_data_list = existing_data if isinstance(existing_data, list) else []
+                new_data_list = new_row_df.to_dict(orient='records')
 
-    #             combined_data = existing_data_list + new_data_list
-    #             with open('Conferences.json', 'w') as file:
-    #                 json.dump(combined_data, file, indent=2)
-    # df.to_json("Conferences.json", orient='records', indent=2)
+                combined_data = existing_data_list + new_data_list
+                with open('Conferences.json', 'w') as file:
+                    json.dump(combined_data, file, indent=2)
+    df.to_json("Conferences.json", orient='records', indent=2)
 
 if __name__ == "__main__":
     main()
