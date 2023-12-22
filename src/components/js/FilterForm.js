@@ -3,7 +3,6 @@ import '../css/FilterForm.scss';
 
 const FilterForm = ({ onFiltersChange }) => {
   const topics = ['software-engineering', 'computer-science', 'computer-vision', 'data-science', 'information-technology', 'artificial-intelligence', 'information-systems']
-  const sorts = ['date', 'alphabetical'];
   const times = ['Next 1 week', 'Next 1 month', 'Next 1 year'];
 
 
@@ -58,14 +57,6 @@ const FilterForm = ({ onFiltersChange }) => {
           <option value="Next 1 month">Next 1 month</option>
           <option value="Next 1 year">Next 1 year</option>
 
-        </select>
-      </div>
-
-      <div className="dropdown">
-        <label htmlFor="sortBy">Sort By</label>
-        <select id="sortBy" name="sortBy" onChange={handleInputChange}>
-          <option value="date">Sort by date</option>
-          <option value="relevance">Sort by relevance</option>
         </select>
       </div>
 
