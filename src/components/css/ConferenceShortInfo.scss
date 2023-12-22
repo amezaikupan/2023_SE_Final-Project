@@ -1,0 +1,82 @@
+@import 'myCustom.scss';
+
+.conference-short-container {
+    background-color: $myLightBackground; // Một màu nền nhẹ
+    border: 1px solid #d1e3e8; // Một viền phù hợp
+    border-radius: 8px; // Góc bo tròn
+    padding: 16px; // Padding xung quanh
+
+    text-align: left; // Căn chỉnh văn bản sang trái
+    margin: $myAlign; // Khoảng cách giữa các hội nghịvà 2 biên
+
+    font-family: $myFont;
+    // Chia làm 2 phần 3fr và 7 fr
+    display: grid;
+    grid-template-columns: 2fr 6.5fr 1.5fr;
+    grid-gap: 10px; // Khoảng cách giữa các phần
+
+    .shortName {
+      // Lấy grid đầu tiên
+      grid-column: 1;
+      // Hiển thị chính giữa của component
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      color: $myLightBlue; // Màu cho shortName
+      font-size: 50px; // Kích thước chữ
+      font-weight: bold; // Chữ đậm
+    }
+    .info{
+      // Lấy grid thứ 2
+      grid-column: 2;
+      // display theo flex
+      display: flex;
+      flex-direction: column;
+      
+      .name {
+        color: $myDarkSteal; // Màu cho tên hội nghị
+        font-weight: bold; // Chữ đậm
+        font-size: 25px; // Kích thước chữ nhỏ hơn
+      }
+      .deadline{
+        color: $text-color; // Màu cho thông tin khác
+        font-weight: boid; // Chữ đậm
+        font-size: 20px; // Kích thước chữ
+      }
+      .timeLocation {
+        color: $text-color; // Màu cho thông tin khác
+        font-size: 20px; // Kích thước chữ
+      }
+
+      .topic{
+        color: $mySteal; // Màu cho thông tin khác
+        font-size: 22px; // Kích thước chữ
+      }
+    }
+    button {
+      // sử dụng fr thứ 3
+      grid-column: 3;
+      // Chuyển về phía right-bottom corner
+      justify-self: end;
+      align-self: end;
+
+      height: $button-height; // Chiều cao cố định
+      width: $button-width; // Chiều rộng cố định
+
+      background-color: $tab-background; // Màu nền cho nút
+      color: white; // Màu chữ
+      border: none;
+      outline: none; // Xóa đường viền khi click
+      border-radius: 4px; // Góc bo tròn cho nút
+      cursor: pointer;
+      font-size: 16px; // Kích thước chữ
+      transition: background-color 0.3s; // Hiệu ứng chuyển đổi màu sắc
+  
+      &:hover {
+        background-color: $tab-hover-background; // Màu khi hover
+      }
+    }
+
+  }
+  
