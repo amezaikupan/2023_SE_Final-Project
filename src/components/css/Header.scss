@@ -1,0 +1,35 @@
+@import 'myCustom.scss';
+
+.header {
+    background-color: $myDark; /* Màu nền của header */
+    display: grid; /* Sử dụng grid layout */
+    grid-template-columns: 4fr 6fr; /* Chia cột thành 2 phần tỉ lệ 4:6 */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    // height: 120px;
+    .header-web{
+        display: flex;
+        justify-items: space-around;
+        margin: 0px auto auto 10px;
+        height: 100px;
+      }
+      
+    .header-logo img {
+      height: 100px;
+      margin : auto auto auto $myAlign;
+    }
+      
+    .header-title img {
+    margin-top: 20px;
+    height: 60px;
+    }
+    .header-slogan p{
+        font-size:  40px;
+        color: $myLightGreen;
+        font-weight: bold;
+        font-style: italic;
+        font-family: $myFont;
+        margin : auto;
+        align-items: left;
+      }
+      
+}  
