@@ -226,7 +226,7 @@ def main():
     
     df = pd.DataFrame(columns = fields)
 
-    for topic in list(topics_dict.keys())[0:1]:
+    for topic in list(topics_dict.keys())[6:7]:
         urls = []
 
         with open('Conference_links/' + topic + '.txt', 'r') as file:
@@ -234,7 +234,7 @@ def main():
             for line in file.readlines():
                     urls.append(line)
         
-        for i, url in enumerate(urls[0:100]):
+        for i, url in enumerate(urls[300:400]):
             if url[-1] == '\n':
                 url = url[:-1]
             print(i, url)
@@ -259,7 +259,7 @@ def main():
                 combined_data = existing_data_list + new_data_list
                 with open('Conferences.json', 'w') as file:
                     json.dump(combined_data, file, indent=2)
-    df.to_json("Conferences.json", orient='records', indent=2)
+    # df.to_json("Conferences.json", orient='records', indent=2)
 
 if __name__ == "__main__":
     main()
