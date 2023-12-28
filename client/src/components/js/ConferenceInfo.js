@@ -54,14 +54,17 @@ const ConferenceInfo = ({ conferenceDetailList }) => {
               <p className='timeline'> {conferenceDetails.timezone|| 'N/A'}</p>
             </div>
 
-            <div className='attribute-names'> <strong>Registration Deadline:  </strong>
-              <p className='timeline'>{conferenceDetails.registrationDeadline || 'N/A'}</p>
-            </div>
-
             <div className='attribute-names'> <strong>Submission Deadline:  </strong>
               <p className='timeline'> {conferenceDetails.submissionDeadline || 'N/A'} </p>
             </div>
 
+            <div className='attribute-names'> <strong>Notification :  </strong>
+              <p className='timeline'>{conferenceDetails.notificationAcceptedPaper || 'N/A'}</p>
+            </div>
+
+            <div className='attribute-names'> <strong>Final submisstion :  </strong>
+              <p className='timeline'>{conferenceDetails.finalSubmission || 'N/A'}</p>
+            </div>
           </div>
         </div>
       </div>

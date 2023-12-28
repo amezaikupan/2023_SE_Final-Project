@@ -10,7 +10,6 @@ const FilterForm = ({ onFiltersChange }) => {
     topic: '',
     location: '', 
     time: '',
-    sortBy: '',
     paperSubmissionOpen: false
   });
 
