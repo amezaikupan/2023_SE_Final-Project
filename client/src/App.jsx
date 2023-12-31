@@ -6,7 +6,8 @@ import ConferenceShortInfo from './components/js/ConferenceShortInfo.js';
 import FilterForm from './components/js/FilterForm.js';
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation,Link } from 'react-router-dom';
-import axios from 'axios'
+import axios from 'axios';
+import ReactPaginate from 'react-paginate';
 
 const App = () => {
   // Đoạn code 
@@ -64,17 +65,43 @@ const ContentWithFilter = ({ conferenceDetailList }) => {
         console.log(err);
       });
   };
+  const itemsPerPage = 10;
+  const [currentPage, setCurrentPage] = useState(0);
+
+  const handlePageClick = (data) => {
+    const selectedPage = data.selected;
+    setCurrentPage(selectedPage);
+  };
+
+  const startIdx = currentPage * itemsPerPage;
+  const endIdx = startIdx + itemsPerPage;
+  const paginatedConferenceDetailList = filteredConferenceDetailList.slice(startIdx, endIdx);
 
   return (
     // Đoạn code xử lý filter
     <>
       {showFilterForm && <FilterForm onFiltersChange={handleFiltersChange} />}
       <Routes>
-        <Route 
-          path="/" 
-          element={filteredConferenceDetailList.map((details, index) => (
-            <ConferenceShortInfo key={details.id} conferenceDetails={details} />
-          ))} 
+        <Route
+          path="/"
+          element={
+            <>
+              {paginatedConferenceDetailList.map((details, index) => (
+                <ConferenceShortInfo key={details.id} conferenceDetails={details} />
+              ))}
+              <ReactPaginate
+                previousLabel={'previous'}
+                nextLabel={'next'}
+                breakLabel={'...'}
+                pageCount={Math.ceil(filteredConferenceDetailList.length / itemsPerPage)}
+                marginPagesDisplayed={2}
+                pageRangeDisplayed={5}
+                onPageChange={handlePageClick}
+                containerClassName={'pagination'}
+                activeClassName={'active'}
+              />
+            </>
+          }
         />
         <Route 
           path="/ConferenceInfo/:conferenceId" 
