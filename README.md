@@ -68,3 +68,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Paginition important note
+Nếu chia trang không hiện ra hay bị lỗi cần import library paginitate của react js chạy câu lệnh sau trong thư mục client
+npm install react-paginate
