@@ -1,16 +1,12 @@
 import './App.css';
-
 import Header from './components/js/Header.js';
 import Footer from './components/js/Footer.js';
 import ConferenceInfo from './components/js/ConferenceInfo.js';
 import ConferenceShortInfo from './components/js/ConferenceShortInfo.js';
 import FilterForm from './components/js/FilterForm.js';
-
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation,Link } from 'react-router-dom';
 import axios from 'axios'
-
-
 
 const App = () => {
   // Đoạn code 
@@ -84,7 +80,16 @@ const ContentWithFilter = ({ conferenceDetailList }) => {
           path="/ConferenceInfo/:conferenceId" 
           element={<ConferenceInfo conferenceDetailList={filteredConferenceDetailList} />} 
         />
+        <Route path="*" 
+         element={   
+            <div className="page-not-found">
+            <h1>404</h1>
+            <h2>Sorry</h2>
+            <p>That page cannot be found</p>
+            <Link to="/">Back to the homepage...</Link>
+            </div>} />
       </Routes>
+
     </>
   );
 };

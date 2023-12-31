@@ -14,7 +14,7 @@
       }
       
     .header-logo img {
-      height: 100px;
+      height: 90px;
       margin : auto auto auto $myAlign;
     }
       
@@ -23,12 +23,13 @@
     height: 60px;
     }
     .header-slogan p{
-        font-size:  40px;
+        font-size:  30px;
         color: $myLightGreen;
         font-weight: bold;
         font-style: italic;
         font-family: $myFont;
         margin : auto;
+        margin-left: 10px;
         align-items: left;
       }
       

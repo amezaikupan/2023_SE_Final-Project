@@ -21,7 +21,7 @@
                 color: $myLightBlue;
             }
             .conference-name{
-                font-size: 25px;
+                font-size: 20px;
                 color: $myDarkSteal;
                 margin: auto auto auto $myAlign;
             }
@@ -38,10 +38,10 @@
               align-items: center;
 
               strong{
-                font-size: 25px;
+                font-size: 15px;
                 font-family: $myFont;
                 color: $myDarkSteal;
-                margin-right: 10px;
+                margin-right: 5px;
               }
               
             }
@@ -54,7 +54,7 @@
               margin-left: $myAlign;
 
               font-family: $myFont;
-              font-size: 25px;
+              font-size: 20px;
               .website-url{
                 color: $myLightBlue; /* Màu của liên kết */
                 text-decoration: none; /* Bỏ gạch chân */
@@ -77,16 +77,16 @@
             }
             .conference-timeline{
                 background-color: $myLightBackground;
-                padding: 20px;
+                padding: 10px;
                 margin-right: 20px;
                 margin-top: 20px;
                 font-family: $myFont;
 
                 h2{
-                    font-size: 30px;
+                    font-size: 20px;
                     color: #333;}
                 p{
-                    font-size: 20px;
+                    font-size: 15px;
                     
                     margin: 5px 0;
                 }
