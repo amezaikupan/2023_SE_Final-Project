@@ -1,11 +1,16 @@
 import React, { useState } from 'react';
 import '../css/FilterForm.scss';
 
+// Get all countries for filter
+const countryList = require('country-list');
+const allCountryNames = ['All Countries'].concat(countryList.getNames());
+
+  
 const FilterForm = ({ onFiltersChange }) => {
-  const topics = ['software-engineering', 'computer-science', 'computer-vision', 'data-science', 'information-technology', 'artificial-intelligence', 'information-systems']
-  const times = ['Next 1 week', 'Next 1 month', 'Next 1 year'];
-
-
+  const topics = ['All Topic', 'Software Engineering', 'Computer Science', 'Computer Vision', 'Data Science', 'Information Technology', 'Artificial Intelligence', 'Information Systems']
+  const times = ['All Time', 'Next 1 week', 'Next 1 month', 'Next 1 year'];
+  
+  
   const [filters, setFilters] = useState({
     topic: '',
     location: '', 
@@ -31,7 +36,6 @@ const FilterForm = ({ onFiltersChange }) => {
       <div className="dropdown">
         <label htmlFor="topic">Topic Selected</label>
         <select id="topic" name="topic" onChange={handleInputChange}>
-          <option value="">All Topic</option>
           {topics.map((topic, index) => (
             <option key={index} value={topic}>{topic.replace(/-/g, ' ')}</option>
           ))}
@@ -41,21 +45,18 @@ const FilterForm = ({ onFiltersChange }) => {
       <div className="dropdown">
         <label htmlFor="location">Location</label>
         <select id="location" name="location" onChange={handleInputChange}>
-          <option value="">All Locations</option>
-          <option value="Cairo, Egypt">Cairo, Egypt</option>
-          <option value="Istanbul, Turkey">Istanbul, Turkey</option>
-          <option value="Ho Chi Minh city, Vietnam">Ho Chi Minh city, Vietnam</option>
+          {allCountryNames.map((location, index) => (
+            <option key={index} value={location}>{location.replace(/-/g, ' ')}</option>
+          ))}
         </select>
       </div>
       
       <div className="dropdown">
         <label htmlFor="time">Time</label>
         <select id="time" name="time" onChange={handleInputChange}>
-          <option value="">All Upcoming Time</option>
-          <option value="Next 1 week">Next 1 week</option>
-          <option value="Next 1 month">Next 1 month</option>
-          <option value="Next 1 year">Next 1 year</option>
-
+          {times.map((time, index) => (
+            <option key={index} value={time}>{time.replace(/-/g, ' ')}</option>
+          ))}
         </select>
       </div>
 

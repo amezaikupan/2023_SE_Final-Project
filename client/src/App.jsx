@@ -55,7 +55,7 @@ const ContentWithFilter = ({ conferenceDetailList }) => {
     console.log(filters);
     // setFilteredConferenceDetailList(conferenceDetailList.slice(0, 2));
       // Gửi yêu cầu đến backend với các bộ lọc
-    axios.post('http://localhost:5000/api/conferences', filters)
+    axios.post('http://localhost:5000/api/conferences/query', filters)
       .then(response => {
         console.log(response.data);
         const processedData = processConferenceData(response.data);
@@ -116,11 +116,9 @@ const ContentWithFilter = ({ conferenceDetailList }) => {
             <Link to="/">Back to the homepage...</Link>
             </div>} />
       </Routes>
-
     </>
   );
 };
-
 
 const formatDate = (dateTimeString) => {
   if (!dateTimeString) {
@@ -158,9 +156,6 @@ const processConferenceData = (data) => {
       : ''
   }));
 };
-
-
-
 
 const conferenceDetails1 = {
   id : '1',
