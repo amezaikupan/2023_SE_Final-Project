@@ -135,8 +135,9 @@ def Extract_additional_data(url):
                 description = soup.find_all('p')
 
                 if len(description) > 2:
-                    description = description[1].get_text(strip = True).replace('\n', '')
+                    description = description[1].get_text(strip = False).replace('\n', ' ')
                     cleaned_description = re.sub(r'\s+', ' ', description).strip()
+                    # 
                 
 
             date_table = soup.find('table', class_ = 'table table-sm table-striped')
@@ -168,37 +169,48 @@ def Extract_additional_data(url):
 # Get all the basic data of the conference
 def Extract_data(url):
     scraper = cloudscraper.create_scraper(delay = 20, browser = "chrome") 
-    content = scraper.get(url, headers = headers)
-    soup = BeautifulSoup(content.text, 'html.parser')
     attributes = {}
 
-    if content:
-        # Get the title
-        title = soup.find('title')
-        
-        attributes['title'] = title.text
-        
-        features = soup.find_all('ul', class_ = 'mb-2 list-unstyled')
+    try:
+        content = scraper.get(url, headers = headers)
+        soup = BeautifulSoup(content.text, 'html.parser')
 
-        for feature in features:
-            list = feature.find_all('li')
+        if content.status_code == 200:
+            # Get the title
+            title = soup.find('title')
+            
+            attributes['title'] = title.text
+            
+            features = soup.find_all('ul', class_ = 'mb-2 list-unstyled')
 
-            for item in list:
-                match = re.match(r'(.*?):\s*(.*)', item.text.replace('\n', ' ').strip())
+            for feature in features:
+                list = feature.find_all('li')
 
-                if match:
-                    title = match.group(1).strip()
-                    value = match.group(2).strip()
-                    title = Convert_to_camel_case(title)
-                    attributes[title] = value
+                for item in list:
+                    match = re.match(r'(.*?):\s*(.*)', item.text.replace('\n', ' ').strip())
 
-        if 'websiteURL' in attributes:
-            description, accepted_papers, important_dates = Extract_additional_data(attributes['websiteURL'])
-            attributes['description'] = description
-            attributes['acceptedPapers'] = accepted_papers
-            time_zone = Get_timezone(attributes['location'], api)
-            important_dates['timeZone'] = "UTC"+ time_zone
-            attributes['timeline'] = important_dates
+                    if match:
+                        title = match.group(1).strip()
+                        value = match.group(2).strip()
+                        title = Convert_to_camel_case(title)
+                        attributes[title] = value
+
+            if 'websiteURL' in attributes:
+                description, accepted_papers, important_dates = Extract_additional_data(attributes['websiteURL'])
+                attributes['description'] = description
+                attributes['acceptedPapers'] = accepted_papers
+                time_zone = Get_timezone(attributes['location'], api)
+                important_dates['timeZone'] = "UTC"+ time_zone
+                attributes['timeline'] = important_dates
+
+        elif content.status_code == 404:
+             print(f'Cannot access: {url}. Error 404 - Not Found')
+        else:
+            print(f'Cannot access: {url}. Status code: {content.status_code}')
+         
+    except requests.exceptions.RequestException as e:
+        print(f"Error while scraping {url}: {e}")
+        pass
 
     return attributes
 
@@ -261,31 +273,35 @@ def main():
                     json.dump(combined_data, file, indent=2)
     # df.to_json("Conferences.json", orient='records', indent=2)
 
-if __name__ == "__main__":
-    main()
-    import math
+# if __name__ == "__main__":
+    # main()
+    # import math
 
-    def replace_nan_with_null(data):
-        if isinstance(data, dict):
-            return {k: replace_nan_with_null(v) for k, v in data.items()}
-        elif isinstance(data, list):
-            return [replace_nan_with_null(item) for item in data]
-        elif isinstance(data, float) and math.isnan(data):
-            return None
-        else:
-            return data
+    # def replace_nan_with_null(data):
+    #     if isinstance(data, dict):
+    #         return {k: replace_nan_with_null(v) for k, v in data.items()}
+    #     elif isinstance(data, list):
+    #         return [replace_nan_with_null(item) for item in data]
+    #     elif isinstance(data, float) and math.isnan(data):
+    #         return None
+    #     else:
+    #         return data
 
-    file_path = 'Conferences.json'
-    with open(file_path, 'r') as file:
-        json_data = json.load(file)
+    # file_path = 'Conferences.json'
+    # with open(file_path, 'r') as file:
+    #     json_data = json.load(file)
 
-    updated_data = replace_nan_with_null(json_data)
+    # updated_data = replace_nan_with_null(json_data)
     
-    with open(file_path, 'w') as file:
-        json.dump(updated_data, file, indent= 2)
+    # with open(file_path, 'w') as file:
+    #     json.dump(updated_data, file, indent= 2)
 
-# url = 'https://conferenceindex.org/event/international-conference-on-marine-data-and-information-systems-icmdis-2024-january-rome-it'
-# feature = Extract_data(url)
+url = 'https://conferenceindex.org/event/international-conference-on-computer-science-programming-and-security-iccsps-2023-december-karachi-pk'
+feature = Extract_data(url)
+
+if feature and  feature['description'] != "None":
+    for key, value in feature.items():
+        print (f'{key}: {value}')
 # print(feature['description'])
 
 # # time = Get_timezone("Paris", " France", api)
