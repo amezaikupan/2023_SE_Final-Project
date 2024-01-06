@@ -303,6 +303,11 @@ def main():
 #         print (f'{key}: {value}')
 # print(feature['description'])
 
-time = Get_timezone("Paris, France", api)
+def run_crawler():
+    main()
 
-print(time)
+schedule.every().day.at("00:00").do(run_crawler)
+
+while True:
+    schedule.run_pending()
+    time.sleep(1)
