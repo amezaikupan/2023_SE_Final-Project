@@ -12,13 +12,10 @@ headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Ge
 
 # Function to get the timezone of country
 def Get_timezone(location, api_key):
-    split = location.split(',')
-    city = split[0].strip()
-    country = split[1].strip()
 
     base_url = "https://api.geoapify.com/v1/geocode/search"
     params = {
-        "text": f"{city}, {country}",
+        "text": location.strip(),
         "apiKey": api_key,
         "limit": 1,  # Limit to 1 result
     }
@@ -30,7 +27,7 @@ def Get_timezone(location, api_key):
             location = data["features"][0]["properties"]["timezone"]
             return location['offset_STD']
         else:
-            print(f"Unable to determine location for {city}, {country}.")
+            print(f"Unable to determine location for {location}.")
             return None
     except Exception as e:
         print(f"Error: {e}")
@@ -43,6 +40,7 @@ def Convert_to_datetime(date):
 
 def Convert_to_camel_case (title):
     words = title.split(' ')
+
     if len(words) >= 2:
         return words[0].lower() + words[1].strip()
     return title.lower()
@@ -201,10 +199,11 @@ def Extract_data(url):
                 attributes['timeline'] = important_dates
 
         elif content.status_code == 404:
-             print(f'Cannot access: {url}. Error 404 - Not Found')
+            print(f'Cannot access: {url}. Error 404 - Not Found')
+            return attributes
         else:
             print(f'Cannot access: {url}. Status code: {content.status_code}')
-         
+            return attributes
     except requests.exceptions.RequestException as e:
         print(f"Error while scraping {url}: {e}")
         pass
@@ -257,23 +256,32 @@ def main():
                     new_row_df['topic'] = topics_dict[topic]
 
                     df = pd.concat([df, new_row_df], ignore_index = True)
-                    try:
-                        with open('Conferences.json', 'r') as file:
-                            existing_data = json.load(file)
-                    except (FileNotFoundError, json.decoder.JSONDecodeError):
-                        existing_data = []
+                    # try:
+                    #     with open('Conferences.json', 'r') as file:
+                    #         existing_data = json.load(file)
+                    # except (FileNotFoundError, json.decoder.JSONDecodeError):
+                    #     existing_data = []
 
-                    existing_data_list = existing_data if isinstance(existing_data, list) else []
-                    new_data_list = new_row_df.to_dict(orient='records')
+                    # existing_data_list = existing_data if isinstance(existing_data, list) else []
+                    # new_data_list = new_row_df.to_dict(orient='records')
 
-                    combined_data = existing_data_list + new_data_list
-                    with open('Conferences.json', 'w') as file:
-                        json.dump(combined_data, file, indent=2)
-                time.sleep(20)
-    # df.to_json("Conferences.json", orient='records', indent=2)
+                    # combined_data = existing_data_list + new_data_list
+                    # with open('Conferences.json', 'w') as file:
+                    #     json.dump(combined_data, file, indent=2)
+            time.sleep(20)
+    df.to_json("Conferences.json", orient='records', indent=2)
 
-# if __name__ == "__main__":
-    # main()
+def main2():
+    url = 'https://conferenceindex.org/event/international-conference-on-sports-analytics-and-data-science-icsads-2024-august-new-york-us'
+    feature = Extract_data(url)
+
+    if feature:
+        for key, value in feature.items():
+            print(f'{key} - {value}')
+    else:
+        print("Khong co j het")
+if __name__ == "__main__":
+    main2()
     # import math
 
     # def replace_nan_with_null(data):
@@ -295,19 +303,5 @@ def main():
     # with open(file_path, 'w') as file:
     #     json.dump(updated_data, file, indent= 2)
 
-# url = 'https://conferenceindex.org/event/international-conference-on-computer-science-programming-and-security-iccsps-2023-december-karachi-pk'
-# feature = Extract_data(url)
 
-# if feature and  feature['description'] != "None":
-#     for key, value in feature.items():
-#         print (f'{key}: {value}')
-# print(feature['description'])
-
-def run_crawler():
-    main()
-
-schedule.every().day.at("00:00").do(run_crawler)
-
-while True:
-    schedule.run_pending()
-    time.sleep(1)
+#

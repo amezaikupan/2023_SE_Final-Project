@@ -1,7 +1,3 @@
-https://conferenceindex.org/event/international-conference-on-computer-vision-and-intelligent-systems-iccvis-2023-december-vienna-at
-https://conferenceindex.org/event/international-conference-on-computer-vision-and-machine-learning-iccvml-2023-december-paris-fr
-https://conferenceindex.org/event/international-conference-on-computer-vision-and-image-processing-iccvip-2023-december-paris-fr
-https://conferenceindex.org/event/international-conference-on-machine-learning-methods-for-computer-vision-icmlmcv-2023-december-karachi-pk
 https://conferenceindex.org/event/international-conference-on-computer-vision-image-and-signal-processing-iccvisp-2024-january-tokyo-jp
 https://conferenceindex.org/event/international-conference-on-image-processing-computer-vision-and-pattern-recognition-icipcvpr-2024-january-tokyo-jp
 https://conferenceindex.org/event/international-conference-on-computer-vision-and-image-processing-iccvip-2024-january-zurich-ch
@@ -161,6 +157,7 @@ https://conferenceindex.org/event/international-conference-on-machine-learning-m
 https://conferenceindex.org/event/international-conference-on-pattern-recognition-and-computer-vision-icprcv-2024-august-paris-fr
 https://conferenceindex.org/event/international-conference-on-computer-and-robot-vision-iccrv-2024-august-paris-fr
 https://conferenceindex.org/event/international-conference-on-computer-vision-and-image-processing-iccvip-2024-august-paris-fr
+https://conferenceindex.org/event/applied-geometric-algebras-in-computer-science-and-engineering-agasce-2024-august-amsterdam-nl
 https://conferenceindex.org/event/international-conference-on-computational-geometry-and-computer-vision-iccgcv-2024-august-sydney-au
 https://conferenceindex.org/event/international-conference-on-image-processing-analysis-and-computer-vision-icipacv-2024-august-moscow-ru
 https://conferenceindex.org/event/international-conference-on-computer-vision-and-image-processing-iccvip-2024-august-sydney-au

@@ -1,16 +1,3 @@
-https://conferenceindex.org/event/international-conference-on-software-and-e-business-icseb-2023-2023-december-osaka-jp
-https://conferenceindex.org/event/international-scientific-and-vocational-studies-congress-bilmes-2023-december-denizli-tr
-https://conferenceindex.org/event/international-conference-on-software-engineering-and-managing-information-technology-semit-2023-december-sydney-au
-https://conferenceindex.org/event/international-conference-on-knowledge-and-software-engineering-ickse-2023-december-vienna-at
-https://conferenceindex.org/event/international-conference-on-object-oriented-software-engineering-and-design-patterns-icoosedp-2023-december-vienna-at
-https://conferenceindex.org/event/international-conference-on-agent-oriented-software-and-software-engineering-problems-icaossep-2023-december-vienna-at
-https://conferenceindex.org/event/international-conference-on-software-engineering-and-applications-icsea-2023-december-vienna-at
-https://conferenceindex.org/event/international-conference-on-software-engineering-and-technology-icset-2023-december-paris-fr
-https://conferenceindex.org/event/international-academic-conference-on-engineering-technology-and-innovations-iaceti-2024-january-dubai-ae
-https://conferenceindex.org/event/international-conference-on-artificial-intelligence-and-soft-computing-icaisc-2024-january-dubai-ae
-https://conferenceindex.org/event/international-conference-on-management-and-information-technology-icmit-2024-january-dubai-ae
-https://conferenceindex.org/event/international-conference-on-innovative-practices-in-management-engineering-economics-and-social-sciences-ipmess-2024-january-singapore-sg
-https://conferenceindex.org/event/international-conference-on-management-and-information-technology-icmit-2024-january-oslo-no
 https://conferenceindex.org/event/international-conference-on-component-based-software-engineering-and-development-process-iccbsedp-2024-january-tokyo-jp
 https://conferenceindex.org/event/international-conference-on-management-and-information-technology-icmit-2024-january-sai-ying-pun-hk
 https://conferenceindex.org/event/international-conference-on-software-technology-and-engineering-icste-2024-january-singapore-sg
@@ -43,6 +30,7 @@ https://conferenceindex.org/event/international-conference-on-software-engineeri
 https://conferenceindex.org/event/international-conference-on-software-language-engineering-and-metaprogramming-icslem-2024-february-melbourne-au
 https://conferenceindex.org/event/international-conference-on-software-engineering-and-design-icsed-2024-february-melbourne-au
 https://conferenceindex.org/event/international-conference-on-software-and-computer-applications-icsca-2024-february-bali-id-1
+https://conferenceindex.org/event/international-conference-on-management-and-information-technology-icmit-2024-february-putrajaya-my
 https://conferenceindex.org/event/international-conference-on-global-software-engineering-icgse-2024-february-guangzhou-cn
 https://conferenceindex.org/event/international-conference-on-software-engineering-systems-and-languages-icsesl-2024-february-kuala-lumpur-my
 https://conferenceindex.org/event/international-conference-on-advances-in-software-engineering-icase-2024-february-lisbon-pt
@@ -60,7 +48,7 @@ https://conferenceindex.org/event/international-conference-on-multimedia-and-ubi
 https://conferenceindex.org/event/international-conference-on-computer-security-software-and-software-engineering-iccssse-2024-february-rome-it
 https://conferenceindex.org/event/international-conference-on-evaluation-and-assessment-in-software-engineering-icease-2024-february-paris-fr
 https://conferenceindex.org/event/international-conference-on-global-software-engineering-and-development-icgsed-2024-february-paris-fr
-https://conferenceindex.org/event/international-conference-on-software-engineering-sofe-2024-february-vancouver-ca
+https://conferenceindex.org/event/international-conference-on-software-engineering-sofe-2024-february-vancouver-ca-1
 https://conferenceindex.org/event/international-conference-on-parallel-distributed-systems-and-software-engineering-icpdsse-2024-february-tokyo-jp
 https://conferenceindex.org/event/international-conference-on-inductive-logic-programming-information-and-software-engineering-icilpise-2024-february-washington-us
 https://conferenceindex.org/event/international-conference-on-software-and-information-engineering-icsie-2024-february-tokyo-jp
@@ -68,6 +56,7 @@ https://conferenceindex.org/event/international-conference-on-software-engineeri
 https://conferenceindex.org/event/international-conference-on-evaluation-and-assessment-in-software-engineering-icease-2024-february-sydney-au
 https://conferenceindex.org/event/international-conference-on-software-engineering-and-technology-icset-2024-february-tokyo-jp
 https://conferenceindex.org/event/metro-connect-usa-2024-february-fort-lauderdale-us
+https://conferenceindex.org/event/microbiome-movement-agbiotech-2024-february-raleigh-us
 https://conferenceindex.org/event/international-conference-on-evaluation-and-assessment-in-software-engineering-icease-2024-march-rio-de-janeiro-br
 https://conferenceindex.org/event/international-conference-on-software-and-data-engineering-icsde-2024-march-rome-it
 https://conferenceindex.org/event/international-conference-on-software-engineering-design-and-development-icsedd-2024-march-rio-de-janeiro-br
@@ -138,6 +127,7 @@ https://conferenceindex.org/event/international-conference-on-software-engineeri
 https://conferenceindex.org/event/international-conference-on-software-engineering-computer-systems-and-communications-icsecsc-2024-april-istanbul-tr
 https://conferenceindex.org/event/international-conference-on-software-engineering-and-systems-icses-2024-april-istanbul-tr
 https://conferenceindex.org/event/international-conference-on-software-engineering-and-domain-modeling-icsedm-2024-april-istanbul-tr
+https://conferenceindex.org/event/international-conference-on-semantic-natural-language-processing-snlp-2024-april-copenhagen-dk
 https://conferenceindex.org/event/international-conference-on-inductive-logic-programming-information-and-software-engineering-icilpise-2024-april-jerusalem-il
 https://conferenceindex.org/event/international-conference-on-parallel-distributed-systems-and-software-engineering-icpdsse-2024-may-rome-it
 https://conferenceindex.org/event/international-conference-on-software-science-technology-and-engineering-icsste-2024-may-rome-it
@@ -161,6 +151,8 @@ https://conferenceindex.org/event/international-conference-on-software-engineeri
 https://conferenceindex.org/event/international-conference-on-evaluation-and-assessment-in-software-engineering-icease-2024-may-bucharest-ro
 https://conferenceindex.org/event/international-conference-on-software-engineering-and-design-icsed-2024-may-berlin-de
 https://conferenceindex.org/event/international-conference-on-parallel-distributed-systems-and-software-engineering-icpdsse-2024-may-las-vegas-us
+https://conferenceindex.org/event/devopscon-singapore-2024-may-san-diego-us
+https://conferenceindex.org/event/international-conference-on-engineering-science-technology-best-2024-may-bangkok-th
 https://conferenceindex.org/event/international-conference-on-computer-engineering-and-software-systems-iccess-2024-may-montreal-ca
 https://conferenceindex.org/event/international-conference-on-software-engineering-and-knowledge-engineering-icseke-2024-may-belgrade-rs
 https://conferenceindex.org/event/international-conference-on-software-engineering-research-management-and-applications-icserma-2024-may-new-york-us
@@ -252,6 +244,7 @@ https://conferenceindex.org/event/international-conference-on-software-and-infor
 https://conferenceindex.org/event/international-conference-on-software-engineering-and-technology-icset-2024-august-amsterdam-nl
 https://conferenceindex.org/event/international-conference-on-software-engineering-education-and-training-icseet-2024-august-montreal-ca
 https://conferenceindex.org/event/international-conference-on-parallel-distributed-systems-and-software-engineering-icpdsse-2024-august-amsterdam-nl
+https://conferenceindex.org/event/international-conference-on-research-in-science-engineering-technologies-crset-2024-august-montreal-ca
 https://conferenceindex.org/event/international-conference-on-agricultural-software-and-engineering-applications-icasea-2024-august-new-york-us
 https://conferenceindex.org/event/international-conference-on-electronics-software-science-and-communication-engineering-icessce-2024-august-new-york-us
 https://conferenceindex.org/event/international-conference-on-software-engineering-research-management-and-applications-icserma-2024-august-venice-it
@@ -283,6 +276,7 @@ https://conferenceindex.org/event/international-conference-on-software-and-data-
 https://conferenceindex.org/event/international-conference-on-software-science-and-engineering-icsse-2024-september-new-york-us
 https://conferenceindex.org/event/international-conference-on-software-visualization-and-software-engineering-icsvse-2024-september-tokyo-jp
 https://conferenceindex.org/event/international-conference-on-software-engineering-and-information-technology-icseit-2024-september-singapore-sg
+https://conferenceindex.org/event/world-symposium-on-software-engineering-wsse-2024-september-kyoto-jp
 https://conferenceindex.org/event/international-conference-on-software-and-knowledge-engineering-icske-2024-september-rome-it
 https://conferenceindex.org/event/international-conference-on-software-and-knowledge-engineering-icske-2024-september-amsterdam-nl
 https://conferenceindex.org/event/international-conference-on-global-software-engineering-and-technology-icgset-2024-september-nice-fr

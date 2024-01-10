@@ -1,18 +1,10 @@
-https://conferenceindex.org/event/international-conference-on-information-security-control-information-systems-and-technology-iciscist-2023-december-vienna-at
-https://conferenceindex.org/event/international-conference-on-intelligent-information-systems-iciis-2023-december-vienna-at
-https://conferenceindex.org/event/international-conference-on-soft-computing-intelligent-systems-and-information-technology-icscisit-2023-december-vienna-at
-https://conferenceindex.org/event/international-conference-on-quantum-computing-and-information-systems-icqcis-2023-december-vienna-at
-https://conferenceindex.org/event/international-conference-on-information-systems-and-advanced-technologies-2023-december-hammamet-tn-1
-https://conferenceindex.org/event/international-conference-on-information-systems-and-technology-icist-2023-december-paris-fr
-https://conferenceindex.org/event/international-conference-on-sustainable-information-systems-and-technologies-icsist-2023-december-paris-fr
-https://conferenceindex.org/event/international-conference-on-geographic-information-systems-icgis-2023-december-paris-fr
-https://conferenceindex.org/event/international-conference-on-enterprise-information-systems-and-engineering-iceise-2023-december-paris-fr
-https://conferenceindex.org/event/international-conference-on-information-systems-security-iciss-2023-december-paris-fr
 https://conferenceindex.org/event/international-conference-on-teleinformatics-information-systems-and-applications-ictisa-2024-january-tokyo-jp
 https://conferenceindex.org/event/international-conference-on-enterprise-information-systems-and-engineering-iceise-2024-january-singapore-sg
 https://conferenceindex.org/event/international-conference-on-quantum-computation-and-information-systems-icqcis-2024-january-singapore-sg
 https://conferenceindex.org/event/international-conference-on-information-systems-security-iciss-2024-january-singapore-sg
 https://conferenceindex.org/event/international-conference-on-soft-computing-intelligent-systems-and-information-technology-icscisit-2024-january-singapore-sg
+https://conferenceindex.org/event/international-conference-on-computing-and-information-technology-trends-ccitt-2024-january-ain-el-berd-dz
+https://conferenceindex.org/event/international-conference-on-computing-and-information-technology-trends-ccitt-2024-january-sydney-au
 https://conferenceindex.org/event/international-conference-on-volunteered-geographic-information-systems-and-geospatial-data-icvgisgd-2024-january-nicosia-cy
 https://conferenceindex.org/event/international-conference-on-information-technology-systems-analysis-and-design-icitsad-2024-january-nicosia-cy
 https://conferenceindex.org/event/international-conference-on-teleinformatics-information-systems-and-applications-ictisa-2024-january-nicosia-cy
@@ -67,7 +59,6 @@ https://conferenceindex.org/event/international-conference-on-information-and-sy
 https://conferenceindex.org/event/international-conference-on-geographic-information-systems-icgis-2024-march-barcelona-es
 https://conferenceindex.org/event/international-conference-on-geodetic-remote-sensing-geomatics-and-geographic-information-systems-icgrsggis-2024-march-barcelona-es
 https://conferenceindex.org/event/international-conference-on-mobile-information-technologies-and-systems-icmits-2024-march-rome-it
-https://conferenceindex.org/event/international-conference-on-information-management-and-industrial-engineering-icii-2024-march-cape-town-za
 https://conferenceindex.org/event/international-conference-on-information-management-icim-2024-2024-march-cambridge-gb
 https://conferenceindex.org/event/international-conference-on-health-information-technology-and-decision-support-systems-ichitdss-2024-march-miami-us
 https://conferenceindex.org/event/international-conference-on-information-and-systems-engineering-icise-2024-march-london-gb
@@ -225,6 +216,7 @@ https://conferenceindex.org/event/international-conference-on-information-system
 https://conferenceindex.org/event/international-conference-on-healthcare-information-systems-and-future-directions-ichisfd-2024-august-venice-it
 https://conferenceindex.org/event/international-conference-on-information-systems-and-communications-icisc-2024-august-venice-it
 https://conferenceindex.org/event/international-conference-on-information-and-communication-systems-icics-2024-august-venice-it
+https://conferenceindex.org/event/international-conference-on-information-science-and-systems-iciss-2024-august-edinburgh-gb
 https://conferenceindex.org/event/international-conference-on-intelligent-information-processing-iciip-2024-august-oxford-gb
 https://conferenceindex.org/event/international-conference-on-information-systems-and-technologies-icist-2024-august-istanbul-tr
 https://conferenceindex.org/event/international-conference-on-hospital-information-systems-ichis-2024-august-istanbul-tr
@@ -285,6 +277,7 @@ https://conferenceindex.org/event/international-conference-on-marine-geoinformat
 https://conferenceindex.org/event/international-conference-on-information-production-and-systems-engineering-icipse-2024-october-tokyo-jp
 https://conferenceindex.org/event/international-conference-on-information-technology-communication-systems-and-networks-icitcsn-2024-october-new-york-us
 https://conferenceindex.org/event/international-conference-on-industrial-engineering-and-information-systems-icieis-2024-october-shanghai-cn
+https://conferenceindex.org/event/international-conference-on-communication-and-information-systems-iccis-2024-october-shenzhen-cn
 https://conferenceindex.org/event/international-conference-on-wireless-information-networks-and-systems-icwins-2024-october-london-gb
 https://conferenceindex.org/event/international-conference-on-geospatial-analysis-and-geographic-information-systems-icgagis-2024-october-athens-gr
 https://conferenceindex.org/event/international-conference-on-internet-information-systems-and-technologies-iciist-2024-october-london-gb
