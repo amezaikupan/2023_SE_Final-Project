@@ -6,9 +6,7 @@ import json
 from geopy.geocoders import Nominatim
 from geopy.geocoders import GoogleV3
 from timezonefinder import TimezoneFinder
-import pytz
 from datetime import datetime 
-import time
 import requests
 
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0'}
@@ -33,10 +31,10 @@ def Get_timezone(location, api_key):
             location = data["features"][0]["properties"]["timezone"]
             return location['offset_STD']
         else:
-            print(f"Unable to determine location for {city}, {country}.")
+            # print(f"Unable to determine location for {city}, {country}.")
             return None
     except Exception as e:
-        print(f"Error: {e}")
+        # print(f"Error: {e}")
         return None
     
 def Convert_to_datetime(date):
@@ -49,6 +47,31 @@ def Convert_to_camel_case (title):
     if len(words) >= 2:
         return words[0].lower() + words[1].strip()
     return title.lower()
+
+def is_number_using_isdigit(s):
+    return s.isdigit()
+
+def process_title_name(title):
+    # Construct the month pattern dynamically
+    month_pattern = r'on (\w+ \d{1,2})'
+
+    # Search for the month pattern in the text
+    match = re.search(month_pattern, title)
+
+    if match:
+        # Splitting the text based on the matched pattern
+        parts = re.split(month_pattern, title, maxsplit=1)
+        
+        # The result will be a list with two elements
+        # The first element contains the text before the matched pattern
+        # The second element contains the text after the matched pattern
+
+        if(is_number_using_isdigit(parts[0].split()[-1])):
+            return ' '.join(parts[0].split()[:-2])
+        
+    else:
+        # print(f"No match found for {title}.")
+        return parts[0] + " FAILED"
 
 # Get links of conferences 
 def Collect_links (url, filename):
@@ -122,7 +145,7 @@ def Extract_additional_data(url):
                             paper_info['description'] = info[2].strip()
                             accpeted_papers.append(paper_info)
         except Exception as e:
-            print(f"Error while scraping {url}: {e}")
+            # print(f"Error while scraping {url}: {e}")
             pass
 
         content = scraper.get(url, headers = headers)
@@ -175,6 +198,9 @@ def Extract_data(url):
     if content:
         # Get the title
         title = soup.find('title')
+
+        print(title.text)
+        print(process_title_name(title.text))
         
         attributes['title'] = title.text
         
@@ -237,7 +263,7 @@ def main():
         for i, url in enumerate(urls[0:100]):
             if url[-1] == '\n':
                 url = url[:-1]
-            print(i, url)
+            # print(i, url)
             
             features = Extract_data(url)
 
