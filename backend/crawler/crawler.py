@@ -3,10 +3,6 @@ import cloudscraper
 import pandas as pd
 import re
 import json
-from geopy.geocoders import Nominatim
-from geopy.geocoders import GoogleV3
-from timezonefinder import TimezoneFinder
-from datetime import datetime 
 import requests
 
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0'}
@@ -243,13 +239,12 @@ api = 'f6b48c721d4c46abbe6f5c0620e1eba2'
 def main():
     base_url = 'https://conferenceindex.org/conferences/'
     
-    # # Collect links to the conferences
-    # for topic in list(topics_dict.keys()):
-    #     url = base_url + topic
-    #     file_name = 'Conference_links/' + topic + '.txt'
-    #     Collect_links(url, file_name)
+    # Collect links to the conferences
+    for topic in list(topics_dict.keys()):
+        url = base_url + topic
+        file_name = 'Conference_links/' + topic + '.txt'
+        Collect_links(url, file_name)
 
-    
     df = pd.DataFrame(columns = fields)
 
     for topic in list(topics_dict.keys())[0:1]:
