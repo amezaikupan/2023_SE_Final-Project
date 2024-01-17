@@ -71,12 +71,11 @@ router.post('/api/conferences/query', async (req, res) => {
 
     // Post json
     res.json(filteredConference)
+
   }catch(error){
     res.status(500).send("An error occurred while processing query.");
     console.log("Error processing query: ", error);
   }
-
-
 })
 
 
