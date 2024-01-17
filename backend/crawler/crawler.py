@@ -8,6 +8,7 @@ import requests
 import time
 
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0'}
+SCRAPPER = cloudscraper.create_scraper(delay = 20, browser = "chrome")
 
 # Function to get the timezone of country
 def Get_timezone(location, api_key):
@@ -35,24 +36,31 @@ def Get_timezone(location, api_key):
         print(f"Error: {e}")
         return None
 
-# Fucnction to convert string to datetime   
+# Function to convert string to datetime.
 def Convert_to_datetime(date):
     date_format = "%B %d, %Y"
     converted_date=  datetime.strptime(date, date_format)
     return converted_date
 
+# Function to convert a string to camel case format.
 def Convert_to_camel_case (title):
     words = title.split(' ')
     if len(words) >= 2:
         return words[0].lower() + words[1].strip()
     return title.lower()
 
+# Function to check a string is in digit format.
 def is_number_using_isdigit(s):
     return s.isdigit()
 
+# Function to check a string is in Shortname's format.
+def is_short_name(s):
+    return s.isupper()
+
+# Function to process the title.
 def process_title_name(title):
     # Construct the month pattern dynamically
-    month_pattern = r'on (\w+ \d{1,2})'
+    month_pattern = r' on [A-Za-z]+ \d{1,2}'
 
     # Search for the month pattern in the text
     match = re.search(month_pattern, title)
@@ -64,22 +72,20 @@ def process_title_name(title):
         # The result will be a list with two elements
         # The first element contains the text before the matched pattern
         # The second element contains the text after the matched pattern
-
         if(is_number_using_isdigit(parts[0].split()[-1])):
             return ' '.join(parts[0].split()[:-2])
-        
+        elif(is_short_name(parts[0].split()[-1])):
+            return ' '.join(parts[0].split()[:-1])
     else:
-        # print(f"No match found for {title}.")
         return parts[0] + " FAILED"
 
 # Get links of conferences 
 def Collect_links (url, filename):
     last_page = Get_total_page(url)
-    scraper = cloudscraper.create_scraper(delay = 20, browser = "chrome")
 
     for i in range(1, last_page + 1):
         url = url+ '?page=' + str(i) 
-        content = scraper.get(url, headers = headers)
+        content = SCRAPPER.get(url, headers = headers)
         soup = BeautifulSoup( content.text, 'html.parser')
 
         with open (filename, 'w') as file:
@@ -98,8 +104,8 @@ def Collect_links (url, filename):
 
 # Get the total page of the website
 def Get_total_page(url):
-    scraper = cloudscraper.create_scraper(delay = 20, browser = "chrome") 
-    content = scraper.get(url, headers = headers)
+
+    content = SCRAPPER.get(url, headers = headers)
     soup = BeautifulSoup(content.text, 'html.parser')
     pages = soup.find_all('li', class_ = 'page-item')
 
@@ -114,7 +120,6 @@ def Get_total_page(url):
 
 # Get the addtional information of a conference like description, timeline, and accepted papers.
 def Extract_additional_data(url):
-    scraper = cloudscraper.create_scraper(delay = 20, browser = "chrome")
     
     # Some initials
     accpeted_papers = []
@@ -126,7 +131,7 @@ def Extract_additional_data(url):
     if ("https://waset.org") in url:
         try :
             papers_url = url + '/selected-papers'
-            content = scraper.get(papers_url, headers = headers)
+            content = SCRAPPER.get(papers_url, headers = headers)
 
             if content:
                 soup = BeautifulSoup(content.text, 'html.parser')
@@ -145,11 +150,10 @@ def Extract_additional_data(url):
                             paper_info['description'] = info[2].strip()
                             accpeted_papers.append(paper_info)
         except Exception as e:
-            # print(f"Error while scraping {url}: {e}")
             pass
 
         # Get descritption and important dates
-        content = scraper.get(url, headers = headers)
+        content = SCRAPPER.get(url, headers = headers)
 
         if content: 
             soup = BeautifulSoup(content.text, 'html.parser')
@@ -191,8 +195,8 @@ def Extract_additional_data(url):
 
 # Get all the basic data of the conference
 def Extract_data(url):
-    scraper = cloudscraper.create_scraper(delay = 20, browser = "chrome") 
-    content = scraper.get(url, headers = headers)
+    
+    content = SCRAPPER.get(url, headers = headers)
     soup = BeautifulSoup(content.text, 'html.parser')
     attributes = {}
 
@@ -200,6 +204,7 @@ def Extract_data(url):
         # Get the title
         title = soup.find('title')
         cleaned_title = process_title_name(title.text)
+       
         if 'FAILED' not in cleaned_title:
             attributes['title'] = cleaned_title
         else: 
@@ -251,32 +256,40 @@ def main():
         Collect_links(url, file_name)
 
     
-    # df = pd.DataFrame(columns = fields)
+    df = pd.DataFrame(columns = fields)
 
-    # for topic in list(topics_dict.keys()):
-    #     urls = []
+    for topic in list(topics_dict.keys()):
+        urls = []
 
-    #     with open('Conference_links/' + topic + '.txt', 'r') as file:
-    #         for line in file.readlines():
-    #                 urls.append(line)
+        with open('Conference_links/' + topic + '.txt', 'r') as file:
+            for line in file.readlines():
+                    urls.append(line)
 
-    #     for i in range(0, len(urls), 100):
-    #         for j, url in enumerate(urls[i : i + 100]):
-    #             if url[-1] == '\n':
-    #                 url = url[:-1]
-    #             print(j, url)
+        for i in range(0, len(urls), 100):
+            for j, url in enumerate(urls[i : i + 100]):
+                if url[-1] == '\n':
+                    url = url[:-1]
+                print(j, url)
                 
-    #             features = Extract_data(url)
+                features = Extract_data(url)
 
-    #             if features and  features['description'] != "None":
-    #                 new_row = pd.Series(features, index = fields)
-    #                 new_row_df = pd.DataFrame([new_row])
-    #                 new_row_df['topic'] = topics_dict[topic]
+                if features and  features['description'] != "None":
+                    new_row = pd.Series(features, index = fields)
+                    new_row_df = pd.DataFrame([new_row])
+                    new_row_df['topic'] = topics_dict[topic]
 
-    #                 df = pd.concat([df, new_row_df], ignore_index = True)
+                    df = pd.concat([df, new_row_df], ignore_index = True)
 
-    #         time.sleep(20)
-    # df.to_json("Conferences.json", orient='records', indent=2)
+            time.sleep(20)
+    df.to_json("..\database\Conferences.json", orient='records', indent=2)
+def main2():
+    url = 'https://conferenceindex.org/event/international-conference-on-software-design-engineering-icsde-2024-july-berlin-de'
+    feature = Extract_data(url)
 
+    if feature:
+        for key, value in feature.items():
+            print(f'{key} - {value}')
+    else:
+        print("Khong co j het")
 if __name__ == "__main__":
     main()

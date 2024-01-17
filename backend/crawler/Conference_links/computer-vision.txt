@@ -1,16 +1,3 @@
-https://conferenceindex.org/event/international-conference-on-computer-vision-and-intelligent-systems-iccvis-2023-december-vienna-at
-https://conferenceindex.org/event/international-conference-on-computer-vision-and-machine-learning-iccvml-2023-december-paris-fr
-https://conferenceindex.org/event/international-conference-on-computer-vision-and-image-processing-iccvip-2023-december-paris-fr
-https://conferenceindex.org/event/international-conference-on-machine-learning-methods-for-computer-vision-icmlmcv-2023-december-karachi-pk
-https://conferenceindex.org/event/international-conference-on-computer-vision-image-and-signal-processing-iccvisp-2024-january-tokyo-jp
-https://conferenceindex.org/event/international-conference-on-image-processing-computer-vision-and-pattern-recognition-icipcvpr-2024-january-tokyo-jp
-https://conferenceindex.org/event/international-conference-on-computer-vision-and-image-processing-iccvip-2024-january-zurich-ch
-https://conferenceindex.org/event/international-conference-on-computer-graphics-and-vision-iccgv-2024-january-zurich-ch
-https://conferenceindex.org/event/international-conference-on-computer-vision-imaging-and-computer-graphics-iccvicg-2024-january-zurich-ch
-https://conferenceindex.org/event/international-conference-on-computer-vision-and-image-processing-iccvip-2024-january-bali-id
-https://conferenceindex.org/event/international-conference-on-computational-geometry-and-computer-vision-iccgcv-2024-january-bali-id
-https://conferenceindex.org/event/international-conference-on-image-processing-computer-vision-and-pattern-recognition-icipcvpr-2024-january-zurich-ch
-https://conferenceindex.org/event/international-conference-on-machine-learning-and-computer-vision-icmlcv-2024-january-nicosia-cy
 https://conferenceindex.org/event/international-conference-on-machine-learning-and-computer-vision-icmlcv-2024-january-rome-it
 https://conferenceindex.org/event/international-conference-on-computer-vision-and-image-processing-iccvip-2024-january-rome-it
 https://conferenceindex.org/event/international-conference-on-computational-geometry-and-computer-vision-iccgcv-2024-january-rome-it
@@ -135,7 +122,6 @@ https://conferenceindex.org/event/international-conference-on-computer-vision-im
 https://conferenceindex.org/event/international-conference-on-computer-vision-and-image-processing-iccvip-2024-july-paris-fr
 https://conferenceindex.org/event/international-conference-on-image-processing-computer-vision-and-pattern-recognition-icipcvpr-2024-july-rhodes-gr
 https://conferenceindex.org/event/international-conference-on-computational-geometry-and-computer-vision-iccgcv-2024-july-copenhagen-dk
-https://conferenceindex.org/event/international-conference-on-computer-and-communications-management-icccm-2024-july-kagoshima-shi-jp
 https://conferenceindex.org/event/international-conference-on-computer-vision-and-image-processing-iccvip-2024-july-berlin-de
 https://conferenceindex.org/event/international-conference-on-computer-graphics-and-vision-iccgv-2024-july-tokyo-jp
 https://conferenceindex.org/event/international-conference-on-computational-geometry-and-computer-vision-iccgcv-2024-july-berlin-de
@@ -161,6 +147,7 @@ https://conferenceindex.org/event/international-conference-on-machine-learning-m
 https://conferenceindex.org/event/international-conference-on-pattern-recognition-and-computer-vision-icprcv-2024-august-paris-fr
 https://conferenceindex.org/event/international-conference-on-computer-and-robot-vision-iccrv-2024-august-paris-fr
 https://conferenceindex.org/event/international-conference-on-computer-vision-and-image-processing-iccvip-2024-august-paris-fr
+https://conferenceindex.org/event/applied-geometric-algebras-in-computer-science-and-engineering-agasce-2024-august-amsterdam-nl
 https://conferenceindex.org/event/international-conference-on-computational-geometry-and-computer-vision-iccgcv-2024-august-sydney-au
 https://conferenceindex.org/event/international-conference-on-image-processing-analysis-and-computer-vision-icipacv-2024-august-moscow-ru
 https://conferenceindex.org/event/international-conference-on-computer-vision-and-image-processing-iccvip-2024-august-sydney-au
@@ -241,3 +228,11 @@ https://conferenceindex.org/event/international-conference-on-computer-vision-an
 https://conferenceindex.org/event/international-conference-on-computer-vision-and-intelligent-systems-iccvis-2024-december-vienna-at
 https://conferenceindex.org/event/international-conference-on-computer-vision-and-machine-learning-iccvml-2024-december-paris-fr
 https://conferenceindex.org/event/international-conference-on-computer-vision-and-image-processing-iccvip-2024-december-paris-fr
+https://conferenceindex.org/event/international-conference-on-advances-in-computer-vision-technologies-icacvt-2025-april-marrakesh-ma
+https://conferenceindex.org/event/international-conference-on-image-processing-computer-vision-and-pattern-recognition-icipcvpr-2025-may-berlin-de
+https://conferenceindex.org/event/international-conference-on-computer-vision-theory-and-applications-iccvta-2025-may-barcelona-es
+https://conferenceindex.org/event/international-conference-on-control-automation-robotics-and-computer-vision-iccarcv-2025-august-dublin-ie
+https://conferenceindex.org/event/international-conference-on-pattern-recognition-and-computer-vision-icprcv-2025-august-nicosia-cy
+https://conferenceindex.org/event/international-conference-on-computer-vision-and-intelligent-systems-iccvis-2025-november-san-francisco-us
+https://conferenceindex.org/event/international-conference-on-computer-vision-and-image-processing-iccvip-2025-december-cairo-eg
+https://conferenceindex.org/event/international-conference-on-pattern-recognition-and-computer-vision-icprcv-2025-december-dubai-ae
