@@ -4,18 +4,20 @@ import pandas as pd
 import re
 import json
 from datetime import datetime 
-import time
 import requests
-import schedule
+import time
 
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0'}
 
 # Function to get the timezone of country
 def Get_timezone(location, api_key):
+    split = location.split(',')
+    city = split[0].strip()
+    country = split[1].strip()
 
     base_url = "https://api.geoapify.com/v1/geocode/search"
     params = {
-        "text": location.strip(),
+        "text": f"{city}, {country}",
         "apiKey": api_key,
         "limit": 1,  # Limit to 1 result
     }
@@ -32,7 +34,8 @@ def Get_timezone(location, api_key):
     except Exception as e:
         print(f"Error: {e}")
         return None
-    
+
+# Fucnction to convert string to datetime   
 def Convert_to_datetime(date):
     date_format = "%B %d, %Y"
     converted_date=  datetime.strptime(date, date_format)
@@ -40,10 +43,34 @@ def Convert_to_datetime(date):
 
 def Convert_to_camel_case (title):
     words = title.split(' ')
-
     if len(words) >= 2:
         return words[0].lower() + words[1].strip()
     return title.lower()
+
+def is_number_using_isdigit(s):
+    return s.isdigit()
+
+def process_title_name(title):
+    # Construct the month pattern dynamically
+    month_pattern = r'on (\w+ \d{1,2})'
+
+    # Search for the month pattern in the text
+    match = re.search(month_pattern, title)
+
+    if match:
+        # Splitting the text based on the matched pattern
+        parts = re.split(month_pattern, title, maxsplit=1)
+        
+        # The result will be a list with two elements
+        # The first element contains the text before the matched pattern
+        # The second element contains the text after the matched pattern
+
+        if(is_number_using_isdigit(parts[0].split()[-1])):
+            return ' '.join(parts[0].split()[:-2])
+        
+    else:
+        # print(f"No match found for {title}.")
+        return parts[0] + " FAILED"
 
 # Get links of conferences 
 def Collect_links (url, filename):
@@ -95,6 +122,7 @@ def Extract_additional_data(url):
     important_dates = {}
     content = None
 
+    # Get accepted papers
     if ("https://waset.org") in url:
         try :
             papers_url = url + '/selected-papers'
@@ -117,9 +145,10 @@ def Extract_additional_data(url):
                             paper_info['description'] = info[2].strip()
                             accpeted_papers.append(paper_info)
         except Exception as e:
-            print(f"Error while scraping {url}: {e}")
+            # print(f"Error while scraping {url}: {e}")
             pass
 
+        # Get descritption and important dates
         content = scraper.get(url, headers = headers)
 
         if content: 
@@ -130,9 +159,8 @@ def Extract_additional_data(url):
                 description = soup.find_all('p')
 
                 if len(description) > 2:
-                    description = description[1].get_text(strip = False).replace('\n', ' ')
+                    description = description[1].get_text(strip = True).replace('\n', '')
                     cleaned_description = re.sub(r'\s+', ' ', description).strip()
-                    # 
                 
 
             date_table = soup.find('table', class_ = 'table table-sm table-striped')
@@ -164,49 +192,40 @@ def Extract_additional_data(url):
 # Get all the basic data of the conference
 def Extract_data(url):
     scraper = cloudscraper.create_scraper(delay = 20, browser = "chrome") 
+    content = scraper.get(url, headers = headers)
+    soup = BeautifulSoup(content.text, 'html.parser')
     attributes = {}
 
-    try:
-        content = scraper.get(url, headers = headers)
-        soup = BeautifulSoup(content.text, 'html.parser')
-
-        if content.status_code == 200:
-            # Get the title
-            title = soup.find('title')
-            
+    if content:
+        # Get the title
+        title = soup.find('title')
+        cleaned_title = process_title_name(title.text)
+        if 'FAILED' not in cleaned_title:
+            attributes['title'] = cleaned_title
+        else: 
             attributes['title'] = title.text
-            
-            features = soup.find_all('ul', class_ = 'mb-2 list-unstyled')
+        
+        features = soup.find_all('ul', class_ = 'mb-2 list-unstyled')
 
-            for feature in features:
-                list = feature.find_all('li')
+        for feature in features:
+            list = feature.find_all('li')
 
-                for item in list:
-                    match = re.match(r'(.*?):\s*(.*)', item.text.replace('\n', ' ').strip())
+            for item in list:
+                match = re.match(r'(.*?):\s*(.*)', item.text.replace('\n', ' ').strip())
 
-                    if match:
-                        title = match.group(1).strip()
-                        value = match.group(2).strip()
-                        title = Convert_to_camel_case(title)
-                        attributes[title] = value
+                if match:
+                    title = match.group(1).strip()
+                    value = match.group(2).strip()
+                    title = Convert_to_camel_case(title)
+                    attributes[title] = value
 
-            if 'websiteURL' in attributes:
-                description, accepted_papers, important_dates = Extract_additional_data(attributes['websiteURL'])
-                attributes['description'] = description
-                attributes['acceptedPapers'] = accepted_papers
-                time_zone = Get_timezone(attributes['location'], api)
-                important_dates['timeZone'] = "UTC"+ time_zone
-                attributes['timeline'] = important_dates
-
-        elif content.status_code == 404:
-            print(f'Cannot access: {url}. Error 404 - Not Found')
-            return attributes
-        else:
-            print(f'Cannot access: {url}. Status code: {content.status_code}')
-            return attributes
-    except requests.exceptions.RequestException as e:
-        print(f"Error while scraping {url}: {e}")
-        pass
+        if 'websiteURL' in attributes:
+            description, accepted_papers, important_dates = Extract_additional_data(attributes['websiteURL'])
+            attributes['description'] = description
+            attributes['acceptedPapers'] = accepted_papers
+            time_zone = Get_timezone(attributes['location'], api)
+            important_dates['timeZone'] = "UTC"+ time_zone
+            attributes['timeline'] = important_dates
 
     return attributes
 
@@ -232,76 +251,32 @@ def main():
         Collect_links(url, file_name)
 
     
-    df = pd.DataFrame(columns = fields)
+    # df = pd.DataFrame(columns = fields)
 
-    for topic in list(topics_dict.keys()):
-        urls = []
+    # for topic in list(topics_dict.keys()):
+    #     urls = []
 
-        with open('Conference_links/' + topic + '.txt', 'r') as file:
-    
-            for line in file.readlines():
-                    urls.append(line)
+    #     with open('Conference_links/' + topic + '.txt', 'r') as file:
+    #         for line in file.readlines():
+    #                 urls.append(line)
 
-        for i in range(0, len(urls), 100):
-            for j, url in enumerate(urls[i : i + 100]):
-                if url[-1] == '\n':
-                    url = url[:-1]
-                print(j, url)
+    #     for i in range(0, len(urls), 100):
+    #         for j, url in enumerate(urls[i : i + 100]):
+    #             if url[-1] == '\n':
+    #                 url = url[:-1]
+    #             print(j, url)
                 
-                features = Extract_data(url)
+    #             features = Extract_data(url)
 
-                if features and  features['description'] != "None":
-                    new_row = pd.Series(features, index = fields)
-                    new_row_df = pd.DataFrame([new_row])
-                    new_row_df['topic'] = topics_dict[topic]
+    #             if features and  features['description'] != "None":
+    #                 new_row = pd.Series(features, index = fields)
+    #                 new_row_df = pd.DataFrame([new_row])
+    #                 new_row_df['topic'] = topics_dict[topic]
 
-                    df = pd.concat([df, new_row_df], ignore_index = True)
-                    # try:
-                    #     with open('Conferences.json', 'r') as file:
-                    #         existing_data = json.load(file)
-                    # except (FileNotFoundError, json.decoder.JSONDecodeError):
-                    #     existing_data = []
+    #                 df = pd.concat([df, new_row_df], ignore_index = True)
 
-                    # existing_data_list = existing_data if isinstance(existing_data, list) else []
-                    # new_data_list = new_row_df.to_dict(orient='records')
+    #         time.sleep(20)
+    # df.to_json("Conferences.json", orient='records', indent=2)
 
-                    # combined_data = existing_data_list + new_data_list
-                    # with open('Conferences.json', 'w') as file:
-                    #     json.dump(combined_data, file, indent=2)
-            time.sleep(20)
-    df.to_json("Conferences.json", orient='records', indent=2)
-
-def main2():
-    url = 'https://conferenceindex.org/event/international-conference-on-sports-analytics-and-data-science-icsads-2024-august-new-york-us'
-    feature = Extract_data(url)
-
-    if feature:
-        for key, value in feature.items():
-            print(f'{key} - {value}')
-    else:
-        print("Khong co j het")
 if __name__ == "__main__":
-    main2()
-    # import math
-
-    # def replace_nan_with_null(data):
-    #     if isinstance(data, dict):
-    #         return {k: replace_nan_with_null(v) for k, v in data.items()}
-    #     elif isinstance(data, list):
-    #         return [replace_nan_with_null(item) for item in data]
-    #     elif isinstance(data, float) and math.isnan(data):
-    #         return None
-    #     else:
-    #         return data
-
-    # file_path = 'Conferences.json'
-    # with open(file_path, 'r') as file:
-    #     json_data = json.load(file)
-
-    # updated_data = replace_nan_with_null(json_data)
-    
-    # with open(file_path, 'w') as file:
-    #     json.dump(updated_data, file, indent= 2)
-
-
-#
+    main()

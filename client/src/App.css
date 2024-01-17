@@ -1,0 +1,72 @@
+/* App.css */
+.page-not-found {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .page-not-found h1 {
+    font-size: 6rem; /* Adjust the size as needed */
+    margin-bottom: 0.5rem;
+    color: #5a15fc; /* Tomato color */
+  }
+  
+  .page-not-found h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333; /* Dark gray color */
+  }
+  
+  .page-not-found p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: #555; /* Medium gray color */
+  }
+  
+  .page-not-found a {
+    font-size: 1.2rem;
+    color: #3498db; /* Dodger blue color */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .page-not-found a:hover {
+    color: #2c3e50; /* Dark gray color on hover */
+  }
+  .page-not-found img {
+    max-width: 100%; 
+    margin-bottom: 1rem;
+  }
+
+  .pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+  }
+  
+  .pagination li {
+    margin: 0 5px;
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: #000;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .pagination .active a {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .pagination a:hover {
+    background-color: #ddd;
+  }
+  
