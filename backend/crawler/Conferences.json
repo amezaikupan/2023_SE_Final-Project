@@ -5118,5 +5118,1491 @@
         "description": "Mohammadsadegh Zanganehfar"
       }
     ]
+  },
+  {
+    "title": "International Conference on Requirements Engineering and Software Development Management ICRESDM on January 18-19, 2024 in Dubai, United Arab Emirates",
+    "shortName": "ICRESDM",
+    "topic": "Software Engineering",
+    "location": "Dubai, United Arab Emirates",
+    "websiteURL": "https://waset.org/requirements-engineering-and-software-development-management-conference-in-january-2024-in-dubai",
+    "description": "International Conference on Requirements Engineering and Software Development Managementaims to bring together leading academic scientists, researchers and research scholars to exchange and share their experiences and research results on all aspects of Requirements Engineering and Software Development Management. It also provides a premier interdisciplinary platform for researchers, practitioners and educators to present and discuss the most recent innovations, trends, and concerns as well as practical challenges encountered and solutions adopted in the fields of Requirements Engineering and Software Development Management.",
+    "timeline": {
+      "Abstracts/Full-Text Paper Submission Deadline": "2023-12-20T00:00:00",
+      "Notification of Acceptance/Rejection": "2024-01-05T00:00:00",
+      "Final Paper (Camera Ready) Submission & Early Bird Registration Deadline": "2023-12-15T00:00:00",
+      "Conference Dates": [
+        "2024-01-18T00:00:00",
+        "2024-01-19T00:00:00"
+      ],
+      "timeZone": "UTC+04:00"
+    },
+    "speakers": NaN,
+    "acceptedPapers": [
+      {
+        "title": "A Case Study on How Outreach Programmes Form and Develop the Biomedical Engineering Community in Hong Kong",
+        "description": "Sum Lau, Wing Chung Cleo Lau, Wing Yan Chu, Long Ching Ip, Wan Yin Lo, Jo Long Sam Yau, Ka Ho Hui, Sze Yi Mak"
+      },
+      {
+        "title": "Using Historical Data for Stock Prediction of a Tech Company",
+        "description": "Sofia Stoica"
+      },
+      {
+        "title": "Failure Analysis of a 304 Stainless Steel Flange Crack at Pipeline Transportation of Ethylene",
+        "description": "Parisa Hasanpour, Bahram Borooghani, Vahid Asadi"
+      },
+      {
+        "title": "Static Analysis of Security Issues of the Python Packages Ecosystem",
+        "description": "Adam Gorine, Faten Spondon"
+      },
+      {
+        "title": "UPPAAL-Based Design and Analysis of Intelligent Parking System",
+        "description": "Abobaker M. Q. Farhan, Olof M. A. Saif"
+      },
+      {
+        "title": "Individuals\u2019 Inner Wellbeing during the COVID-19 Pandemic: A Quantitative Comparison of Social Connections and Close Relationships between the UK and India",
+        "description": "Maria Spanoudaki, Pauldy C. J. Otermans, Dev Aditya"
+      },
+      {
+        "title": "Poli4SDG: An Application for Environmental Crises Management and Gender Support",
+        "description": "Angelica S. Valeriani, Lorenzo Biasiolo"
+      },
+      {
+        "title": "Personalized Email Marketing Strategy: A Reinforcement Learning Approach",
+        "description": "Lei Zhang, Tingting Xu, Jun He, Zhenyu Yan, Roger Brooks"
+      },
+      {
+        "title": "Using Wiki for Enhancing the Knowledge Transfer to Newcomers: An Experience Report",
+        "description": "H. O. Barbosa, A. C. R. da Silva, C. M. de Almeida, E. M. dos Santos, F. O. de Sousa, F. B. da S. Souza, F. B. da S. Souza, F. de O. Lima, L. H. Albuquerque, R. F. do Valle Cunha"
+      },
+      {
+        "title": "A BERT-Based Model for Financial Social Media Sentiment Analysis",
+        "description": "Josiel Delgadillo, Johnson Kinyua, Charles Mutigwe"
+      },
+      {
+        "title": "Positioning a Southern Inclusive Framework Embedded in the Social Model of Disability Theory Contextualized for Guyana",
+        "description": "Lidon Lashley"
+      },
+      {
+        "title": "Toward Understanding and Testing Deep Learning Information Flow in Deep Learning-Based Android Apps",
+        "description": "Jie Zhang, Qianyu Guo, Tieyi Zhang, Zhiyong Feng, Xiaohong Li"
+      },
+      {
+        "title": "Impact of the Electricity Market Prices on Energy Storage Operation during the COVID-19 Pandemic",
+        "description": "Marin Mandi\u0107, Elis Sutlovi\u0107, Ton\u0107i Modri\u0107, Luka Stani\u0107"
+      },
+      {
+        "title": "A Quantitative Model for Determining the Area of the \u201cCore and Structural System Elements\u201d of Tall Office Buildings",
+        "description": "G\u00f6rkem Arslan K\u0131l\u0131n\u00e7"
+      },
+      {
+        "title": "Implications about the Impact of COVID-19 on International Trade in Saudi Arabia",
+        "description": "Anwar Kashgari"
+      }
+    ]
+  },
+  {
+    "title": "International Conference on Requirements Engineering and Software Development Management ICRESDM on January 18-19, 2024 in Dubai, United Arab Emirates",
+    "shortName": "ICRESDM",
+    "topic": "Software Engineering",
+    "location": "Dubai, United Arab Emirates",
+    "websiteURL": "https://waset.org/requirements-engineering-and-software-development-management-conference-in-january-2024-in-dubai",
+    "description": "International Conference on Requirements Engineering and Software Development Managementaims to bring together leading academic scientists, researchers and research scholars to exchange and share their experiences and research results on all aspects of Requirements Engineering and Software Development Management. It also provides a premier interdisciplinary platform for researchers, practitioners and educators to present and discuss the most recent innovations, trends, and concerns as well as practical challenges encountered and solutions adopted in the fields of Requirements Engineering and Software Development Management.",
+    "timeline": {
+      "Abstracts/Full-Text Paper Submission Deadline": "2023-12-20T00:00:00",
+      "Notification of Acceptance/Rejection": "2024-01-05T00:00:00",
+      "Final Paper (Camera Ready) Submission & Early Bird Registration Deadline": "2023-12-15T00:00:00",
+      "Conference Dates": [
+        "2024-01-18T00:00:00",
+        "2024-01-19T00:00:00"
+      ],
+      "timeZone": "UTC+04:00"
+    },
+    "speakers": NaN,
+    "acceptedPapers": [
+      {
+        "title": "A Case Study on How Outreach Programmes Form and Develop the Biomedical Engineering Community in Hong Kong",
+        "description": "Sum Lau, Wing Chung Cleo Lau, Wing Yan Chu, Long Ching Ip, Wan Yin Lo, Jo Long Sam Yau, Ka Ho Hui, Sze Yi Mak"
+      },
+      {
+        "title": "Using Historical Data for Stock Prediction of a Tech Company",
+        "description": "Sofia Stoica"
+      },
+      {
+        "title": "Failure Analysis of a 304 Stainless Steel Flange Crack at Pipeline Transportation of Ethylene",
+        "description": "Parisa Hasanpour, Bahram Borooghani, Vahid Asadi"
+      },
+      {
+        "title": "Static Analysis of Security Issues of the Python Packages Ecosystem",
+        "description": "Adam Gorine, Faten Spondon"
+      },
+      {
+        "title": "UPPAAL-Based Design and Analysis of Intelligent Parking System",
+        "description": "Abobaker M. Q. Farhan, Olof M. A. Saif"
+      },
+      {
+        "title": "Individuals\u2019 Inner Wellbeing during the COVID-19 Pandemic: A Quantitative Comparison of Social Connections and Close Relationships between the UK and India",
+        "description": "Maria Spanoudaki, Pauldy C. J. Otermans, Dev Aditya"
+      },
+      {
+        "title": "Poli4SDG: An Application for Environmental Crises Management and Gender Support",
+        "description": "Angelica S. Valeriani, Lorenzo Biasiolo"
+      },
+      {
+        "title": "Personalized Email Marketing Strategy: A Reinforcement Learning Approach",
+        "description": "Lei Zhang, Tingting Xu, Jun He, Zhenyu Yan, Roger Brooks"
+      },
+      {
+        "title": "Using Wiki for Enhancing the Knowledge Transfer to Newcomers: An Experience Report",
+        "description": "H. O. Barbosa, A. C. R. da Silva, C. M. de Almeida, E. M. dos Santos, F. O. de Sousa, F. B. da S. Souza, F. B. da S. Souza, F. de O. Lima, L. H. Albuquerque, R. F. do Valle Cunha"
+      },
+      {
+        "title": "A BERT-Based Model for Financial Social Media Sentiment Analysis",
+        "description": "Josiel Delgadillo, Johnson Kinyua, Charles Mutigwe"
+      },
+      {
+        "title": "Positioning a Southern Inclusive Framework Embedded in the Social Model of Disability Theory Contextualized for Guyana",
+        "description": "Lidon Lashley"
+      },
+      {
+        "title": "Toward Understanding and Testing Deep Learning Information Flow in Deep Learning-Based Android Apps",
+        "description": "Jie Zhang, Qianyu Guo, Tieyi Zhang, Zhiyong Feng, Xiaohong Li"
+      },
+      {
+        "title": "Impact of the Electricity Market Prices on Energy Storage Operation during the COVID-19 Pandemic",
+        "description": "Marin Mandi\u0107, Elis Sutlovi\u0107, Ton\u0107i Modri\u0107, Luka Stani\u0107"
+      },
+      {
+        "title": "A Quantitative Model for Determining the Area of the \u201cCore and Structural System Elements\u201d of Tall Office Buildings",
+        "description": "G\u00f6rkem Arslan K\u0131l\u0131n\u00e7"
+      },
+      {
+        "title": "Implications about the Impact of COVID-19 on International Trade in Saudi Arabia",
+        "description": "Anwar Kashgari"
+      }
+    ]
+  },
+  {
+    "title": "International Conference on Requirements Engineering and Software Development Management ICRESDM on January 18-19, 2024 in Dubai, United Arab Emirates",
+    "shortName": "ICRESDM",
+    "topic": "Software Engineering",
+    "location": "Dubai, United Arab Emirates",
+    "websiteURL": "https://waset.org/requirements-engineering-and-software-development-management-conference-in-january-2024-in-dubai",
+    "description": "International Conference on Requirements Engineering and Software Development Managementaims to bring together leading academic scientists, researchers and research scholars to exchange and share their experiences and research results on all aspects of Requirements Engineering and Software Development Management. It also provides a premier interdisciplinary platform for researchers, practitioners and educators to present and discuss the most recent innovations, trends, and concerns as well as practical challenges encountered and solutions adopted in the fields of Requirements Engineering and Software Development Management.",
+    "timeline": {
+      "Abstracts/Full-Text Paper Submission Deadline": "2023-12-20T00:00:00",
+      "Notification of Acceptance/Rejection": "2024-01-05T00:00:00",
+      "Final Paper (Camera Ready) Submission & Early Bird Registration Deadline": "2023-12-15T00:00:00",
+      "Conference Dates": [
+        "2024-01-18T00:00:00",
+        "2024-01-19T00:00:00"
+      ],
+      "timeZone": "UTC+04:00"
+    },
+    "speakers": NaN,
+    "acceptedPapers": [
+      {
+        "title": "A Case Study on How Outreach Programmes Form and Develop the Biomedical Engineering Community in Hong Kong",
+        "description": "Sum Lau, Wing Chung Cleo Lau, Wing Yan Chu, Long Ching Ip, Wan Yin Lo, Jo Long Sam Yau, Ka Ho Hui, Sze Yi Mak"
+      },
+      {
+        "title": "Using Historical Data for Stock Prediction of a Tech Company",
+        "description": "Sofia Stoica"
+      },
+      {
+        "title": "Failure Analysis of a 304 Stainless Steel Flange Crack at Pipeline Transportation of Ethylene",
+        "description": "Parisa Hasanpour, Bahram Borooghani, Vahid Asadi"
+      },
+      {
+        "title": "Static Analysis of Security Issues of the Python Packages Ecosystem",
+        "description": "Adam Gorine, Faten Spondon"
+      },
+      {
+        "title": "UPPAAL-Based Design and Analysis of Intelligent Parking System",
+        "description": "Abobaker M. Q. Farhan, Olof M. A. Saif"
+      },
+      {
+        "title": "Individuals\u2019 Inner Wellbeing during the COVID-19 Pandemic: A Quantitative Comparison of Social Connections and Close Relationships between the UK and India",
+        "description": "Maria Spanoudaki, Pauldy C. J. Otermans, Dev Aditya"
+      },
+      {
+        "title": "Poli4SDG: An Application for Environmental Crises Management and Gender Support",
+        "description": "Angelica S. Valeriani, Lorenzo Biasiolo"
+      },
+      {
+        "title": "Personalized Email Marketing Strategy: A Reinforcement Learning Approach",
+        "description": "Lei Zhang, Tingting Xu, Jun He, Zhenyu Yan, Roger Brooks"
+      },
+      {
+        "title": "Using Wiki for Enhancing the Knowledge Transfer to Newcomers: An Experience Report",
+        "description": "H. O. Barbosa, A. C. R. da Silva, C. M. de Almeida, E. M. dos Santos, F. O. de Sousa, F. B. da S. Souza, F. B. da S. Souza, F. de O. Lima, L. H. Albuquerque, R. F. do Valle Cunha"
+      },
+      {
+        "title": "A BERT-Based Model for Financial Social Media Sentiment Analysis",
+        "description": "Josiel Delgadillo, Johnson Kinyua, Charles Mutigwe"
+      },
+      {
+        "title": "Positioning a Southern Inclusive Framework Embedded in the Social Model of Disability Theory Contextualized for Guyana",
+        "description": "Lidon Lashley"
+      },
+      {
+        "title": "Toward Understanding and Testing Deep Learning Information Flow in Deep Learning-Based Android Apps",
+        "description": "Jie Zhang, Qianyu Guo, Tieyi Zhang, Zhiyong Feng, Xiaohong Li"
+      },
+      {
+        "title": "Impact of the Electricity Market Prices on Energy Storage Operation during the COVID-19 Pandemic",
+        "description": "Marin Mandi\u0107, Elis Sutlovi\u0107, Ton\u0107i Modri\u0107, Luka Stani\u0107"
+      },
+      {
+        "title": "A Quantitative Model for Determining the Area of the \u201cCore and Structural System Elements\u201d of Tall Office Buildings",
+        "description": "G\u00f6rkem Arslan K\u0131l\u0131n\u00e7"
+      },
+      {
+        "title": "Implications about the Impact of COVID-19 on International Trade in Saudi Arabia",
+        "description": "Anwar Kashgari"
+      }
+    ]
+  },
+  {
+    "title": "International Conference on Software Engineering and Technology ICSET on January 18-19, 2024 in Dubai, United Arab Emirates",
+    "shortName": "ICSET",
+    "topic": "Software Engineering",
+    "location": "Dubai, United Arab Emirates",
+    "websiteURL": "https://waset.org/software-engineering-and-technology-conference-in-january-2024-in-dubai",
+    "description": "International Conference on Software Engineering and Technologyaims to bring together leading academic scientists, researchers and research scholars to exchange and share their experiences and research results on all aspects of Software Engineering and Technology. It also provides a premier interdisciplinary platform for researchers, practitioners and educators to present and discuss the most recent innovations, trends, and concerns as well as practical challenges encountered and solutions adopted in the fields of Software Engineering and Technology.",
+    "timeline": {
+      "Abstracts/Full-Text Paper Submission Deadline": "2023-12-20T00:00:00",
+      "Notification of Acceptance/Rejection": "2024-01-05T00:00:00",
+      "Final Paper (Camera Ready) Submission & Early Bird Registration Deadline": "2023-12-15T00:00:00",
+      "Conference Dates": [
+        "2024-01-18T00:00:00",
+        "2024-01-19T00:00:00"
+      ],
+      "timeZone": "UTC+04:00"
+    },
+    "speakers": NaN,
+    "acceptedPapers": [
+      {
+        "title": "Empirical Study from Final Exams of Computer Science Courses Demystifying the Notion of 'an Average Software Engineer'",
+        "description": "Alex Elentukh"
+      },
+      {
+        "title": "Development of Software Complex for Digitalization of Enterprise Activities",
+        "description": "G. T. Balakayeva, K. K. Nurlybayeva, M. B. Zhanuzakov"
+      },
+      {
+        "title": "Using Design Sprint for Software Engineering Undergraduate Student Projects: A Method Paper",
+        "description": "Sobhani U. Pilapitiya, Tharanga Peiris"
+      },
+      {
+        "title": "Socio-Technical Systems: Transforming Theory into Practice",
+        "description": "L. Ngowi, N. H. Mvungi"
+      },
+      {
+        "title": "Knowledge Representation and Inconsistency Reasoning of Class Diagram Maintenance in Big Data",
+        "description": "Chi-Lun Liu"
+      },
+      {
+        "title": "Empirical Exploration of Correlations between Software Design Measures: A Replication Study",
+        "description": "Jehad Al Dallal"
+      },
+      {
+        "title": "Automated User Story Driven Approach for Web-Based Functional Testing",
+        "description": "Mahawish Masud, Muhammad Iqbal, M. U. Khan, Farooque Azam"
+      },
+      {
+        "title": "The Impact of Regulatory Changes on the Development of Mobile Medical Apps",
+        "description": "M. McHugh, D. Lillis"
+      },
+      {
+        "title": "Four Phase Methodology for Developing Secure Software",
+        "description": "Carlos Gonzalez-Flores, Ernesto Li\u00f1an-Garc\u00eda"
+      },
+      {
+        "title": "Intelligent Process and Model Applied for E-Learning Systems",
+        "description": "Mafawez Alharbi, Mahdi Jemmali"
+      },
+      {
+        "title": "An Extensible Software Infrastructure for Computer Aided Custom Monitoring of Patients in Smart Homes",
+        "description": "Ritwik Dutta, Marilyn Wolf"
+      },
+      {
+        "title": "A Cost Effective Approach to Develop Mid-size Enterprise Software Adopted the Waterfall Model",
+        "description": "M. N. Hasnine, M. K. H. Chayon, M. M. Rahman"
+      },
+      {
+        "title": "A Common Automated Programming Platform for Knowledge Based Software Engineering",
+        "description": "Ivan Stanev, Maria Koleva"
+      },
+      {
+        "title": "Project and Module Based Teaching and Learning",
+        "description": "Jingyu Hou"
+      },
+      {
+        "title": "Software Architectural Design Ontology",
+        "description": "Muhammad Irfan Marwat, Sadaqat Jan, Syed Zafar Ali Shah"
+      }
+    ]
+  },
+  {
+    "title": "International Conference on Management and Information Technology ICMIT on January 18, 2024 in Kuala Lumpur, Malaysia",
+    "shortName": "ICMIT",
+    "topic": "Software Engineering",
+    "location": "Kuala Lumpur, Malaysia",
+    "websiteURL": "https://academicsworld.org/Conference2024/Malaysia/12/ICMIT/",
+    "description": "",
+    "timeline": {
+      "timeZone": "UTC+08:00"
+    },
+    "speakers": NaN,
+    "acceptedPapers": []
+  },
+  {
+    "title": "International conference on Interdisciplinary Approaches in Humanities and Social Sciences IAHSS on January 20, 2024 in London, United Kingdom",
+    "shortName": "IAHSS",
+    "topic": "Software Engineering",
+    "location": "London, United Kingdom",
+    "websiteURL": "https://knowledgehubconnect.com/london23-iahss/",
+    "description": "",
+    "timeline": {
+      "timeZone": "UTC+00:00"
+    },
+    "speakers": NaN,
+    "acceptedPapers": []
+  },
+  {
+    "title": "International Conference on Management and Information Technology ICMIT on January 20, 2024 in Istanbul, Turkey",
+    "shortName": "ICMIT",
+    "topic": "Software Engineering",
+    "location": "Istanbul, Turkey",
+    "websiteURL": "https://academicsworld.org/Conference2024/Turkey/7/ICMIT/",
+    "description": "",
+    "timeline": {
+      "timeZone": "UTC+03:00"
+    },
+    "speakers": NaN,
+    "acceptedPapers": []
+  },
+  {
+    "title": "International Conference on Software Technology and Engineering ICSTE on January 21-22, 2024 in Mandalay, Myanmar",
+    "shortName": "ICSTE",
+    "topic": "Software Engineering",
+    "location": "Mandalay, Myanmar",
+    "websiteURL": "https://waset.org/software-technology-and-engineering-conference-in-january-2024-in-mandalay",
+    "description": "International Conference on Software Technology and Engineeringaims to bring together leading academic scientists, researchers and research scholars to exchange and share their experiences and research results on all aspects of Software Technology and Engineering. It also provides a premier interdisciplinary platform for researchers, practitioners and educators to present and discuss the most recent innovations, trends, and concerns as well as practical challenges encountered and solutions adopted in the fields of Software Technology and Engineering.",
+    "timeline": {
+      "Abstracts/Full-Text Paper Submission Deadline": "2023-12-20T00:00:00",
+      "Notification of Acceptance/Rejection": "2024-01-05T00:00:00",
+      "Final Paper (Camera Ready) Submission & Early Bird Registration Deadline": "2023-12-15T00:00:00",
+      "Conference Dates": [
+        "2024-01-18T00:00:00",
+        "2024-01-19T00:00:00"
+      ],
+      "timeZone": "UTC+06:30"
+    },
+    "speakers": NaN,
+    "acceptedPapers": [
+      {
+        "title": "A Study on the Application of Machine Learning and Deep Learning Techniques for Skin Cancer Detection",
+        "description": "Hritwik Ghosh, Irfan Sadiq Rahat, Sachi Nandan Mohanty, J. V. R. Ravindra, Abdus Sobur"
+      },
+      {
+        "title": "Advanced Convolutional Neural Network Paradigms-Comparison of VGG16 with Resnet50 in Crime Detection",
+        "description": "Taiwo. M. Akinmuyisitan, John Cosmas"
+      },
+      {
+        "title": "Artificial Neural Networks Technique for Seismic Hazard Prediction Using Seismic Bumps",
+        "description": "Belkacem Selma, Boumediene Selma, Samira Chouraqui, Hanifi Missoum, Tourkia Guerzou"
+      },
+      {
+        "title": "Augmenting People's Creative Idea Generation Using an Artificial Intelligent Sketching Collaborator",
+        "description": "Joseph Maloba Makokha"
+      },
+      {
+        "title": "Using Wiki for Enhancing the Knowledge Transfer to Newcomers: An Experience Report",
+        "description": "H. O. Barbosa, A. C. R. da Silva, C. M. de Almeida, E. M. dos Santos, F. O. de Sousa, F. B. da S. Souza, F. B. da S. Souza, F. de O. Lima, L. H. Albuquerque, R. F. do Valle Cunha"
+      },
+      {
+        "title": "Empirical Study from Final Exams of Computer Science Courses Demystifying the Notion of 'an Average Software Engineer'",
+        "description": "Alex Elentukh"
+      },
+      {
+        "title": "Distributed Multi-Agent Based Approach on an Intelligent Transportation Network",
+        "description": "Xiao Yihong, Yu Kexin, Burra Venkata Durga Kumar"
+      },
+      {
+        "title": "Distributed System Computing Resource Scheduling Algorithm Based on Deep Reinforcement Learning",
+        "description": "Yitao Lei, Xingxiang Zhai, Burra Venkata Durga Kumar"
+      },
+      {
+        "title": "AI-Based Approaches for Task Offloading, \u200eResource \u200eAllocation and Service Placement of \u200eIoT Applications: State of the Art",
+        "description": "Fatima Z. Cherhabil, Mammar Sedrati, Sonia-Sabrina Bendib\u200e"
+      },
+      {
+        "title": "Artificial Intelligence: A Comprehensive and Systematic Literature Review of Applications and Comparative Technologies",
+        "description": "Z. M. Najmi"
+      },
+      {
+        "title": "Maximizing the Efficiency of Knowledge Management Systems",
+        "description": "Tori R. Dodla, Laura A. Jones"
+      },
+      {
+        "title": "An Introduction to E-Content Producing Algorithm for Screen-Recorded Videos",
+        "description": "J. Darsareh, M. Nikafrooz"
+      },
+      {
+        "title": "Numerical Simulations of Frost Heave Using COMSOL Multiphysics Software in Unsaturated Freezing Soils",
+        "description": "Sara Soltanpour, Adolfo Foriero"
+      },
+      {
+        "title": "Appraisal of Methods for Identifying, Mapping, and Modelling of Fluvial Erosion in a Mining Environment",
+        "description": "F. F. Howard, I. Yakubu, C. B. Boye, J. S. Y. Kuma"
+      },
+      {
+        "title": "A Control Model for Improving Safety and Efficiency of Navigation System Based on Reinforcement Learning",
+        "description": "Almutasim Billa A. Alanazi, Hal S. Tharp"
+      }
+    ]
+  },
+  {
+    "title": "International Conference on Management and Information Technology ICMIT on January 21, 2024 in Bangkok, Thailand",
+    "shortName": "ICMIT",
+    "topic": "Software Engineering",
+    "location": "Bangkok, Thailand",
+    "websiteURL": "https://academicsworld.org/Conference2024/Thailand/9/ICMIT/",
+    "description": "",
+    "timeline": {
+      "timeZone": "UTC+07:00"
+    },
+    "speakers": NaN,
+    "acceptedPapers": []
+  },
+  {
+    "title": "International Conference on Software Engineering and Information Management ICSIM on January 23-25, 2024 in Suva, Fiji",
+    "shortName": "ICSIM",
+    "topic": "Software Engineering",
+    "location": "Suva, Fiji",
+    "websiteURL": "http://www.icsim.org/",
+    "description": "",
+    "timeline": {
+      "timeZone": "UTC+12:00"
+    },
+    "speakers": NaN,
+    "acceptedPapers": []
+  },
+  {
+    "title": "International Conference on Software Engineering and Technology ICSET on January 25-26, 2024 in Paris, France",
+    "shortName": "ICSET",
+    "topic": "Software Engineering",
+    "location": "Paris, France",
+    "websiteURL": "https://waset.org/software-engineering-and-technology-conference-in-january-2024-in-paris",
+    "description": "International Conference on Software Engineering and Technologyaims to bring together leading academic scientists, researchers and research scholars to exchange and share their experiences and research results on all aspects of Software Engineering and Technology. It also provides a premier interdisciplinary platform for researchers, practitioners and educators to present and discuss the most recent innovations, trends, and concerns as well as practical challenges encountered and solutions adopted in the fields of Software Engineering and Technology.",
+    "timeline": {
+      "Abstracts/Full-Text Paper Submission Deadline": "2023-12-20T00:00:00",
+      "Notification of Acceptance/Rejection": "2024-01-05T00:00:00",
+      "Final Paper (Camera Ready) Submission & Early Bird Registration Deadline": "2023-12-24T00:00:00",
+      "Conference Dates": [
+        "2024-01-18T00:00:00",
+        "2024-01-19T00:00:00"
+      ],
+      "timeZone": "UTC+01:00"
+    },
+    "speakers": NaN,
+    "acceptedPapers": [
+      {
+        "title": "Empirical Study from Final Exams of Computer Science Courses Demystifying the Notion of 'an Average Software Engineer'",
+        "description": "Alex Elentukh"
+      },
+      {
+        "title": "Development of Software Complex for Digitalization of Enterprise Activities",
+        "description": "G. T. Balakayeva, K. K. Nurlybayeva, M. B. Zhanuzakov"
+      },
+      {
+        "title": "Using Design Sprint for Software Engineering Undergraduate Student Projects: A Method Paper",
+        "description": "Sobhani U. Pilapitiya, Tharanga Peiris"
+      },
+      {
+        "title": "Socio-Technical Systems: Transforming Theory into Practice",
+        "description": "L. Ngowi, N. H. Mvungi"
+      },
+      {
+        "title": "Knowledge Representation and Inconsistency Reasoning of Class Diagram Maintenance in Big Data",
+        "description": "Chi-Lun Liu"
+      },
+      {
+        "title": "Empirical Exploration of Correlations between Software Design Measures: A Replication Study",
+        "description": "Jehad Al Dallal"
+      },
+      {
+        "title": "Automated User Story Driven Approach for Web-Based Functional Testing",
+        "description": "Mahawish Masud, Muhammad Iqbal, M. U. Khan, Farooque Azam"
+      },
+      {
+        "title": "The Impact of Regulatory Changes on the Development of Mobile Medical Apps",
+        "description": "M. McHugh, D. Lillis"
+      },
+      {
+        "title": "Four Phase Methodology for Developing Secure Software",
+        "description": "Carlos Gonzalez-Flores, Ernesto Li\u00f1an-Garc\u00eda"
+      },
+      {
+        "title": "Intelligent Process and Model Applied for E-Learning Systems",
+        "description": "Mafawez Alharbi, Mahdi Jemmali"
+      },
+      {
+        "title": "An Extensible Software Infrastructure for Computer Aided Custom Monitoring of Patients in Smart Homes",
+        "description": "Ritwik Dutta, Marilyn Wolf"
+      },
+      {
+        "title": "A Cost Effective Approach to Develop Mid-size Enterprise Software Adopted the Waterfall Model",
+        "description": "M. N. Hasnine, M. K. H. Chayon, M. M. Rahman"
+      },
+      {
+        "title": "A Common Automated Programming Platform for Knowledge Based Software Engineering",
+        "description": "Ivan Stanev, Maria Koleva"
+      },
+      {
+        "title": "Project and Module Based Teaching and Learning",
+        "description": "Jingyu Hou"
+      },
+      {
+        "title": "Software Architectural Design Ontology",
+        "description": "Muhammad Irfan Marwat, Sadaqat Jan, Syed Zafar Ali Shah"
+      }
+    ]
+  },
+  {
+    "title": "International Conference on Model-Driven Engineering and Software Development ICMDESD on January 28-29, 2024 in Dubai, United Arab Emirates",
+    "shortName": "ICMDESD",
+    "topic": "Software Engineering",
+    "location": "Dubai, United Arab Emirates",
+    "websiteURL": "https://waset.org/model-driven-engineering-and-software-development-conference-in-january-2024-in-dubai",
+    "description": "International Conference on Model-Driven Engineering and Software Developmentaims to bring together leading academic scientists, researchers and research scholars to exchange and share their experiences and research results on all aspects of Model-Driven Engineering and Software Development. It also provides a premier interdisciplinary platform for researchers, practitioners and educators to present and discuss the most recent innovations, trends, and concerns as well as practical challenges encountered and solutions adopted in the fields of Model-Driven Engineering and Software Development.",
+    "timeline": {
+      "Abstracts/Full-Text Paper Submission Deadline": "2023-12-20T00:00:00",
+      "Notification of Acceptance/Rejection": "2024-01-05T00:00:00",
+      "Final Paper (Camera Ready) Submission & Early Bird Registration Deadline": "2023-12-15T00:00:00",
+      "Conference Dates": [
+        "2024-01-18T00:00:00",
+        "2024-01-19T00:00:00"
+      ],
+      "timeZone": "UTC+04:00"
+    },
+    "speakers": NaN,
+    "acceptedPapers": [
+      {
+        "title": "Drive-Related Behaviors as Elements of Thinking",
+        "description": "Peter Pfeifer, Julian Pfeifer, Niko Pfeifer"
+      },
+      {
+        "title": "Building Information Modeling-Based Approach for Automatic Quantity Take-off and Cost Estimation",
+        "description": "Lo Kar Yin, Law Ka Mei"
+      },
+      {
+        "title": "Exploring the Role of Hydrogen to Achieve the Italian Decarbonization Targets Using an Open-Source Energy System Optimization Model",
+        "description": "A. Balbo, G. Colucci, M. Nicoli, L. Savoldi"
+      },
+      {
+        "title": "Using Wiki for Enhancing the Knowledge Transfer to Newcomers: An Experience Report",
+        "description": "H. O. Barbosa, A. C. R. da Silva, C. M. de Almeida, E. M. dos Santos, F. O. de Sousa, F. B. da S. Souza, F. B. da S. Souza, F. de O. Lima, L. H. Albuquerque, R. F. do Valle Cunha"
+      },
+      {
+        "title": "A Machine Learning-based Analysis of Autism Prevalence Rates across US States against Multiple Potential Explanatory Variables",
+        "description": "Ronit Chakraborty, Sugata Banerji"
+      },
+      {
+        "title": "Transportation Mode Choice Analysis for Accessibility of the Mehrabad International Airport by Statistical Models",
+        "description": "N. Mirzaei Varzeghani, M. Saffarzadeh, A. Naderan, A. Taheri"
+      },
+      {
+        "title": "An Integrated Framework for Engaging Stakeholders in the Circular Economy Processes Using Building Information Modeling and Virtual Reality",
+        "description": "Erisasadat Sahebzamani, N\u00faria Forcada, Francisco Lendinez"
+      },
+      {
+        "title": "An Extended Domain-Specific Modeling Language for Marine Observatory Relying on Enterprise Architecture",
+        "description": "Charbel Geryes Aoun, Loic Lagadec"
+      },
+      {
+        "title": "Fatigue and Stiffness Analysis of Rotating Drum Composter",
+        "description": "Remigijus Janulionis, Marijus \u0160eporaitis, Aleksandra Legha, Raimundas Ru\u010dys"
+      },
+      {
+        "title": "Assessment of Pollution of the Rustavi City\u2019s Atmosphere with Microaerosols",
+        "description": "N. Gigauri, A. Surmava"
+      },
+      {
+        "title": "3D Modeling Approach for Cultural Heritage Structures: The Case of Virgin of Loreto Chapel in Cusco, Peru",
+        "description": "Rony Re\u00e1tegui, Cesar Ch\u00e1cara, Benjamin Casta\u00f1eda, Rafael Aguilar"
+      },
+      {
+        "title": "Paradigm of Digital Twin Application in Project Management in Architecture, Engineering and Construction",
+        "description": "Kwok Tak Kit"
+      },
+      {
+        "title": "A Study of Agile-Based Approaches to Improve Software Quality",
+        "description": "Gurmeet Kaur, Jyoti Pruthi"
+      },
+      {
+        "title": "Structural-Geotechnical Effects of the Foundation of a Medium-Height Structure",
+        "description": "V. Rodas, L. Almache"
+      },
+      {
+        "title": "Loading and Unloading Scheduling Problem in a Multiple-Multiple Logistics Network: Modeling and Solving",
+        "description": "Yasin Tadayonrad, Alassane Ball\u00e9 Ndiaye"
+      }
+    ]
+  },
+  {
+    "title": "International Conference on Software Engineering Education and Training ICSEET on January 28-29, 2024 in New York, United States",
+    "shortName": "ICSEET",
+    "topic": "Software Engineering",
+    "location": "New York, United States",
+    "websiteURL": "https://waset.org/software-engineering-education-and-training-conference-in-january-2024-in-new-york",
+    "description": "International Conference on Software Engineering Education and Trainingaims to bring together leading academic scientists, researchers and research scholars to exchange and share their experiences and research results on all aspects of Software Engineering Education and Training. It also provides a premier interdisciplinary platform for researchers, practitioners and educators to present and discuss the most recent innovations, trends, and concerns as well as practical challenges encountered and solutions adopted in the fields of Software Engineering Education and Training.",
+    "timeline": {
+      "Abstracts/Full-Text Paper Submission Deadline": "2023-12-20T00:00:00",
+      "Notification of Acceptance/Rejection": "2024-01-05T00:00:00",
+      "Final Paper (Camera Ready) Submission & Early Bird Registration Deadline": "2023-12-26T00:00:00",
+      "Conference Dates": [
+        "2024-01-29T00:00:00",
+        "2024-01-30T00:00:00"
+      ],
+      "timeZone": "UTC-05:00"
+    },
+    "speakers": NaN,
+    "acceptedPapers": [
+      {
+        "title": "Dental Students\u2019 Attitude towards Problem-Based Learning before and after Implementing 3D Electronic Dental Models",
+        "description": "Hai Ming Wong, Kuen Wai Ma, Lavender Yu Xin Yang, Yanqi Yang"
+      },
+      {
+        "title": "A Case Study on How Outreach Programmes Form and Develop the Biomedical Engineering Community in Hong Kong",
+        "description": "Sum Lau, Wing Chung Cleo Lau, Wing Yan Chu, Long Ching Ip, Wan Yin Lo, Jo Long Sam Yau, Ka Ho Hui, Sze Yi Mak"
+      },
+      {
+        "title": "Poli4SDG: An Application for Environmental Crises Management and Gender Support",
+        "description": "Angelica S. Valeriani, Lorenzo Biasiolo"
+      },
+      {
+        "title": "Positioning a Southern Inclusive Framework Embedded in the Social Model of Disability Theory Contextualized for Guyana",
+        "description": "Lidon Lashley"
+      },
+      {
+        "title": "Empirical Study from Final Exams of Computer Science Courses Demystifying the Notion of 'an Average Software Engineer'",
+        "description": "Alex Elentukh"
+      },
+      {
+        "title": "Students\u2019 Participation in Higher Education Governance in Mainland China",
+        "description": "Rurui (Angelina) Liu"
+      },
+      {
+        "title": "Master in Maritime Logistics: An Industry-Driven Design",
+        "description": "Marco Sernaglia, Augusto M. P. Carreira, Helena M. L. Carvalho, Pedro B. \u00c1gua, Armindo Frias, Manuel Carrasqueira"
+      },
+      {
+        "title": "An Ontology for Smart Learning Environments in Music Education",
+        "description": "Konstantinos Sofianos, Michail Stefanidakis"
+      },
+      {
+        "title": "Teachers\u2019 Emotional Experience in Online Classes in Adult Education in Selected European Countries",
+        "description": "Andreas Ahrens, Jelena Zascerinska"
+      },
+      {
+        "title": "Native Language Identification with Cross-Corpus Evaluation Using Social Media Data: 'Reddit'",
+        "description": "Yasmeen Bassas, Sandra Kuebler, Allen Riddell"
+      },
+      {
+        "title": "Basic Science Medical Students\u2019 Perception of a Formative Peer Assessment Model for Reinforcing the Learning of Physical Examination Skills During the COVID-19 Pandemic Online Learning Period",
+        "description": "Neilal A. Isaac, Madison Edwards, Kirthana Sugunathevan, Mohan Kumar"
+      },
+      {
+        "title": "Epistemological Functions of Emotions and Their Relevance to the Formation of Citizens and Scientists",
+        "description": "Den\u00ed Stincer G\u00f3mez, Zuraya Monroy Nasr"
+      },
+      {
+        "title": "An E-Coaching Methodology for Higher Education in Saudi Arabia",
+        "description": "Essam Almuhsin, Ben Soh, Alice Li, Azmat Ullah"
+      },
+      {
+        "title": "Developing Problem Solving Skills through a Project-Based Course as Part of a Lifelong Learning for Engineering Students",
+        "description": "Robin Lok-Wang"
+      },
+      {
+        "title": "Reflective Thinking and Experiential Learning: A Quasi-Experimental Quanti-Quali Response to Greater Diversification of Activities and Greater Integration of Student Profiles",
+        "description": "P. Bogas"
+      }
+    ]
+  },
+  {
+    "title": "International Conference on Human-Centered Software Engineering and Systems ICHCSES on January 28-29, 2024 in Istanbul, Turkey",
+    "shortName": "ICHCSES",
+    "topic": "Software Engineering",
+    "location": "Istanbul, Turkey",
+    "websiteURL": "https://waset.org/human-centered-software-engineering-and-systems-conference-in-january-2024-in-istanbul",
+    "description": "International Conference on Human-Centered Software Engineering and Systemsaims to bring together leading academic scientists, researchers and research scholars to exchange and share their experiences and research results on all aspects of Human-Centered Software Engineering and Systems. It also provides a premier interdisciplinary platform for researchers, practitioners and educators to present and discuss the most recent innovations, trends, and concerns as well as practical challenges encountered and solutions adopted in the fields of Human-Centered Software Engineering and Systems.",
+    "timeline": {
+      "Abstracts/Full-Text Paper Submission Deadline": "2023-12-20T00:00:00",
+      "Notification of Acceptance/Rejection": "2024-01-05T00:00:00",
+      "Final Paper (Camera Ready) Submission & Early Bird Registration Deadline": "2023-12-31T00:00:00",
+      "Conference Dates": [
+        "2024-01-29T00:00:00",
+        "2024-01-30T00:00:00"
+      ],
+      "timeZone": "UTC+03:00"
+    },
+    "speakers": NaN,
+    "acceptedPapers": [
+      {
+        "title": "Contextual SenSe Model: Word Sense Disambiguation Using Sense and Sense Value of Context Surrounding the Target",
+        "description": "Vishal Raj, Noorhan Abbas"
+      },
+      {
+        "title": "Analyzing the Relationship between the Systems Decisions Process and Artificial Intelligence: A Machine Vision Case Study",
+        "description": "Mitchell J. McHugh, John J. Case"
+      },
+      {
+        "title": "Empirical Study from Final Exams of Computer Science Courses Demystifying the Notion of 'an Average Software Engineer'",
+        "description": "Alex Elentukh"
+      },
+      {
+        "title": "Khilafat from Khilafat-e-Rashida: The Only Form of Governance to Unite Muslim Countries",
+        "description": "Zoaib Mirza"
+      },
+      {
+        "title": "Methodology for Quantifying the Meaning of Information in Biological Systems",
+        "description": "Richard L. Summers"
+      },
+      {
+        "title": "Real-time Network Anomaly Detection Systems Based on Machine-Learning Algorithms",
+        "description": "Zahra Ramezanpanah, Joachim Carvallo, Aurelien Rodriguez"
+      },
+      {
+        "title": "Effects of Boundary Conditions on the Dynamic Values of Solid Structures",
+        "description": "F. Kadioglu, M. Z. Polat, A. R. Gunay"
+      },
+      {
+        "title": "An Ontology for Smart Learning Environments in Music Education",
+        "description": "Konstantinos Sofianos, Michail Stefanidakis"
+      },
+      {
+        "title": "Maximizing the Efficiency of Knowledge Management Systems",
+        "description": "Tori R. Dodla, Laura A. Jones"
+      },
+      {
+        "title": "Performance Evaluation of Conventional and Wiper Carbide Tools When Turning 6060 Aluminium Alloy: Analysis of Surface Roughness",
+        "description": "Salah Gariani, Taher Dao, Khaled Jegandi"
+      },
+      {
+        "title": "Design and Implementation of a Software Platform Based on Artificial Intelligence for Product Recommendation",
+        "description": "G. Settanni, A. Panarese, R. Vaira, A. Galiano"
+      },
+      {
+        "title": "Reliable Damping Measurements of Solid Beams with Special Focus on the Boundary Conditions and Non-Contact Test Set-Ups",
+        "description": "Ferhat Kadioglu, Ahmet Reha Gunay"
+      },
+      {
+        "title": "Fear-Of-Failure and Women Entrepreneurship: Comparative Analysis Austria versus USA",
+        "description": "Magdalena Meusburger, Caroline Maria Hofer"
+      },
+      {
+        "title": "Sustainability Assessment of Agriculture and Biodiversity Issues through an Innovative Knowledge Mediation System Using Deliberation Support Tools and INTEGRAAL Method Based on Stakeholder Involvement",
+        "description": "Ashiquer Rahman"
+      },
+      {
+        "title": "A Design of Elliptic Curve Cryptography Processor Based on SM2 over GF(p)",
+        "description": "Shiji Hu, Lei Li, Wanting Zhou, Daohong Yang"
+      }
+    ]
+  },
+  {
+    "title": "International Conference on Global Software Engineering and Technology ICGSET on January 28-29, 2024 in New York, United States",
+    "shortName": "ICGSET",
+    "topic": "Software Engineering",
+    "location": "New York, United States",
+    "websiteURL": "https://waset.org/global-software-engineering-and-technology-conference-in-january-2024-in-new-york",
+    "description": "International Conference on Global Software Engineering and Technologyaims to bring together leading academic scientists, researchers and research scholars to exchange and share their experiences and research results on all aspects of Global Software Engineering and Technology. It also provides a premier interdisciplinary platform for researchers, practitioners and educators to present and discuss the most recent innovations, trends, and concerns as well as practical challenges encountered and solutions adopted in the fields of Global Software Engineering and Technology.",
+    "timeline": {
+      "Abstracts/Full-Text Paper Submission Deadline": "2023-12-20T00:00:00",
+      "Notification of Acceptance/Rejection": "2024-01-05T00:00:00",
+      "Final Paper (Camera Ready) Submission & Early Bird Registration Deadline": "2023-12-26T00:00:00",
+      "Conference Dates": [
+        "2024-01-29T00:00:00",
+        "2024-01-30T00:00:00"
+      ],
+      "timeZone": "UTC-05:00"
+    },
+    "speakers": NaN,
+    "acceptedPapers": [
+      {
+        "title": "Adopting Cloud-Based Techniques to Reduce Energy Consumption: Toward a Greener Cloud",
+        "description": "Sandesh Achar"
+      },
+      {
+        "title": "Using Wiki for Enhancing the Knowledge Transfer to Newcomers: An Experience Report",
+        "description": "H. O. Barbosa, A. C. R. da Silva, C. M. de Almeida, E. M. dos Santos, F. O. de Sousa, F. B. da S. Souza, F. B. da S. Souza, F. de O. Lima, L. H. Albuquerque, R. F. do Valle Cunha"
+      },
+      {
+        "title": "An Induction Motor Drive System with Intelligent Supervisory Control for Water Networks Including Storage Tank",
+        "description": "O. S. Ebrahim, K. O. Shawky, M. A. Badr, P. K. Jain"
+      },
+      {
+        "title": "SPA-VNDN: Enhanced Smart Parking Application by Vehicular Named Data Networking",
+        "description": "Bassma Aldahlan, Zongming Fei"
+      },
+      {
+        "title": "A Holistic Framework for Unifying Data Security and Management in Modern Enterprises",
+        "description": "Ashly Joseph"
+      },
+      {
+        "title": "A Methodology for Creating Energy Sustainability in an Enterprise",
+        "description": "John Lamb, Robert Epstein, Vasundhara L. Bhupathi, Sanjeev Kumar Marimekala"
+      },
+      {
+        "title": "Development of Software Complex for Digitalization of Enterprise Activities",
+        "description": "G. T. Balakayeva, K. K. Nurlybayeva, M. B. Zhanuzakov"
+      },
+      {
+        "title": "MLOps Scaling Machine Learning Lifecycle in an Industrial Setting",
+        "description": "Yizhen Zhao, Adam S. Z. Belloum, Gonc\u00b8alo Maia da Costa, Zhiming Zhao"
+      },
+      {
+        "title": "An Examination of the Factors Affecting the Adoption of Cloud Enterprise Resource Planning Systems in Egyptian Companies",
+        "description": "Mayar A. Omar, Ismail Gomaa, Heba Badawy, Hosam Moubarak"
+      },
+      {
+        "title": "A Timed and Colored Petri Nets for Modeling and Verifying Cloud System Elasticity",
+        "description": "W. Louhichi, M.Berrima, N. Ben Rajeb Robbana"
+      },
+      {
+        "title": "Adopting Artificial Intelligence and Deep Learning Techniques in Cloud Computing for Operational Efficiency",
+        "description": "Sandesh Achar"
+      },
+      {
+        "title": "Using Social Network Analysis for Cyber Threat Intelligence",
+        "description": "Vasileios Anastopoulos"
+      },
+      {
+        "title": "Prioritization of Mutation Test Generation with Centrality Measure",
+        "description": "Supachai Supmak, Yachai Limpiyakorn"
+      },
+      {
+        "title": "Supervisory Control for Induction Machine with a Modified Star/Delta Switch in Fluid Transportation",
+        "description": "O. S. Ebrahim, K. O. Shawky, M. A. Badr, P. K. Jain"
+      },
+      {
+        "title": "Platform-as-a-Service Sticky Policies for Privacy Classification in the Cloud",
+        "description": "Maha Shamseddine, Amjad Nusayr, Wassim Itani"
+      }
+    ]
+  },
+  {
+    "title": "International Conference on Software Visualization and Software Engineering ICSVSE on January 28-29, 2024 in Dubai, United Arab Emirates",
+    "shortName": "ICSVSE",
+    "topic": "Software Engineering",
+    "location": "Dubai, United Arab Emirates",
+    "websiteURL": "https://waset.org/software-visualization-and-software-engineering-conference-in-january-2024-in-dubai",
+    "description": "International Conference on Software Visualization and Software Engineeringaims to bring together leading academic scientists, researchers and research scholars to exchange and share their experiences and research results on all aspects of Software Visualization and Software Engineering. It also provides a premier interdisciplinary platform for researchers, practitioners and educators to present and discuss the most recent innovations, trends, and concerns as well as practical challenges encountered and solutions adopted in the fields of Software Visualization and Software Engineering.",
+    "timeline": {
+      "Abstracts/Full-Text Paper Submission Deadline": "2023-12-20T00:00:00",
+      "Notification of Acceptance/Rejection": "2024-01-05T00:00:00",
+      "Final Paper (Camera Ready) Submission & Early Bird Registration Deadline": "2023-12-15T00:00:00",
+      "Conference Dates": [
+        "2024-01-18T00:00:00",
+        "2024-01-19T00:00:00"
+      ],
+      "timeZone": "UTC+04:00"
+    },
+    "speakers": NaN,
+    "acceptedPapers": [
+      {
+        "title": "Empirical Study from Final Exams of Computer Science Courses Demystifying the Notion of 'an Average Software Engineer'",
+        "description": "Alex Elentukh"
+      },
+      {
+        "title": "Using Design Sprint for Software Engineering Undergraduate Student Projects: A Method Paper",
+        "description": "Sobhani U. Pilapitiya, Tharanga Peiris"
+      },
+      {
+        "title": "Socio-Technical Systems: Transforming Theory into Practice",
+        "description": "L. Ngowi, N. H. Mvungi"
+      },
+      {
+        "title": "Knowledge Representation and Inconsistency Reasoning of Class Diagram Maintenance in Big Data",
+        "description": "Chi-Lun Liu"
+      },
+      {
+        "title": "Automated User Story Driven Approach for Web-Based Functional Testing",
+        "description": "Mahawish Masud, Muhammad Iqbal, M. U. Khan, Farooque Azam"
+      },
+      {
+        "title": "The Impact of Regulatory Changes on the Development of Mobile Medical Apps",
+        "description": "M. McHugh, D. Lillis"
+      },
+      {
+        "title": "Four Phase Methodology for Developing Secure Software",
+        "description": "Carlos Gonzalez-Flores, Ernesto Li\u00f1an-Garc\u00eda"
+      },
+      {
+        "title": "Intelligent Process and Model Applied for E-Learning Systems",
+        "description": "Mafawez Alharbi, Mahdi Jemmali"
+      },
+      {
+        "title": "An Extensible Software Infrastructure for Computer Aided Custom Monitoring of Patients in Smart Homes",
+        "description": "Ritwik Dutta, Marilyn Wolf"
+      },
+      {
+        "title": "A Common Automated Programming Platform for Knowledge Based Software Engineering",
+        "description": "Ivan Stanev, Maria Koleva"
+      },
+      {
+        "title": "Project and Module Based Teaching and Learning",
+        "description": "Jingyu Hou"
+      },
+      {
+        "title": "Software Architectural Design Ontology",
+        "description": "Muhammad Irfan Marwat, Sadaqat Jan, Syed Zafar Ali Shah"
+      },
+      {
+        "title": "A Systematic Mapping Study on Software Engineering Education",
+        "description": "Bushra Malik, Saad Zafar"
+      },
+      {
+        "title": "Investigation of Time Delay Factors in Global Software Development",
+        "description": "Khalid Khan, Atique Ahmad Zafar, Mohammed A. Alnuem, Hashim Khan"
+      },
+      {
+        "title": "Conflicts Identification among Non-functional Requirements using Matrix Maps",
+        "description": "Abdul H, Jamil A, Imran U"
+      }
+    ]
+  },
+  {
+    "title": "THAT Conference Texas on January 29-February 01, 2024 in Round Rock, United States",
+    "shortName": NaN,
+    "topic": "Software Engineering",
+    "location": "Round Rock, United States",
+    "websiteURL": "https://that.us/events/tx/2024/",
+    "description": "",
+    "timeline": {
+      "timeZone": "UTC-06:00"
+    },
+    "speakers": NaN,
+    "acceptedPapers": []
+  },
+  {
+    "title": "International Conference on Software Engineering and Formal Methods ICSEFM on February 01-02, 2024 in Melbourne, Australia",
+    "shortName": "ICSEFM",
+    "topic": "Software Engineering",
+    "location": "Melbourne, Australia",
+    "websiteURL": "https://waset.org/software-engineering-and-formal-methods-conference-in-february-2024-in-melbourne",
+    "description": "International Conference on Software Engineering and Formal Methodsaims to bring together leading academic scientists, researchers and research scholars to exchange and share their experiences and research results on all aspects of Software Engineering and Formal Methods. It also provides a premier interdisciplinary platform for researchers, practitioners and educators to present and discuss the most recent innovations, trends, and concerns as well as practical challenges encountered and solutions adopted in the fields of Software Engineering and Formal Methods.",
+    "timeline": {
+      "Abstracts/Full-Text Paper Submission Deadline": "2023-12-20T00:00:00",
+      "Notification of Acceptance/Rejection": "2024-01-05T00:00:00",
+      "Final Paper (Camera Ready) Submission & Early Bird Registration Deadline": "2023-12-17T00:00:00",
+      "Conference Dates": [
+        "2024-02-01T00:00:00",
+        "2024-02-02T00:00:00"
+      ],
+      "timeZone": "UTC+10:00"
+    },
+    "speakers": NaN,
+    "acceptedPapers": [
+      {
+        "title": "Extending the Aspect Oriented Programming Joinpoint Model for Memory and Type Safety",
+        "description": "Amjad Nusayr"
+      },
+      {
+        "title": "A Programmer\u2019s Survey of the Quantum Computing Paradigm",
+        "description": "Philippe Jorrand"
+      },
+      {
+        "title": "The Variation of Software Development Productivity 1995-2005",
+        "description": "Zhizhong Jiang, Peter Naud\u00e9, Craig Comstock"
+      }
+    ]
+  },
+  {
+    "title": "International Conference on Software Language Engineering and Metaprogramming ICSLEM on February 01-02, 2024 in Melbourne, Australia",
+    "shortName": "ICSLEM",
+    "topic": "Software Engineering",
+    "location": "Melbourne, Australia",
+    "websiteURL": "https://waset.org/software-language-engineering-and-metaprogramming-conference-in-february-2024-in-melbourne",
+    "description": "International Conference on Software Language Engineering and Metaprogrammingaims to bring together leading academic scientists, researchers and research scholars to exchange and share their experiences and research results on all aspects of Software Language Engineering and Metaprogramming. It also provides a premier interdisciplinary platform for researchers, practitioners and educators to present and discuss the most recent innovations, trends, and concerns as well as practical challenges encountered and solutions adopted in the fields of Software Language Engineering and Metaprogramming.",
+    "timeline": {
+      "Abstracts/Full-Text Paper Submission Deadline": "2023-12-20T00:00:00",
+      "Notification of Acceptance/Rejection": "2024-01-05T00:00:00",
+      "Final Paper (Camera Ready) Submission & Early Bird Registration Deadline": "2023-12-17T00:00:00",
+      "Conference Dates": [
+        "2024-02-01T00:00:00",
+        "2024-02-02T00:00:00"
+      ],
+      "timeZone": "UTC+10:00"
+    },
+    "speakers": NaN,
+    "acceptedPapers": [
+      {
+        "title": "JaCoText: A Pretrained Model for Java Code-Text Generation",
+        "description": "Jessica L\u00f2pez Espejel, Mahaman Sanoussi Yahaya Alassan, Walid Dahhane, El Hassane Ettifouri"
+      },
+      {
+        "title": "Extending the Aspect Oriented Programming Joinpoint Model for Memory and Type Safety",
+        "description": "Amjad Nusayr"
+      },
+      {
+        "title": "Evaluation of Model-Based Code Generation for Embedded Systems\u2013Mature Approach for Development in Evolution",
+        "description": "Nikolay P. Brayanov, Anna V. Stoynova"
+      },
+      {
+        "title": "A Model-Driven Approach of User Interface for MVP Rich Internet Application",
+        "description": "Sarra Roubi, Mohammed Erramdani, Samir Mbarki"
+      },
+      {
+        "title": "A Mapping Approach of Code Generation for Arinc653-Based Avionics Software",
+        "description": "Lu Zou, Dianfu MA, Ying Wang, Xianqi Zhao"
+      },
+      {
+        "title": "A Graphical Environment for Petri Nets INA Tool Based on Meta-Modelling and Graph Grammars",
+        "description": "Raida El Mansouri, Elhillali Kerkouche, Allaoua Chaoui"
+      },
+      {
+        "title": "A Programmer\u2019s Survey of the Quantum Computing Paradigm",
+        "description": "Philippe Jorrand"
+      },
+      {
+        "title": "The Variation of Software Development Productivity 1995-2005",
+        "description": "Zhizhong Jiang, Peter Naud\u00e9, Craig Comstock"
+      }
+    ]
+  },
+  {
+    "title": "International Conference on Software Engineering and Design ICSED on February 01-02, 2024 in Melbourne, Australia",
+    "shortName": "ICSED",
+    "topic": "Software Engineering",
+    "location": "Melbourne, Australia",
+    "websiteURL": "https://waset.org/software-engineering-and-design-conference-in-february-2024-in-melbourne",
+    "description": "International Conference on Software Engineering and Designaims to bring together leading academic scientists, researchers and research scholars to exchange and share their experiences and research results on all aspects of Software Engineering and Design. It also provides a premier interdisciplinary platform for researchers, practitioners and educators to present and discuss the most recent innovations, trends, and concerns as well as practical challenges encountered and solutions adopted in the fields of Software Engineering and Design.",
+    "timeline": {
+      "Abstracts/Full-Text Paper Submission Deadline": "2023-12-20T00:00:00",
+      "Notification of Acceptance/Rejection": "2024-01-05T00:00:00",
+      "Final Paper (Camera Ready) Submission & Early Bird Registration Deadline": "2023-12-17T00:00:00",
+      "Conference Dates": [
+        "2024-02-01T00:00:00",
+        "2024-02-02T00:00:00"
+      ],
+      "timeZone": "UTC+10:00"
+    },
+    "speakers": NaN,
+    "acceptedPapers": [
+      {
+        "title": "Adopting Cloud-Based Techniques to Reduce Energy Consumption: Toward a Greener Cloud",
+        "description": "Sandesh Achar"
+      },
+      {
+        "title": "Empirical Study from Final Exams of Computer Science Courses Demystifying the Notion of 'an Average Software Engineer'",
+        "description": "Alex Elentukh"
+      },
+      {
+        "title": "An Induction Motor Drive System with Intelligent Supervisory Control for Water Networks Including Storage Tank",
+        "description": "O. S. Ebrahim, K. O. Shawky, M. A. Badr, P. K. Jain"
+      },
+      {
+        "title": "SPA-VNDN: Enhanced Smart Parking Application by Vehicular Named Data Networking",
+        "description": "Bassma Aldahlan, Zongming Fei"
+      },
+      {
+        "title": "A Holistic Framework for Unifying Data Security and Management in Modern Enterprises",
+        "description": "Ashly Joseph"
+      },
+      {
+        "title": "A Methodology for Creating Energy Sustainability in an Enterprise",
+        "description": "John Lamb, Robert Epstein, Vasundhara L. Bhupathi, Sanjeev Kumar Marimekala"
+      },
+      {
+        "title": "Development of Software Complex for Digitalization of Enterprise Activities",
+        "description": "G. T. Balakayeva, K. K. Nurlybayeva, M. B. Zhanuzakov"
+      },
+      {
+        "title": "MLOps Scaling Machine Learning Lifecycle in an Industrial Setting",
+        "description": "Yizhen Zhao, Adam S. Z. Belloum, Gonc\u00b8alo Maia da Costa, Zhiming Zhao"
+      },
+      {
+        "title": "An Examination of the Factors Affecting the Adoption of Cloud Enterprise Resource Planning Systems in Egyptian Companies",
+        "description": "Mayar A. Omar, Ismail Gomaa, Heba Badawy, Hosam Moubarak"
+      },
+      {
+        "title": "Using Design Sprint for Software Engineering Undergraduate Student Projects: A Method Paper",
+        "description": "Sobhani U. Pilapitiya, Tharanga Peiris"
+      },
+      {
+        "title": "A Timed and Colored Petri Nets for Modeling and Verifying Cloud System Elasticity",
+        "description": "W. Louhichi, M.Berrima, N. Ben Rajeb Robbana"
+      },
+      {
+        "title": "Adopting Artificial Intelligence and Deep Learning Techniques in Cloud Computing for Operational Efficiency",
+        "description": "Sandesh Achar"
+      },
+      {
+        "title": "Supervisory Control for Induction Machine with a Modified Star/Delta Switch in Fluid Transportation",
+        "description": "O. S. Ebrahim, K. O. Shawky, M. A. Badr, P. K. Jain"
+      },
+      {
+        "title": "Platform-as-a-Service Sticky Policies for Privacy Classification in the Cloud",
+        "description": "Maha Shamseddine, Amjad Nusayr, Wassim Itani"
+      },
+      {
+        "title": "Implementation of Cloud Customer Relationship Management in Banking Sector: Strategies, Benefits and Challenges",
+        "description": "Ngoc Dang Khoa Nguyen, Imran Ali"
+      }
+    ]
+  },
+  {
+    "title": "International Conference on Software and Computer Applications ICSCA on February 01-03, 2024 in Bali, Indonesia",
+    "shortName": "ICSCA",
+    "topic": "Software Engineering",
+    "location": "Bali, Indonesia",
+    "websiteURL": "http://www.icsca.org/",
+    "description": "",
+    "timeline": {
+      "timeZone": "UTC+08:00"
+    },
+    "speakers": NaN,
+    "acceptedPapers": []
+  },
+  {
+    "title": "International Conference on Management and Information Technology ICMIT on February 02, 2024 in Putrajaya, Malaysia",
+    "shortName": "ICMIT",
+    "topic": "Software Engineering",
+    "location": "Putrajaya, Malaysia",
+    "websiteURL": "https://academicsworld.org/Conference2024/Malaysia/13/ICMIT/",
+    "description": "",
+    "timeline": {
+      "timeZone": "UTC+08:00"
+    },
+    "speakers": NaN,
+    "acceptedPapers": []
+  },
+  {
+    "title": "International Conference on Global Software Engineering ICGSE on February 04-05, 2024 in Guangzhou, China",
+    "shortName": "ICGSE",
+    "topic": "Software Engineering",
+    "location": "Guangzhou, China",
+    "websiteURL": "https://waset.org/global-software-engineering-conference-in-february-2024-in-guangzhou",
+    "description": "International Conference on Global Software Engineeringaims to bring together leading academic scientists, researchers and research scholars to exchange and share their experiences and research results on all aspects of Global Software Engineering. It also provides a premier interdisciplinary platform for researchers, practitioners and educators to present and discuss the most recent innovations, trends, and concerns as well as practical challenges encountered and solutions adopted in the fields of Global Software Engineering.",
+    "timeline": {
+      "Abstracts/Full-Text Paper Submission Deadline": "2023-12-20T00:00:00",
+      "Notification of Acceptance/Rejection": "2024-01-05T00:00:00",
+      "Final Paper (Camera Ready) Submission & Early Bird Registration Deadline": "2024-01-04T00:00:00",
+      "Conference Dates": [
+        "2024-02-01T00:00:00",
+        "2024-02-02T00:00:00"
+      ],
+      "timeZone": "UTC+08:00"
+    },
+    "speakers": NaN,
+    "acceptedPapers": [
+      {
+        "title": "Adopting Cloud-Based Techniques to Reduce Energy Consumption: Toward a Greener Cloud",
+        "description": "Sandesh Achar"
+      },
+      {
+        "title": "Using Wiki for Enhancing the Knowledge Transfer to Newcomers: An Experience Report",
+        "description": "H. O. Barbosa, A. C. R. da Silva, C. M. de Almeida, E. M. dos Santos, F. O. de Sousa, F. B. da S. Souza, F. B. da S. Souza, F. de O. Lima, L. H. Albuquerque, R. F. do Valle Cunha"
+      },
+      {
+        "title": "An Induction Motor Drive System with Intelligent Supervisory Control for Water Networks Including Storage Tank",
+        "description": "O. S. Ebrahim, K. O. Shawky, M. A. Badr, P. K. Jain"
+      },
+      {
+        "title": "SPA-VNDN: Enhanced Smart Parking Application by Vehicular Named Data Networking",
+        "description": "Bassma Aldahlan, Zongming Fei"
+      },
+      {
+        "title": "A Holistic Framework for Unifying Data Security and Management in Modern Enterprises",
+        "description": "Ashly Joseph"
+      },
+      {
+        "title": "A Methodology for Creating Energy Sustainability in an Enterprise",
+        "description": "John Lamb, Robert Epstein, Vasundhara L. Bhupathi, Sanjeev Kumar Marimekala"
+      },
+      {
+        "title": "Development of Software Complex for Digitalization of Enterprise Activities",
+        "description": "G. T. Balakayeva, K. K. Nurlybayeva, M. B. Zhanuzakov"
+      },
+      {
+        "title": "MLOps Scaling Machine Learning Lifecycle in an Industrial Setting",
+        "description": "Yizhen Zhao, Adam S. Z. Belloum, Gonc\u00b8alo Maia da Costa, Zhiming Zhao"
+      },
+      {
+        "title": "An Examination of the Factors Affecting the Adoption of Cloud Enterprise Resource Planning Systems in Egyptian Companies",
+        "description": "Mayar A. Omar, Ismail Gomaa, Heba Badawy, Hosam Moubarak"
+      },
+      {
+        "title": "A Timed and Colored Petri Nets for Modeling and Verifying Cloud System Elasticity",
+        "description": "W. Louhichi, M.Berrima, N. Ben Rajeb Robbana"
+      },
+      {
+        "title": "Adopting Artificial Intelligence and Deep Learning Techniques in Cloud Computing for Operational Efficiency",
+        "description": "Sandesh Achar"
+      },
+      {
+        "title": "Using Social Network Analysis for Cyber Threat Intelligence",
+        "description": "Vasileios Anastopoulos"
+      },
+      {
+        "title": "Prioritization of Mutation Test Generation with Centrality Measure",
+        "description": "Supachai Supmak, Yachai Limpiyakorn"
+      },
+      {
+        "title": "Supervisory Control for Induction Machine with a Modified Star/Delta Switch in Fluid Transportation",
+        "description": "O. S. Ebrahim, K. O. Shawky, M. A. Badr, P. K. Jain"
+      },
+      {
+        "title": "Platform-as-a-Service Sticky Policies for Privacy Classification in the Cloud",
+        "description": "Maha Shamseddine, Amjad Nusayr, Wassim Itani"
+      }
+    ]
+  },
+  {
+    "title": "International Conference on Requirements Engineering and Software Development Management ICRESDM on January 18-19, 2024 in Dubai, United Arab Emirates",
+    "shortName": "ICRESDM",
+    "topic": "Software Engineering",
+    "location": "Dubai, United Arab Emirates",
+    "websiteURL": "https://waset.org/requirements-engineering-and-software-development-management-conference-in-january-2024-in-dubai",
+    "description": "International Conference on Requirements Engineering and Software Development Managementaims to bring together leading academic scientists, researchers and research scholars to exchange and share their experiences and research results on all aspects of Requirements Engineering and Software Development Management. It also provides a premier interdisciplinary platform for researchers, practitioners and educators to present and discuss the most recent innovations, trends, and concerns as well as practical challenges encountered and solutions adopted in the fields of Requirements Engineering and Software Development Management.",
+    "timeline": {
+      "Abstracts/Full-Text Paper Submission Deadline": "2023-12-20T00:00:00",
+      "Notification of Acceptance/Rejection": "2024-01-05T00:00:00",
+      "Final Paper (Camera Ready) Submission & Early Bird Registration Deadline": "2023-12-15T00:00:00",
+      "Conference Dates": [
+        "2024-01-18T00:00:00",
+        "2024-01-19T00:00:00"
+      ],
+      "timeZone": "UTC+04:00"
+    },
+    "speakers": NaN,
+    "acceptedPapers": [
+      {
+        "title": "A Case Study on How Outreach Programmes Form and Develop the Biomedical Engineering Community in Hong Kong",
+        "description": "Sum Lau, Wing Chung Cleo Lau, Wing Yan Chu, Long Ching Ip, Wan Yin Lo, Jo Long Sam Yau, Ka Ho Hui, Sze Yi Mak"
+      },
+      {
+        "title": "Using Historical Data for Stock Prediction of a Tech Company",
+        "description": "Sofia Stoica"
+      },
+      {
+        "title": "Failure Analysis of a 304 Stainless Steel Flange Crack at Pipeline Transportation of Ethylene",
+        "description": "Parisa Hasanpour, Bahram Borooghani, Vahid Asadi"
+      },
+      {
+        "title": "Static Analysis of Security Issues of the Python Packages Ecosystem",
+        "description": "Adam Gorine, Faten Spondon"
+      },
+      {
+        "title": "UPPAAL-Based Design and Analysis of Intelligent Parking System",
+        "description": "Abobaker M. Q. Farhan, Olof M. A. Saif"
+      },
+      {
+        "title": "Individuals\u2019 Inner Wellbeing during the COVID-19 Pandemic: A Quantitative Comparison of Social Connections and Close Relationships between the UK and India",
+        "description": "Maria Spanoudaki, Pauldy C. J. Otermans, Dev Aditya"
+      },
+      {
+        "title": "Poli4SDG: An Application for Environmental Crises Management and Gender Support",
+        "description": "Angelica S. Valeriani, Lorenzo Biasiolo"
+      },
+      {
+        "title": "Personalized Email Marketing Strategy: A Reinforcement Learning Approach",
+        "description": "Lei Zhang, Tingting Xu, Jun He, Zhenyu Yan, Roger Brooks"
+      },
+      {
+        "title": "Using Wiki for Enhancing the Knowledge Transfer to Newcomers: An Experience Report",
+        "description": "H. O. Barbosa, A. C. R. da Silva, C. M. de Almeida, E. M. dos Santos, F. O. de Sousa, F. B. da S. Souza, F. B. da S. Souza, F. de O. Lima, L. H. Albuquerque, R. F. do Valle Cunha"
+      },
+      {
+        "title": "A BERT-Based Model for Financial Social Media Sentiment Analysis",
+        "description": "Josiel Delgadillo, Johnson Kinyua, Charles Mutigwe"
+      },
+      {
+        "title": "Positioning a Southern Inclusive Framework Embedded in the Social Model of Disability Theory Contextualized for Guyana",
+        "description": "Lidon Lashley"
+      },
+      {
+        "title": "Toward Understanding and Testing Deep Learning Information Flow in Deep Learning-Based Android Apps",
+        "description": "Jie Zhang, Qianyu Guo, Tieyi Zhang, Zhiyong Feng, Xiaohong Li"
+      },
+      {
+        "title": "Impact of the Electricity Market Prices on Energy Storage Operation during the COVID-19 Pandemic",
+        "description": "Marin Mandi\u0107, Elis Sutlovi\u0107, Ton\u0107i Modri\u0107, Luka Stani\u0107"
+      },
+      {
+        "title": "A Quantitative Model for Determining the Area of the \u201cCore and Structural System Elements\u201d of Tall Office Buildings",
+        "description": "G\u00f6rkem Arslan K\u0131l\u0131n\u00e7"
+      },
+      {
+        "title": "Implications about the Impact of COVID-19 on International Trade in Saudi Arabia",
+        "description": "Anwar Kashgari"
+      }
+    ]
+  },
+  {
+    "title": "International Conference on Requirements Engineering and Software Development Management ICRESDM on January 18-19, 2024 in Dubai, United Arab Emirates",
+    "shortName": "ICRESDM",
+    "topic": "Software Engineering",
+    "location": "Dubai, United Arab Emirates",
+    "websiteURL": "https://waset.org/requirements-engineering-and-software-development-management-conference-in-january-2024-in-dubai",
+    "description": "International Conference on Requirements Engineering and Software Development Managementaims to bring together leading academic scientists, researchers and research scholars to exchange and share their experiences and research results on all aspects of Requirements Engineering and Software Development Management. It also provides a premier interdisciplinary platform for researchers, practitioners and educators to present and discuss the most recent innovations, trends, and concerns as well as practical challenges encountered and solutions adopted in the fields of Requirements Engineering and Software Development Management.",
+    "timeline": {
+      "Abstracts/Full-Text Paper Submission Deadline": "2023-12-20T00:00:00",
+      "Notification of Acceptance/Rejection": "2024-01-05T00:00:00",
+      "Final Paper (Camera Ready) Submission & Early Bird Registration Deadline": "2023-12-15T00:00:00",
+      "Conference Dates": [
+        "2024-01-18T00:00:00",
+        "2024-01-19T00:00:00"
+      ],
+      "timeZone": "UTC+04:00"
+    },
+    "speakers": NaN,
+    "acceptedPapers": [
+      {
+        "title": "A Case Study on How Outreach Programmes Form and Develop the Biomedical Engineering Community in Hong Kong",
+        "description": "Sum Lau, Wing Chung Cleo Lau, Wing Yan Chu, Long Ching Ip, Wan Yin Lo, Jo Long Sam Yau, Ka Ho Hui, Sze Yi Mak"
+      },
+      {
+        "title": "Using Historical Data for Stock Prediction of a Tech Company",
+        "description": "Sofia Stoica"
+      },
+      {
+        "title": "Failure Analysis of a 304 Stainless Steel Flange Crack at Pipeline Transportation of Ethylene",
+        "description": "Parisa Hasanpour, Bahram Borooghani, Vahid Asadi"
+      },
+      {
+        "title": "Static Analysis of Security Issues of the Python Packages Ecosystem",
+        "description": "Adam Gorine, Faten Spondon"
+      },
+      {
+        "title": "UPPAAL-Based Design and Analysis of Intelligent Parking System",
+        "description": "Abobaker M. Q. Farhan, Olof M. A. Saif"
+      },
+      {
+        "title": "Individuals\u2019 Inner Wellbeing during the COVID-19 Pandemic: A Quantitative Comparison of Social Connections and Close Relationships between the UK and India",
+        "description": "Maria Spanoudaki, Pauldy C. J. Otermans, Dev Aditya"
+      },
+      {
+        "title": "Poli4SDG: An Application for Environmental Crises Management and Gender Support",
+        "description": "Angelica S. Valeriani, Lorenzo Biasiolo"
+      },
+      {
+        "title": "Personalized Email Marketing Strategy: A Reinforcement Learning Approach",
+        "description": "Lei Zhang, Tingting Xu, Jun He, Zhenyu Yan, Roger Brooks"
+      },
+      {
+        "title": "Using Wiki for Enhancing the Knowledge Transfer to Newcomers: An Experience Report",
+        "description": "H. O. Barbosa, A. C. R. da Silva, C. M. de Almeida, E. M. dos Santos, F. O. de Sousa, F. B. da S. Souza, F. B. da S. Souza, F. de O. Lima, L. H. Albuquerque, R. F. do Valle Cunha"
+      },
+      {
+        "title": "A BERT-Based Model for Financial Social Media Sentiment Analysis",
+        "description": "Josiel Delgadillo, Johnson Kinyua, Charles Mutigwe"
+      },
+      {
+        "title": "Positioning a Southern Inclusive Framework Embedded in the Social Model of Disability Theory Contextualized for Guyana",
+        "description": "Lidon Lashley"
+      },
+      {
+        "title": "Toward Understanding and Testing Deep Learning Information Flow in Deep Learning-Based Android Apps",
+        "description": "Jie Zhang, Qianyu Guo, Tieyi Zhang, Zhiyong Feng, Xiaohong Li"
+      },
+      {
+        "title": "Impact of the Electricity Market Prices on Energy Storage Operation during the COVID-19 Pandemic",
+        "description": "Marin Mandi\u0107, Elis Sutlovi\u0107, Ton\u0107i Modri\u0107, Luka Stani\u0107"
+      },
+      {
+        "title": "A Quantitative Model for Determining the Area of the \u201cCore and Structural System Elements\u201d of Tall Office Buildings",
+        "description": "G\u00f6rkem Arslan K\u0131l\u0131n\u00e7"
+      },
+      {
+        "title": "Implications about the Impact of COVID-19 on International Trade in Saudi Arabia",
+        "description": "Anwar Kashgari"
+      }
+    ]
+  },
+  {
+    "title": "International Conference on Requirements Engineering and Software Development Management ICRESDM on January 18-19, 2024 in Dubai, United Arab Emirates",
+    "shortName": "ICRESDM",
+    "topic": "Software Engineering",
+    "location": "Dubai, United Arab Emirates",
+    "websiteURL": "https://waset.org/requirements-engineering-and-software-development-management-conference-in-january-2024-in-dubai",
+    "description": "International Conference on Requirements Engineering and Software Development Managementaims to bring together leading academic scientists, researchers and research scholars to exchange and share their experiences and research results on all aspects of Requirements Engineering and Software Development Management. It also provides a premier interdisciplinary platform for researchers, practitioners and educators to present and discuss the most recent innovations, trends, and concerns as well as practical challenges encountered and solutions adopted in the fields of Requirements Engineering and Software Development Management.",
+    "timeline": {
+      "Abstracts/Full-Text Paper Submission Deadline": "2023-12-20T00:00:00",
+      "Notification of Acceptance/Rejection": "2024-01-05T00:00:00",
+      "Final Paper (Camera Ready) Submission & Early Bird Registration Deadline": "2023-12-15T00:00:00",
+      "Conference Dates": [
+        "2024-01-18T00:00:00",
+        "2024-01-19T00:00:00"
+      ],
+      "timeZone": "UTC+04:00"
+    },
+    "speakers": NaN,
+    "acceptedPapers": [
+      {
+        "title": "A Case Study on How Outreach Programmes Form and Develop the Biomedical Engineering Community in Hong Kong",
+        "description": "Sum Lau, Wing Chung Cleo Lau, Wing Yan Chu, Long Ching Ip, Wan Yin Lo, Jo Long Sam Yau, Ka Ho Hui, Sze Yi Mak"
+      },
+      {
+        "title": "Using Historical Data for Stock Prediction of a Tech Company",
+        "description": "Sofia Stoica"
+      },
+      {
+        "title": "Failure Analysis of a 304 Stainless Steel Flange Crack at Pipeline Transportation of Ethylene",
+        "description": "Parisa Hasanpour, Bahram Borooghani, Vahid Asadi"
+      },
+      {
+        "title": "Static Analysis of Security Issues of the Python Packages Ecosystem",
+        "description": "Adam Gorine, Faten Spondon"
+      },
+      {
+        "title": "UPPAAL-Based Design and Analysis of Intelligent Parking System",
+        "description": "Abobaker M. Q. Farhan, Olof M. A. Saif"
+      },
+      {
+        "title": "Individuals\u2019 Inner Wellbeing during the COVID-19 Pandemic: A Quantitative Comparison of Social Connections and Close Relationships between the UK and India",
+        "description": "Maria Spanoudaki, Pauldy C. J. Otermans, Dev Aditya"
+      },
+      {
+        "title": "Poli4SDG: An Application for Environmental Crises Management and Gender Support",
+        "description": "Angelica S. Valeriani, Lorenzo Biasiolo"
+      },
+      {
+        "title": "Personalized Email Marketing Strategy: A Reinforcement Learning Approach",
+        "description": "Lei Zhang, Tingting Xu, Jun He, Zhenyu Yan, Roger Brooks"
+      },
+      {
+        "title": "Using Wiki for Enhancing the Knowledge Transfer to Newcomers: An Experience Report",
+        "description": "H. O. Barbosa, A. C. R. da Silva, C. M. de Almeida, E. M. dos Santos, F. O. de Sousa, F. B. da S. Souza, F. B. da S. Souza, F. de O. Lima, L. H. Albuquerque, R. F. do Valle Cunha"
+      },
+      {
+        "title": "A BERT-Based Model for Financial Social Media Sentiment Analysis",
+        "description": "Josiel Delgadillo, Johnson Kinyua, Charles Mutigwe"
+      },
+      {
+        "title": "Positioning a Southern Inclusive Framework Embedded in the Social Model of Disability Theory Contextualized for Guyana",
+        "description": "Lidon Lashley"
+      },
+      {
+        "title": "Toward Understanding and Testing Deep Learning Information Flow in Deep Learning-Based Android Apps",
+        "description": "Jie Zhang, Qianyu Guo, Tieyi Zhang, Zhiyong Feng, Xiaohong Li"
+      },
+      {
+        "title": "Impact of the Electricity Market Prices on Energy Storage Operation during the COVID-19 Pandemic",
+        "description": "Marin Mandi\u0107, Elis Sutlovi\u0107, Ton\u0107i Modri\u0107, Luka Stani\u0107"
+      },
+      {
+        "title": "A Quantitative Model for Determining the Area of the \u201cCore and Structural System Elements\u201d of Tall Office Buildings",
+        "description": "G\u00f6rkem Arslan K\u0131l\u0131n\u00e7"
+      },
+      {
+        "title": "Implications about the Impact of COVID-19 on International Trade in Saudi Arabia",
+        "description": "Anwar Kashgari"
+      }
+    ]
   }
 ]

@@ -1,3 +1,4 @@
+from datetime import datetime
 from bs4 import BeautifulSoup
 import cloudscraper
 import pandas as pd
@@ -47,9 +48,12 @@ def Convert_to_camel_case (title):
 def is_number_using_isdigit(s):
     return s.isdigit()
 
+def is_short_name(s):
+    return s.isupper()
+
 def process_title_name(title):
     # Construct the month pattern dynamically
-    month_pattern = r'on (\w+ \d{1,2})'
+    month_pattern = r' on [A-Za-z]+ \d{1,2}'
 
     # Search for the month pattern in the text
     match = re.search(month_pattern, title)
@@ -64,14 +68,14 @@ def process_title_name(title):
 
         if(is_number_using_isdigit(parts[0].split()[-1])):
             return ' '.join(parts[0].split()[:-2])
-        
+        elif(is_short_name(parts[0].split()[-1])):
+            return ' '.join(parts[0].split()[:-1])
     else:
-        # print(f"No match found for {title}.")
-        return parts[0] + " FAILED"
+        return title
 
 # Get links of conferences 
 def Collect_links (url, filename):
-    last_page = Get_total_page(url)
+    last_page = 1# For testing: Get_total_page(url)
     scraper = cloudscraper.create_scraper(delay = 20, browser = "chrome")
 
     for i in range(1, last_page + 1):
@@ -195,7 +199,7 @@ def Extract_data(url):
         # Get the title
         title = soup.find('title')
 
-        print(title.text)
+        # print(title.text)
         print(process_title_name(title.text))
         
         attributes['title'] = title.text
