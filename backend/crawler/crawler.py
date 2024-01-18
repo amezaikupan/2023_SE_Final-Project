@@ -77,8 +77,8 @@ def process_title_name(title):
             return ' '.join(parts[0].split()[:-2])
         elif(is_short_name(parts[0].split()[-1])):
             return ' '.join(parts[0].split()[:-1])
-        elif(is_short_name(parts[0].split()[-1])):
-            return ' '.join(parts[0].split()[:-1])
+        else:
+            return ' '.join(parts[0].split()[:])
     else:
         return title
 
@@ -207,6 +207,7 @@ def Extract_data(url):
         # Get the title
         title = soup.find('title')
         cleaned_title = process_title_name(title.text)
+
        
         if 'FAILED' not in cleaned_title:
             attributes['title'] = cleaned_title
@@ -259,34 +260,34 @@ def main():
         Collect_links(url, file_name)
 
     
-    # df = pd.DataFrame(columns = fields)
+    df = pd.DataFrame(columns = fields)
 
-    # for topic in list(topics_dict.keys()):
-    #     urls = []
+    for topic in list(topics_dict.keys()):
+        urls = []
 
-    #     with open('Conference_links/' + topic + '.txt', 'r') as file:
-    #         for line in file.readlines():
-    #                 urls.append(line)
+        with open('Conference_links/' + topic + '.txt', 'r') as file:
+            for line in file.readlines():
+                    urls.append(line)
 
-    #     for i in range(0, len(urls), 100):
-    #         for j, url in enumerate(urls[i : i + 100]):
-    #             if url[-1] == '\n':
-    #                 url = url[:-1]
-    #             print(j, url)
+        for i in range(0, len(urls), 100):
+            for j, url in enumerate(urls[i : i + 100]):
+                if url[-1] == '\n':
+                    url = url[:-1]
+                print(j, url)
                 
-    #             features = Extract_data(url)
+                features = Extract_data(url)
 
-    #             if features and  features['description'] != "None":
-    #                 new_row = pd.Series(features, index = fields)
-    #                 new_row_df = pd.DataFrame([new_row])
-    #                 new_row_df['topic'] = topics_dict[topic]
+                if features and  features['description'] != "None":
+                    new_row = pd.Series(features, index = fields)
+                    new_row_df = pd.DataFrame([new_row])
+                    new_row_df['topic'] = topics_dict[topic]
 
-    #                 df = pd.concat([df, new_row_df], ignore_index = True)
+                    df = pd.concat([df, new_row_df], ignore_index = True)
 
-    #         time.sleep(20)
-    # df.to_json("..\database\Conferences.json", orient='records', indent=2)
+            time.sleep(20)
+    df.to_json("..\database\Conferences.json", orient='records', indent=2)
 def main2():
-    url = 'https://conferenceindex.org/event/international-conference-on-software-design-engineering-icsde-2024-july-berlin-de'
+    url = 'https://conferenceindex.org/event/that-conference-texas-2024-january-round-rock-us'
     feature = Extract_data(url)
 
     if feature:

@@ -19,7 +19,6 @@ https://conferenceindex.org/event/international-conference-on-computer-science-m
 https://conferenceindex.org/event/international-conference-on-advanced-computer-engineering-and-electrotechnics-icacee-2024-january-rome-it
 https://conferenceindex.org/event/international-conference-on-mathematical-and-computer-sciences-icmcs-2024-january-bangkok-th
 https://conferenceindex.org/event/international-conference-on-information-technology-and-computer-sciences-icitcs-2024-january-bangkok-th
-https://conferenceindex.org/event/international-conference-on-computer-vision-and-image-processing-iccvip-2024-january-rome-it
 https://conferenceindex.org/event/international-conference-on-computer-sciences-and-knowledge-engineering-iccske-2024-january-rome-it
 https://conferenceindex.org/event/international-conference-on-acoustics-speech-and-signal-processing-icassp-2024-january-rome-it
 https://conferenceindex.org/event/international-conference-on-computer-science-cybersecurity-and-information-technology-iccscit-2024-january-bangkok-th
@@ -37,7 +36,6 @@ https://conferenceindex.org/event/international-conference-on-medical-imaging-im
 https://conferenceindex.org/event/international-conference-on-bioinformatics-computational-biology-and-biomedical-engineering-icbcbbe-2024-january-amsterdam-nl
 https://conferenceindex.org/event/international-conference-on-urban-engineering-and-computer-aided-design-icuecad-2024-january-london-gb
 https://conferenceindex.org/event/international-conference-on-acoustics-speech-and-signal-processing-icassp-2024-january-london-gb
-https://conferenceindex.org/event/international-conference-on-computer-and-information-science-iccis-2024-january-amsterdam-nl
 https://conferenceindex.org/event/international-conference-on-acoustics-speech-and-signal-processing-icassp-2024-january-mandalay-mm
 https://conferenceindex.org/event/international-conference-on-computer-science-electronics-cybernetics-informatics-and-software-engineering-iccsecise-2024-january-london-gb
 https://conferenceindex.org/event/international-conference-on-information-and-computer-sciences-icics-2024-january-london-gb
@@ -63,10 +61,6 @@ https://conferenceindex.org/event/international-conference-on-computer-science-p
 https://conferenceindex.org/event/international-conference-on-advanced-computer-engineering-and-electrotechnics-icacee-2024-january-paris-fr
 https://conferenceindex.org/event/international-conference-on-computer-science-and-information-technology-iccsit-2024-january-paris-fr
 https://conferenceindex.org/event/international-conference-on-computer-sciences-and-knowledge-management-iccskm-2024-january-paris-fr
-https://conferenceindex.org/event/international-conference-on-communication-systems-networks-and-digital-signal-processing-iccsndsp-2024-january-paris-fr
-https://conferenceindex.org/event/international-conference-on-signal-processing-communications-and-networking-icspcn-2024-january-paris-fr
-https://conferenceindex.org/event/international-conference-on-bioinformatics-computational-biology-and-biomedical-engineering-icbcbbe-2024-january-paris-fr
-https://conferenceindex.org/event/international-conference-on-computer-science-machine-learning-and-algorithms-iccpsmla-2024-january-paris-fr
 https://conferenceindex.org/event/international-conference-on-computer-science-software-and-information-engineering-iccssie-2024-january-paris-fr
 https://conferenceindex.org/event/international-conference-on-computer-science-programming-and-security-iccsps-2024-january-paris-fr
 https://conferenceindex.org/event/international-conference-on-acoustics-speech-and-signal-processing-icassp-2024-january-paris-fr
@@ -179,11 +173,6 @@ https://conferenceindex.org/event/international-conference-on-statistical-signal
 https://conferenceindex.org/event/international-conference-on-computer-science-programming-and-security-iccsps-2024-february-bangkok-th
 https://conferenceindex.org/event/international-conference-on-information-and-computer-sciences-icics-2024-february-guangzhou-cn
 https://conferenceindex.org/event/international-conference-on-computer-science-machine-learning-and-algorithms-iccpsmla-2024-february-barcelona-es
-https://conferenceindex.org/event/international-conference-on-computer-systems-science-and-engineering-iccsse-2024-february-havana-cu
-https://conferenceindex.org/event/international-conference-on-intelligent-signal-processing-and-communication-systems-icispcs-2024-february-havana-cu
-https://conferenceindex.org/event/international-conference-on-information-and-computer-sciences-icics-2024-february-havana-cu
-https://conferenceindex.org/event/international-conference-on-signal-processing-communications-and-networking-icspcn-2024-february-havana-cu
-https://conferenceindex.org/event/international-conference-on-computer-science-complex-systems-and-security-iccscss-2024-february-havana-cu
 https://conferenceindex.org/event/international-conference-on-computer-science-machine-learning-and-algorithms-iccpsmla-2024-february-havana-cu
 https://conferenceindex.org/event/international-conference-on-computer-science-cybersecurity-and-information-technology-iccscit-2024-february-havana-cu
 https://conferenceindex.org/event/international-conference-on-intelligent-signal-processing-and-communication-systems-icispcs-2024-february-havana-cu
@@ -193,7 +182,7 @@ https://conferenceindex.org/event/international-conference-on-computer-systems-s
 https://conferenceindex.org/event/international-conference-on-acoustics-speech-and-signal-processing-icassp-2024-february-havana-cu
 https://conferenceindex.org/event/international-conference-on-computer-science-complex-systems-and-security-iccscss-2024-february-havana-cu
 https://conferenceindex.org/event/international-conference-on-computer-science-programming-and-security-iccsps-2024-february-havana-cu
-https://conferenceindex.org/event/international-conference-on-acoustics-speech-and-signal-processing-icassp-2024-february-havana-cu
+https://conferenceindex.org/event/international-conference-on-science-innovation-and-management-2024-february-antalya-tr
 https://conferenceindex.org/event/international-conference-on-computer-science-machine-learning-and-data-analytics-iccsmlda-2024-february-rio-de-janeiro-br
 https://conferenceindex.org/event/international-conference-on-computer-science-and-software-engineering-iccsse-2024-february-rio-de-janeiro-br
 https://conferenceindex.org/event/international-conference-on-signal-processing-and-integrated-networks-icspin-2024-february-rio-de-janeiro-br

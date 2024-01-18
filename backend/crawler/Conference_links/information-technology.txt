@@ -488,6 +488,7 @@ https://conferenceindex.org/event/international-conference-on-information-and-co
 https://conferenceindex.org/event/international-conference-on-information-engineering-and-technology-iciet-2025-february-buenos-aires-ar
 https://conferenceindex.org/event/international-conference-on-emerging-trends-in-computer-and-information-technology-icetcit-2025-march-tokyo-jp
 https://conferenceindex.org/event/international-conference-on-managing-information-technology-icmit-2025-march-paris-fr
+https://conferenceindex.org/event/international-conference-on-information-communication-and-computer-technology-icicct-2025-march-sydney-au
 https://conferenceindex.org/event/international-conference-on-information-technology-and-engineering-icite-2025-may-sydney-au
 https://conferenceindex.org/event/international-conference-on-engineering-and-information-technology-iceit-2025-may-vancouver-ca
 https://conferenceindex.org/event/international-conference-on-information-technology-control-and-automation-icitca-2025-june-vienna-at
@@ -497,4 +498,3 @@ https://conferenceindex.org/event/international-conference-on-quantum-informatio
 https://conferenceindex.org/event/international-conference-on-social-innovation-and-information-technology-icsiit-2025-july-copenhagen-dk
 https://conferenceindex.org/event/international-conference-on-information-technology-in-medicine-and-education-icitme-2025-july-berlin-de
 https://conferenceindex.org/event/international-conference-on-information-systems-design-and-technology-icisdt-2025-july-istanbul-tr
-https://conferenceindex.org/event/international-conference-on-information-and-computer-technology-icict-2025-august-budapest-hu
