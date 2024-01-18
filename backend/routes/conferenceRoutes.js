@@ -61,12 +61,18 @@ router.post('/api/conferences/query', async (req, res) => {
         limitDate.setDate(today.getDate() + 365)
       }
 
-      filteredConference = filteredConference.filter(conf => ((new Date(conf.timeline.conferenceDates[0])) < limitDate) && ((new Date(conf.timeline.conferenceDates[0])) >= today))
+      console.log(limitDate)
+      filteredConference = filteredConference.filter(conf => ((conf.timeline['Conference Dates'][0]) < limitDate))// && ((new Date(conf.timeline['Conference Dates'][0])) > (today - 1)))
+      console.log(today)
+      console.log(filteredConference[0].timeline['Conference Dates'][0])
+      console.log(filteredConference[0].timeline['Conference Dates'][0] >= today - 1)
     }
+
+    console.log(filteredConference[0].timeline)
 
     // Filter submission requirement
     if(paperSubmissionOpen){
-      filteredConference = filteredConference.filter(conf => (new Date(conf.timeline.submissionDeadline)) > today)
+      filteredConference = filteredConference.filter(conf => (new Date(conf.timeline['Abstracts/Full-Text Paper Submission Deadline'])) > today)
     }
 
     // Post json

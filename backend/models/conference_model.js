@@ -6,10 +6,10 @@ const PaperSchema = new mongoose.Schema({
 });
 
 const TimelineSchema = new mongoose.Schema({
-  submissionDeadline: Date,
-  notificationOfAcceptance: Date,
-  finalSubmission: Date,
-  conferenceDates: [Date],
+  'Abstracts/Full-Text Paper Submission Deadline': Date,
+  'Notification of Acceptance/Rejection': Date,
+  'Final Paper (Camera Ready) Submission & Early Bird Registration Deadline': Date,
+  'Conference Dates': [Date],
   timeZone: String
 });
 
