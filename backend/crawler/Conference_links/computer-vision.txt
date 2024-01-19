@@ -1,6 +1,3 @@
-https://conferenceindex.org/event/international-conference-on-machine-learning-and-computer-vision-icmlcv-2024-january-rome-it
-https://conferenceindex.org/event/international-conference-on-computer-vision-and-image-processing-iccvip-2024-january-rome-it
-https://conferenceindex.org/event/international-conference-on-computational-geometry-and-computer-vision-iccgcv-2024-january-rome-it
 https://conferenceindex.org/event/international-conference-on-machine-learning-methods-for-computer-vision-icmlmcv-2024-january-amsterdam-nl
 https://conferenceindex.org/event/international-conference-on-computer-and-robot-vision-iccrv-2024-january-mandalay-mm
 https://conferenceindex.org/event/international-conference-on-advances-in-computer-vision-technologies-icacvt-2024-january-paris-fr
@@ -236,3 +233,4 @@ https://conferenceindex.org/event/international-conference-on-pattern-recognitio
 https://conferenceindex.org/event/international-conference-on-computer-vision-and-intelligent-systems-iccvis-2025-november-san-francisco-us
 https://conferenceindex.org/event/international-conference-on-computer-vision-and-image-processing-iccvip-2025-december-cairo-eg
 https://conferenceindex.org/event/international-conference-on-pattern-recognition-and-computer-vision-icprcv-2025-december-dubai-ae
+https://conferenceindex.org/event/international-conference-on-image-processing-analysis-and-computer-vision-icipacv-2025-december-dubai-ae

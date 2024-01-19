@@ -1,6 +1,3 @@
-https://conferenceindex.org/event/international-conference-on-artificial-intelligence-for-biomedical-engineering-icaibe-2024-january-bangkok-th
-https://conferenceindex.org/event/international-conference-on-biomedical-engineering-and-artificial-intelligence-icbeai-2024-january-rome-it
-https://conferenceindex.org/event/international-conference-on-artificial-intelligence-for-health-and-healthcare-icaihh-2024-january-paris-fr
 https://conferenceindex.org/event/international-conference-on-artificial-intelligence-and-soft-computing-icaisc-2024-january-istanbul-tr
 https://conferenceindex.org/event/international-conference-on-intelligent-agriculture-and-artificial-intelligence-iciaai-2024-january-amsterdam-nl
 https://conferenceindex.org/event/international-conference-on-computing-architecture-and-artificial-intelligence-iccaai-2024-january-amsterdam-nl
@@ -263,7 +260,6 @@ https://conferenceindex.org/event/international-conference-on-artificial-intelli
 https://conferenceindex.org/event/international-conference-on-artificial-intelligence-and-fuzzy-logic-systems-icaifls-2024-june-san-francisco-us
 https://conferenceindex.org/event/international-conference-on-artificial-intelligence-for-healthcare-icaih-2024-june-san-francisco-us
 https://conferenceindex.org/event/international-conference-on-artificial-general-intelligence-and-consciousness-icagic-2024-june-san-francisco-us
-https://conferenceindex.org/event/world-symposium-on-artificial-intelligence-wsai-2024-june-guangzhou-cn
 https://conferenceindex.org/event/international-conference-on-artificial-intelligence-innovation-icaii-2024-june-bangkok-th
 https://conferenceindex.org/event/international-conference-on-artificial-intelligence-for-healthcare-icaih-2024-june-ljubljana-si
 https://conferenceindex.org/event/the-4th-international-conference-on-intelligent-systems-and-pattern-recognition-2024-june-istanbul-tr
@@ -498,3 +494,7 @@ https://conferenceindex.org/event/international-conference-on-agriculture-and-ar
 https://conferenceindex.org/event/international-conference-on-artificial-intelligence-and-software-engineering-icaise-2024-november-reykjavik-is
 https://conferenceindex.org/event/international-conference-on-hybrid-intelligence-and-artificial-intelligence-ichiai-2024-november-jeddah-sa
 https://conferenceindex.org/event/international-conference-on-information-security-and-artificial-intelligence-icisai-2024-november-reykjavik-is
+https://conferenceindex.org/event/international-conference-on-computing-and-artificial-intelligence-iccai-2024-november-jeddah-sa
+https://conferenceindex.org/event/international-conference-on-agricultural-robotics-and-artificial-intelligence-icarai-2024-november-singapore-sg
+https://conferenceindex.org/event/international-conference-on-architectural-engineering-and-artificial-intelligence-icaeai-2024-november-singapore-sg
+https://conferenceindex.org/event/international-conference-on-artificial-intelligence-technologies-in-engineering-design-icaited-2024-november-paris-fr

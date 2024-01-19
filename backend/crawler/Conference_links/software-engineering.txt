@@ -1,10 +1,3 @@
-https://conferenceindex.org/event/international-conference-on-software-engineering-and-software-development-icsesd-2024-january-bangkok-th
-https://conferenceindex.org/event/international-conference-on-parallel-distributed-systems-and-software-engineering-icpdsse-2024-january-rome-it
-https://conferenceindex.org/event/international-conference-on-knowledge-and-software-engineering-ickse-2024-january-rome-it
-https://conferenceindex.org/event/international-conference-on-human-centered-software-engineering-and-systems-ichcses-2024-january-rome-it
-https://conferenceindex.org/event/international-conference-on-requirements-engineering-and-software-development-management-icresdm-2024-january-dubai-ae
-https://conferenceindex.org/event/international-conference-on-software-engineering-and-technology-icset-2024-january-dubai-ae
-https://conferenceindex.org/event/international-conference-on-management-and-information-technology-icmit-2024-january-kuala-lumpur-my
 https://conferenceindex.org/event/international-conference-on-interdisciplinary-approaches-in-humanities-and-social-sciences-iahss-2024-january-london-gb
 https://conferenceindex.org/event/international-conference-on-management-and-information-technology-icmit-2024-january-istanbul-tr
 https://conferenceindex.org/event/international-conference-on-contemporary-software-engineering-iccse-2024-january-london-gb
@@ -387,3 +380,4 @@ https://conferenceindex.org/event/international-conference-on-software-requireme
 https://conferenceindex.org/event/international-conference-on-information-and-software-engineering-and-technology-iciset-2025-september-vancouver-ca
 https://conferenceindex.org/event/international-conference-on-writing-software-in-computer-engineering-icwsce-2025-october-beijing-cn
 https://conferenceindex.org/event/international-conference-on-systems-and-software-engineering-icsse-2025-october-istanbul-tr
+https://conferenceindex.org/event/international-conference-on-knowledge-and-software-engineering-ickse-2025-november-singapore-sg

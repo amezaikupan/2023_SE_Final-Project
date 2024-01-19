@@ -133,21 +133,21 @@ const processConferenceData = (data) => {
     id: item._id,
     shortName: item.shortName,
     name: item.title,
-    url: item.websiteURL,
+    url: item.websiteUrl,
     location: item.location,
     topic: item.topic,
-    dates: item.timeline && item.timeline["Conference Dates"]
-      ? item.timeline["Conference Dates"].map(date => formatDate(date)).join('~')
+    dates: item.timeline && item.timeline["conferenceDates"]
+      ? item.timeline["conferenceDates"].map(date => formatDate(date)).join('~')
       : '',
     timezone: item.timeline ? item.timeline.timeZone : '',
     submissionDeadline: item.timeline 
-      ? formatDate(item.timeline["Abstracts/Full-Text Paper Submission Deadline"])
+      ? formatDate(item.timeline["abstracts/full-textPaperSubmissionDeadline"])
       : '',
     notificationAcceptedPaper: item.timeline 
-      ? formatDate(item.timeline["Notification of Acceptance/Rejection"])
+      ? formatDate(item.timeline["notificationOfAcceptance/rejection"])
       : '',
     finalSubmission: item.timeline 
-      ? formatDate(item.timeline["Final Paper (Camera Ready) Submission & Early Bird Registration Deadline"])
+      ? formatDate(item.timeline["finalPaper(cameraReady)Submission&EarlyBirdRegistrationDeadline"])
       : '',
     description: item.description,
     speakers: item.speakers,

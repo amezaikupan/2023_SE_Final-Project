@@ -5,12 +5,12 @@ from pymongo import MongoClient
 myclient = MongoClient("mongodb://localhost:27017/") 
 
 # database 
-db = myclient.Conference_info
+db = myclient.yourDatabase
 
 Collection = db.Conference
 
 # Loading or Opening the json file
-with open('Conferences.json') as file:
+with open('../database/Conferences.json') as file:
 	file_data = json.load(file)
 	
 Collection.delete_many({})

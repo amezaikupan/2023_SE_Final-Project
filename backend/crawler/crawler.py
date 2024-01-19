@@ -47,7 +47,8 @@ def Convert_to_datetime(date):
 def Convert_to_camel_case (title):
     words = title.split(' ')
     if len(words) >= 2:
-        return words[0].lower() + words[1].strip()
+        camel_case = words[0].lower() + ''.join(word.capitalize() for word in words[1:])
+        return camel_case
     return title.lower()
 
 # Function to check a string is in digit format.
@@ -81,6 +82,36 @@ def process_title_name(title):
             return ' '.join(parts[0].split()[:])
     else:
         return title
+
+def process_date_time(date):
+    if '-' in date:
+        start_date_str = " "
+        end_date_str = " "
+
+        if re.match(r"(\w+\s+\d+)-(\d+),\s+(\d{4})", date):
+            month, days, year = date.split(' ')
+            start_day, end_day = days.split('-')
+
+            start_date_str = f"{month} {start_day}, {year}"
+            end_date_str = f"{month} {end_day} {year}"
+        
+        elif re.match(r"(\w+\s+\d+)-(\w+\s+\d+),\s+(\d{4})", date):
+            year = date.split(',')[-1]
+            start_date_str, end_date_str = date.split('-')
+            start_date_str = start_date_str + ', ' + year.strip()
+
+        elif re.match(r"(\w+\s+\d+,\s+\d{4})-(\w+\s+\d+),\s+(\d{4})", date):
+            start_date_str, end_date_str = date.split('-')
+
+        start_date = Convert_to_datetime(start_date_str.strip()).isoformat() + 'Z'
+        end_date = Convert_to_datetime(end_date_str.strip()).isoformat() + 'Z'
+        date = [start_date, end_date]
+    else:
+        date = Convert_to_datetime(date).isoformat() + 'Z'
+    
+    return date
+        
+
 
 # Get links of conferences 
 def Collect_links (url, filename):
@@ -168,7 +199,6 @@ def Extract_additional_data(url):
                 if len(description) > 2:
                     description = description[1].get_text(strip = True).replace('\n', '')
                     cleaned_description = re.sub(r'\s+', ' ', description).strip()
-                
 
             date_table = soup.find('table', class_ = 'table table-sm table-striped')
             if date_table:
@@ -177,20 +207,7 @@ def Extract_additional_data(url):
                 for date in dates:
                     info  = date.text.split('\n')
                     date = info[3].strip()
-                    if '-' in date:
-                        month, days, year = date.split(" ")
-                        start_day, end_day = days.split('-')
-
-                        start_date_str = f"{month} {start_day}, {year}"
-                        end_date_str = f"{month} {end_day} {year}"
-                       
-                        start_date = Convert_to_datetime(start_date_str).isoformat()
-                        end_date = Convert_to_datetime(end_date_str).isoformat()
-                        date = [start_date, end_date]
-                    else:
-                        date = Convert_to_datetime(date).isoformat()
-                       
-                    important_dates[info[1].strip()] = date
+                    important_dates[Convert_to_camel_case(info[1].strip())] = process_date_time(date)
         else:
             cleaned_description = "None"
 
@@ -207,12 +224,7 @@ def Extract_data(url):
         # Get the title
         title = soup.find('title')
         cleaned_title = process_title_name(title.text)
-
-       
-        if 'FAILED' not in cleaned_title:
-            attributes['title'] = cleaned_title
-        else: 
-            attributes['title'] = title.text
+        attributes['title'] = cleaned_title
         
         features = soup.find_all('ul', class_ = 'mb-2 list-unstyled')
 
@@ -228,13 +240,19 @@ def Extract_data(url):
                     title = Convert_to_camel_case(title)
                     attributes[title] = value
 
-        if 'websiteURL' in attributes:
-            description, accepted_papers, important_dates = Extract_additional_data(attributes['websiteURL'])
+        attributes['timeline'] = {}
+        if 'date' in attributes:
+            attributes['timeline']['conferenceDates'] = process_date_time(attributes['date'])
+        if 'websiteUrl' in attributes:
+            description, accepted_papers, important_dates = Extract_additional_data(attributes['websiteUrl'])
             attributes['description'] = description
             attributes['acceptedPapers'] = accepted_papers
             time_zone = Get_timezone(attributes['location'], api)
             important_dates['timeZone'] = "UTC"+ time_zone
-            attributes['timeline'] = important_dates
+           
+            existing_timeline = attributes.get('timeline', {})
+            existing_timeline.update(important_dates)
+            attributes['timeline'] = existing_timeline
 
     return attributes
 
@@ -247,7 +265,7 @@ topics_dict = {
         'artificial-intelligence' : 'Artificial Intelligence',
         'information-systems' : 'Information Systems'
     }
-fields = ['title', 'shortName','topic', 'location', 'websiteURL', 'description', 'timeline', 'speakers', 'acceptedPapers']
+fields = ['title', 'shortName','topic', 'location', 'websiteUrl', 'description', 'timeline', 'speakers', 'acceptedPapers']
 api = 'f6b48c721d4c46abbe6f5c0620e1eba2' 
 
 def main():
@@ -275,19 +293,22 @@ def main():
                     url = url[:-1]
                 print(j, url)
                 
-                features = Extract_data(url)
+                try:
+                    features = Extract_data(url)
 
-                if features and  features['description'] != "None":
-                    new_row = pd.Series(features, index = fields)
-                    new_row_df = pd.DataFrame([new_row])
-                    new_row_df['topic'] = topics_dict[topic]
+                    if features and  features['description'] != "None":
+                        new_row = pd.Series(features, index = fields)
+                        new_row_df = pd.DataFrame([new_row])
+                        new_row_df['topic'] = topics_dict[topic]
 
-                    df = pd.concat([df, new_row_df], ignore_index = True)
+                        df = pd.concat([df, new_row_df], ignore_index = True)
+                except:
+                    continue
 
             time.sleep(20)
     df.to_json("..\database\Conferences.json", orient='records', indent=2)
 def main2():
-    url = 'https://conferenceindex.org/event/that-conference-texas-2024-january-round-rock-us'
+    url = 'https://conferenceindex.org/event/international-conference-on-information-systems-design-and-technology-icisdt-2025-july-istanbul-tr'
     feature = Extract_data(url)
 
     if feature:
@@ -297,3 +318,5 @@ def main2():
         print("Khong co j het")
 if __name__ == "__main__":
     main()
+
+# TODO: Sửa format của date, sửa luôn cái date chỗ khác.
