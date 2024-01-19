@@ -74,6 +74,8 @@ router.post('/api/conferences/query', async (req, res) => {
       // console.log(today )
     }
 
+    console.log(filteredConference[0].timeline)
+
     // Filter submission requirement
     if(paperSubmissionOpen){
       filteredConference = filteredConference.filter(conf => (new Date(conf.timeline['abstracts/full-textPaperSubmissionDeadline'])) > today)
