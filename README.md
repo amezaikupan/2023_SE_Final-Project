@@ -1,5 +1,5 @@
 # **ĐỒ ÁN NHẬP MÔN CÔNG NGHỆ PHẦN MỀM**
-- Nhóm 16: 
+- Nhóm 16.
 - Thành viên: 
 
 | STT | MSSV     | Họ và tên          |
@@ -11,6 +11,15 @@
 
 ## Giới thiệu
 
+**Chủ đề đồ án**: Website hiển thị thông tin hội nghị sử dụng dữ liệu từ chương trình web crawler.
+
+**Quy trình phần mềm áp dụng**: Waterfall cải tiến. Điểm khác biệt với quy trình Waterfall cổ điển là nếu có thay đổi trong quá trình thực hiện đồ án thì sẽ quay lại một giai đoạn trong quy trình, thay vì quay lại giai đoạn đầu tiên. Quy trình áp dụng phù hợp với yêu cầu của đồ án dựa trên xem xét về kinh nghiệm của các thành viên, cùng với thứ tự các bài tập kèm theo (template) đều có điểm dựa theo việc sử dụng quy trình phần mềm. 
+
+Lý do nhóm sử dụng quy trình Waterfall cải tiến vì trong quá trình phát triển sẽ khó tránh khỏi việc thay đổi các yếu tố không phù hợp.
+
+**Mô hình sử dụng**: là mô trình MVC. Vì sản phẩm thực hiện là một website nên cũng có thể xem là theo mô hình client-server.
+
+Bản thiết kế ứng dụng có thể được xem thêm tại [đây](https://www.figma.com/file/5QlbmHHB0nevEGVfW7QZ0s/CS-Tracker?type=design&node-id=0%3A1&mode=design&t=kvhRmzNsiosQDpRh-1).
 
 ## Công nghệ sử dung
 - Lập trình backend: `NodeJS`
