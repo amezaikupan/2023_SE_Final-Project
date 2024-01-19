@@ -307,15 +307,6 @@ def main():
 
             time.sleep(20)
     df.to_json("..\database\Conferences.json", orient='records', indent=2)
-def main2():
-    url = 'https://conferenceindex.org/event/international-conference-on-information-systems-design-and-technology-icisdt-2025-july-istanbul-tr'
-    feature = Extract_data(url)
-
-    if feature:
-        for key, value in feature.items():
-            print(f'{key} - {value}')
-    else:
-        print("Khong co j het")
 if __name__ == "__main__":
     main()
 
