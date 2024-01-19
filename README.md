@@ -1,5 +1,4 @@
-# **ĐỒ ÁN NHẬP MÔN CÔNG NGHỆ PHẦN MỀM**
-- Nhóm 16.
+# **ĐỒ ÁN NHẬP MÔN CÔNG NGHỆ PHẦN MỀM - NHÓM 16**
 - Thành viên: 
 
 | STT | MSSV     | Họ và tên          |
