@@ -1,0 +1,148 @@
+@import 'myCustom.scss';
+
+
+
+.conference-container{
+    .conference-info{
+        display: flex;  
+        flex-direction: column;
+
+        .conference-header{
+            display: flex;
+            padding: 20px;
+            background-color: $note-background;
+            border-radius: 5px;
+            margin-right: $myAlign;
+            font-family: $myFont;
+            font-weight: bold;
+
+            .conference-short-name{
+                font-size: 40px;
+                color: $myLightBlue;
+            }
+            .conference-name{
+                font-size: 20px;
+                color: $myDarkSteal;
+                margin: auto auto auto $myAlign;
+            }
+        }
+        .conference-body{
+            display: flex;
+            // justify-items: center;
+            align-items: center;
+            justify-content: space-between;
+
+            .attribute-names{
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+
+              strong{
+                font-size: 15px;
+                font-family: $myFont;
+                color: $myDarkSteal;
+                margin-right: 5px;
+              }
+              
+            }
+
+            .conference-details{
+              display: flex;
+              flex-direction: column;
+              justify-content: space-around;
+              justify-items: center;
+              margin-left: $myAlign;
+
+              font-family: $myFont;
+              font-size: 20px;
+              .website-url{
+                color: $myLightBlue; /* Màu của liên kết */
+                text-decoration: none; /* Bỏ gạch chân */
+                font-weight: bold; /* Đậm chữ */
+                font-style: italic; /* In nghiêng */
+                
+                &:hover {
+                  text-decoration: underline; /* Gạch chân khi hover */
+                }
+              }
+              .location{
+                color : $text-color;
+                
+              }
+              .topic{
+                color : $mySteal;
+              }
+ 
+
+            }
+            .conference-timeline{
+                background-color: $myLightBackground;
+                padding: 10px;
+                margin-right: 20px;
+                margin-top: 20px;
+                font-family: $myFont;
+
+                h2{
+                    font-size: 20px;
+                    color: #333;}
+                p{
+                    font-size: 15px;
+                    
+                    margin: 5px 0;
+                }
+            }
+        }
+    }
+
+    .conference-description {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin: $myAlign;
+        height : 600px;
+
+        .tab-buttons {
+          overflow: hidden;
+            
+          button {
+            float: left; // Nếu muốn các nút nằm cạnh nhau
+            background: $tab-background;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: auto auto auto auto;
+            transition: 0.3s;
+            // kích thước nút
+            width: $button-width;
+            height: $button-height;
+            // hiển thị chữ
+            font-family: $myFont;
+            font-size: 20px;
+            color: white;
+
+            border-right: 1px solid $border-color; // Đường phân cách giữa các nút
+      
+            &:hover {
+              background-color: $tab-hover-background;
+            }
+      
+            &.active {
+              background-color: $tab-active-background;
+            }
+            
+            &:last-child {
+              border-right: none;
+            }
+          }
+        }
+
+        .tab-content {
+          margin: 10px 10px 10px 10px ;
+          padding: $content-padding;
+          color: $text-color;
+          background: $note-background;
+          border-radius: 5px;
+          height: $max-content-height; // Sử dụng biến cho chiều cao tối đa
+          overflow: auto; // Cho phép hiển thị thanh cuộn nếu cần
+        }
+    } 
+}

@@ -1,74 +1,63 @@
-# Getting Started with Create React App
+# **ĐỒ ÁN NHẬP MÔN CÔNG NGHỆ PHẦN MỀM**
+- Nhóm 16: 
+- Thành viên: 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+| STT | MSSV     | Họ và tên          |
+| --- | -------- | ------------------ |
+| 1   | 21120275 | Huỳnh Cao Khôi     |
+| 2   | 21120302 | Huỳnh Trí Nhân     |
+| 2   | 21120308 | Phạm Lê Tú Nhi     |
+| 2   | 21120607 | Trần Thị Kim Huỳnh |
 
-## Available Scripts
+## Giới thiệu
 
-In the project directory, you can run:
 
-### `npm start`
+## Công nghệ sử dung
+- Lập trình backend: `NodeJS`
+- Lập trình frontend: `ReactJS`
+- Cơ sở dữ liệu: `MongoDB`
+- Công cụ quản lý dự án: `Github`
+- Công cụ lập trình: `Visual Studio Code`
+- Công cụ thiết kế: `Figma`
+- Công cụ quản lý phiên bản: `Git`
+- Tổ chức thư mục:
+  - `backend`: chứa mã nguồn phía backend
+    - `crawler`: chứa mã nguồn gửi yêu cầu thu thập dữ liệu từ trang web.
+    -  `database`: chứa nội dung cơ sở dữ liệu
+    -  `models`: chứa các model của cơ sở dữ liệu
+    -  `routes`: chứa các route của ứng dụng
+    -  `app.js`: file khởi chạy backend
+  - `frontend`: chứa mã nguồn phía frontend
+    - `public`: chứa các file tĩnh
+      - `index.html`: file html khởi chạy ứng dụng
+    - `src`: chứa mã nguồn phía frontend
+      - `components`: chứa các component của ứng dụng
+        - `js` : chứa các file js (Header, Footer, ConfereceInfo, ConferenceShortInfo, FilterForm)
+        - `scss`: chứa các file .scss tương ứng với các file js
+        - `images`: chứa các file ảnh
+      - `App.jsx`: file khởi chạy frontend
+      - `App.css`: file css chung
+      - `index.js`: file khởi chạy ứng dụng
+      - `index.css`: file css chung
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Cài đặt và chạy thử
+- Cài đặt `NodeJS` và `MongoDB`
+- Clone project về máy
+- Mở terminal và chạy lệnh `npm install` để cài đặt các thư viện cần thiết ở từng thư mục `backend` và `frontend`
+- import file `database/Confereces.json` vào cơ sở dữ liệu ở mongoDB tại `localhost:27017/yourDatabase/confereces`
+- Ở thư mục `backend`, mở terminal và chạy lệnh `npm start` để khởi chạy server
+- Ở thư mục `client`, mở terminal và chạy lệnh `npm start` để khởi chạy ứng dụng
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-## Paginition important note
-Nếu chia trang không hiện ra hay bị lỗi cần import library paginitate của react js chạy câu lệnh sau trong thư mục client
-npm install react-paginate
+## Các chức năng đã hoàn thành của trang web
+- Hiển thị danh sách các hội nghị
+![Danh sách hội nghị](images/conferences-list.png)
+- Lọc hội nghị theo yêu cầu
+![Lọc hội nghị](images/filterform.png)
+- Xem chi tiết hội nghị
+![Chi tiết hội nghị](images/view-detail.png)
+- Chia trang danh sách hội nghị
+![Chia trang](images/page-partition.png)
+- Không có hội nghị nào thỏa mãn yêu cầu
+![Không có hội nghị](images/no-result.png)
+- Có lỗi xảy ra
+![Lỗi](images/404-error.png)
